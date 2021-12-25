@@ -1,0 +1,3479 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing:.5px;
+}
+@media  screen and (min-width:320px)and (max-width:449px) {
+*{
+    margin: 0;
+    padding: 0;
+}
+/* NAV */
+.nav{
+    background-color:#141414 ;
+    position: relative;
+    height:100px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+}
+.nav img{
+    width: 180px;
+    position: absolute;
+    top: 0;
+    left: -60px;
+}
+.button{
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+.btn{
+    height: 6px;
+    width: 25px;   
+    background-color: #e28739;
+    margin-bottom: 7px;
+}
+.lien{
+    margin-top: 100px;
+    height: 150px;
+    background-color: #141414 ;
+    width: 100%;
+    display: none;
+    z-index: 22;
+}
+.list{
+    list-style: none;
+    margin-top: 10px;
+}
+.list li a {
+    text-decoration: none;
+    color: #e28739;
+    
+}
+.list li{
+    margin-bottom: 15px;
+}
+/* end NAV */
+
+/* partie 1 */
+.image img{
+    width: 100%;
+}
+.statistique{
+    width: 100%;
+    display: flex;
+    background-color: #e28739;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    margin-top: -4px;
+}
+.statistique section{
+    margin-top: 8px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.lign{
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    transform: rotate(90deg);
+    margin-top: 18px;
+}
+/* end partie 1 */
+
+/* partie 2 plat */
+    .intro {
+        text-align: center;
+        background-color:#141414 ;
+        color: white;
+        height: 430px;
+
+    }
+    .intro section{
+        width: 320px;
+        margin: 0 auto;
+        margin-top: -10px;
+    }
+    .intro img{
+        width: 320px;
+    }
+    
+/* end partie 2 plat */
+
+/* partie3 sauce */ 
+     .sauce{
+         text-align: center;
+         height: 730px;
+         transform: rotate(180deg);
+     }
+     .sauce img{
+         width: 320px;
+         transform: rotate(180deg);
+     }
+     .sauce section{
+        height: 550px;
+        width: 300px;
+        margin: 0 auto;
+        transform: rotate(180deg);
+      }
+     .notre{
+         color: #e28739;
+     }
+/* and partie3 sauce */ 
+
+/*  partie4 vidio */ 
+    iframe{
+        width: 100%;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+/*  end partie4 vidio */ 
+
+/* partie5 viande */ 
+.viande{
+    transform: rotate(180deg);
+    text-align: center;
+    background-color: #e28739;
+    margin-top: -25px;
+}
+.viande img{
+    width: 320px;
+    transform: rotate(180deg);
+    background-color: #e28739;
+    margin-top:20px ;
+
+}
+.viande section{
+    background-color: #e28739;
+    color: white;
+    text-align: center;
+    height: 190px;
+    margin-top: -4px;
+    transform: rotate(180deg);
+    padding-top: 20px;
+
+}
+.viande section p,.viande section h1{
+    width: 320px;
+    margin: 0 auto;
+}
+/* end partie5 viande */ 
+
+/*  partie6 Loca */
+    .localisation {
+        height: 1290px;
+        text-align: center;
+    }
+    .localisation h1{
+        text-align: center;
+        font-size: 25px;
+        padding-top: 30px;
+    }
+    .localisation .partiloca1{
+        color: white;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .loca1{
+        height: 300px;
+        position: relative;
+        background-color: #141414;
+
+    }
+    .loca1 h1{
+        font-size: 20px;
+        color: #e28739;
+        margin-bottom: 10px;
+    }
+    .loca1 p{
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    i{
+        margin-bottom: 8px;
+   }
+    .loca1 .fas{
+        color: #e28739;
+        margin-right: 15px;
+
+    }
+    .localisation img{
+        width: 80px;
+    }
+    .grouppic{
+        display: flex;
+        justify-content: center;
+   }
+    .grouppic img{
+        width: 40px;
+        margin-left: auto;  
+        margin-right: auto; 
+    }
+    .ret{
+        width: 20px;
+        height: 2px;
+        background-color: white;
+        transform: rotate(90deg);
+        margin-top: 20px;
+    }
+    .localisation .partiloca2{
+        color: white;
+        text-align: center;
+    }
+
+    .loca2{
+        background-color: #141414;
+
+    }
+    .loca2 h1{
+        font-size: 20px;
+        color: #e28739;
+        margin-bottom: 10px;
+    }
+    .loca2 p{
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    .loca2 img{
+        width: 40px;
+        margin-bottom: 20px;
+    }
+    .loca2 .fas{
+        color: #e28739;
+        margin-right: 15px;
+    }
+ 
+    .commander{
+        color: white;
+        background-color: #e28739;
+        width: 150px;
+        height: 50px;
+        border-radius:50px;
+        border: none;
+    }
+    .commander a {
+        text-decoration: none;
+        color: white;
+    }
+
+/*  end partie6 Loca */
+  
+/*  partie7 footer */
+    .footer{
+        background-color: #141414;
+        text-align: center;
+    }
+    .footer img{
+        width: 200px;
+        margin-right: 15px;
+    }
+    .re{
+        height: 2px;
+        background-color: white;
+        transform: rotate(90deg);
+        margin-top: 10px;        
+        width: 20px;
+
+    }
+    .footer section{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;        
+        width: 100px;
+    }
+    .footer .fab{
+        color: white;
+    }
+/*  end partie7 footer */
+}
+
+/*  END min 320px*/ 
+
+
+/* 480px */
+
+@media  screen and (min-width:450px)and (max-width:599px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /* NAV */
+    .nav{
+        background-color:#141414 ;
+        position: relative;
+        height:100px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+    }
+    .nav img{
+        width: 180px;
+        position: absolute;
+        top: 0;
+        left: -60px;
+    }
+    .button{
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+    }
+    .btn{
+        height: 6px;
+        width: 25px;   
+        background-color: #e28739;
+        margin-bottom: 7px;
+    }
+    .lien{
+        margin-top: 100px;
+        height: 170px;
+        background-color: #141414 ;
+        width: 100%;
+        display: none;
+    }
+    .list{
+        list-style: none;
+        margin-top: 10px;
+    }
+    .list li a {
+        text-decoration: none;
+        color: #e28739;
+        
+    }
+    .list li{
+        margin-bottom: 15px;
+    }
+    /* end NAV */
+    
+    /* partie 1 */
+    .image img{
+        width: 100%;
+    }
+    .statistique{
+        width: 100%;
+        display: flex;
+        background-color: #e28739;
+        height: 50px;
+        color: white;
+        text-align: center;
+        font-size: 11px;
+        margin-top: -4px;
+    }
+    .statistique section{
+        margin-top: 10px;
+        margin-left:auto;
+        margin-right:auto;
+    
+    }
+    .lign{
+        width: 30px;
+        height: 3px;
+        background-color: white;
+        transform: rotate(90deg);
+        margin-top: 10px;
+    }
+    /* end partie 1 */
+    
+    /* partie 2 plat */
+        .intro {
+            text-align: center;
+            background-color:#141414 ;
+            color: white;
+            height: 430px;
+    
+        }
+        .intro section{
+            width: 360px;
+            margin: 0 auto;
+            margin-top: -20px;
+        }
+        .intro img{
+            width: 380px;
+        }
+        
+    /* end partie 2 plat */
+    
+    /* partie3 sauce */ 
+         .sauce{
+             text-align: center;
+             height: 730px;
+             transform: rotate(180deg);
+    
+         }
+         .sauce img{
+             width: 380px;
+             transform: rotate(180deg);
+         }
+         .sauce section{
+            height: 500px;
+            width: 340px;
+            margin: 0 auto;
+            transform: rotate(180deg);
+    
+          }
+         .notre{
+             color: #e28739;
+         }
+    /* and partie3 sauce */ 
+    
+    /*  partie4 vidio */ 
+        iframe{
+            width: 100%;
+            height: 250px;
+            margin-bottom: 20px;
+        }
+    /*  end partie4 vidio */ 
+    
+    /* partie5 viande */ 
+    .viande{
+        transform: rotate(180deg);
+        text-align: center;
+        background-color: #e28739;
+        margin-top: -25px;
+
+    }
+    .viande img{
+        width: 320px;
+        transform: rotate(180deg);
+        background-color: #e28739;
+        margin-top:20px ;
+    
+    }
+    .viande section{
+        background-color: #e28739;
+        color: white;
+        text-align: center;
+        height: 190px;
+        transform: rotate(180deg);
+        padding-top: 20px;
+    }
+    .viande section p,.viande section h1{
+        width: 320px;
+        margin: 0 auto;
+    }
+    /* end partie5 viande */ 
+    
+    /*  partie6 Loca */
+        .localisation {
+            height: 1290px;
+            text-align: center;
+        }
+        .localisation h1{
+            text-align: center;
+            font-size: 25px;
+            padding-top: 30px;
+        }
+        .localisation .partiloca1{
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .loca1{
+            height: 300px;
+            position: relative;
+            background-color: #141414;
+    
+        }
+        .loca1 h1{
+            font-size: 20px;
+            color: #e28739;
+            margin-bottom: 10px;
+        }
+        .loca1 p{
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        i{
+            margin-bottom: 8px;
+       }
+        .loca1 .fas{
+            color: #e28739;
+            margin-right: 15px;
+
+        }
+        .localisation img{
+            width: 80px;
+        }
+        .grouppic{
+            display: flex;
+            justify-content: center;
+         }
+         .grouppic img{
+            width: 40px;
+         }
+        .ret{
+            width: 30px;
+            height: 2px;
+            background-color: white;
+            transform: rotate(90deg);
+            margin-top: 20px;
+        }
+        .localisation .partiloca2{
+            color: white;
+            text-align: center;
+        }
+        .loca2{
+            background-color: #141414;
+    
+        }
+        .loca2 h1{
+            font-size: 20px;
+            color: #e28739;
+            margin-bottom: 10px;
+        }
+        .loca2 p{
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        .loca2 img{
+            width: 40px;
+            margin-bottom: 20px;
+        }
+        .loca2 .fas{
+            color: #e28739;
+            margin-right: 15px;
+
+        }
+        .commander{
+            color: white;
+            background-color: #e28739;
+            width: 150px;
+            height: 50px;
+            border-radius:50px;
+            border: none;
+        }
+        .commander a {
+            text-decoration: none;
+            color: white;
+        }
+    
+    /*  end partie6 Loca */
+      
+    /*  partie7 footer */
+        .footer{
+            background-color: #141414;
+            text-align: center;
+        }
+        .footer img{
+            width: 200px;
+            margin-right: 15px;
+        }
+        .re{
+            height: 2px;
+            margin-top: 10px;        
+            width: 20px;            
+            background-color: white;
+            transform: rotate(90deg);
+    
+        }
+        .footer section{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 0 auto;        
+            width: 100px;
+        }
+        .footer .fab{
+            color: white;
+        }
+    /*  end partie7 footer */
+    }
+    
+    /*  END min 320px*/ 
+
+/* end 480px */
+
+/* 600px */
+@media  screen and (min-width:600px)and (max-width:769px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /* NAV */
+    .nav{
+        background-color:#141414 ;
+        position: relative;
+        height:100px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+    }
+    .nav img{
+        width: 180px;
+        position: absolute;
+        top: 0;
+        left: -60px;
+    }
+    .button{
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+    }
+    .btn{
+        height: 6px;
+        width: 25px;   
+        background-color: #e28739;
+        margin-bottom: 7px;
+    }
+    .lien{
+        margin-top: 100px;
+        height: 170px;
+        background-color: #141414 ;
+        width: 100%;
+        display: none;
+    }
+    .list{
+        list-style: none;
+        margin-top: 10px;
+    }
+    .list li a {
+        text-decoration: none;
+        color: #e28739;
+        
+    }
+    .list li{
+        margin-bottom: 15px;
+    }
+    /* end NAV */
+    
+    /* partie 1 */
+    .image img{
+        width: 100%;
+    }
+    .statistique{
+        width: 100%;
+        display: flex;
+        background-color: #e28739;
+        height: 60px;
+        color: white;
+        text-align: center;
+        font-size: 14px;
+        margin-top: -5px;
+
+    }
+    .statistique section{
+        margin-top: 10px;
+        margin-left:auto;
+        margin-right:auto;
+    
+    }
+    .lign{
+        width: 30px;
+        height: 3px;
+        background-color: white;
+        transform: rotate(90deg);
+        margin-top: 20px;
+    }
+    /* end partie 1 */
+    
+    /* partie 2 plat */
+        .intro {
+            text-align: center;
+            background-color:#141414 ;
+            color: white;
+            height: 460px;
+    
+        }
+        .intro section{
+            width: 400px;
+            margin: 0 auto;
+            margin-top: -30px;
+        }
+        .intro img{
+            width: 420px;
+        }
+        
+    /* end partie 2 plat */
+    
+    /* partie3 sauce */ 
+         .sauce{
+             text-align: center;
+             height: 660px;
+             transform: rotate(180deg);
+    
+         }
+         .sauce img{
+             width: 450px;
+             transform: rotate(180deg);
+         }
+         .sauce section{
+            height: 370px;
+            width: 500px;
+            margin: 0 auto;
+            transform: rotate(180deg);
+            margin-top: -20px;
+    
+          }
+         .notre{
+             color: #e28739;
+         }
+    /* and partie3 sauce */ 
+    
+    /*  partie4 vidio */ 
+        iframe{
+            width: 100%;
+            height: 250px;
+            margin-bottom: 20px;
+        }
+    /*  end partie4 vidio */ 
+    
+    /* partie5 viande */ 
+    .viande{
+        transform: rotate(180deg);
+        text-align: center;
+        background-color: #e28739;
+        margin-top: -25px;
+
+    }
+    .viande img{
+        width: 400px;
+        transform: rotate(180deg);
+        background-color: #e28739;
+        margin-top:20px ;
+    
+    }
+    .viande section{
+        background-color: #e28739;
+        color: white;
+        text-align: center;
+        height: 170px;
+        margin-top: -4px;
+        transform: rotate(180deg);
+        padding-top: 10px;
+    }
+    .viande section p,.viande section h1{
+        width: 400px;
+        margin: 0 auto;
+    }
+    /* end partie5 viande */ 
+    
+    /*  partie6 Loca */
+        .localisation {
+            height: 1320px;
+            text-align: center;
+        }
+        .localisation h1{
+            text-align: center;
+            font-size: 25px;
+            padding-top: 30px;
+        }
+        .localisation .partiloca1{
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .loca1{
+            height: 300px;
+            position: relative;
+            background-color: #141414;
+    
+        }
+        .loca1 h1{
+            font-size: 20px;
+            color: #e28739;
+            margin-bottom: 10px;
+        }
+        .loca1 p{
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        i{
+            margin-bottom: 8px;
+       }
+        .loca1 .fas{
+            color: #e28739;
+            margin-right: 15px;
+
+        }
+        .localisation img{
+            width: 80px;
+        }
+        .grouppic{
+            display: flex;
+            justify-content:center;
+         }
+         .grouppic img{
+            width: 40px;
+         }
+        .ret{
+            width: 30px;
+            height: 2px;
+            background-color: white;
+            transform: rotate(90deg);
+            margin-top: 15px;
+        }
+        .localisation .partiloca2{
+            color: white;
+            text-align: center;
+    
+        }
+        .loca2{
+            background-color: #141414;
+    
+        }
+        .loca2 h1{
+            font-size: 20px;
+            color: #e28739;
+            margin-bottom: 10px;
+        }
+        .loca2 p{
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        .loca2 .fas{
+            color: #e28739;
+            margin-right: 15px;
+
+        }
+        .loca2 img{
+            width: 40px;
+            margin-bottom: 20px;
+        }
+        .commander{
+            color: white;
+            background-color: #e28739;
+            width: 150px;
+            height: 50px;
+            border-radius:50px;
+            border: none;
+        }
+        .commander a {
+            text-decoration: none;
+            color: white;
+        }
+    
+    /*  end partie6 Loca */
+      
+    /*  partie7 footer */
+        .footer{
+            background-color: #141414;
+            text-align: center;
+            height: 200px;
+        }
+        .footer img{
+            width: 200px;
+            margin-right: 15px;
+        }
+        .re{
+            height: 2px;
+            margin-top: 10px;        
+            width: 20px;            
+            background-color: white;
+            transform: rotate(90deg);
+    
+        }
+        .footer section{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 0 auto;        
+            width: 100px;
+        }
+        .footer .fab{
+            color: white;
+        }
+    /*  end partie7 footer */
+    }
+/* end 600px */
+ 
+/* 770 px */ 
+
+@media  screen and (min-width:770px)and (max-width:1024px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /* NAV */
+  
+    .nav{
+        background-color:#141414 ;
+        position: relative;
+        height:100px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+    }
+    .nav img{
+        width: 180px;
+        position: absolute;
+        top: 0;
+        left: -60px;
+    }
+    .button{
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+    }
+    .btn{
+        height: 6px;
+        width: 25px;   
+        background-color: #e28739;
+        margin-bottom: 7px;
+    }
+    .lien{
+        margin-top: 100px;
+        height: 170px;
+        background-color: #141414 ;
+        width: 100%;
+        display: none;
+    }
+    .list{
+        list-style: none;
+        margin-top: 10px;
+    }
+    .list li a {
+        text-decoration: none;
+        color: #e28739;
+        
+    }
+    .list li{
+        margin-bottom: 15px;
+    }
+    /* end NAV */
+    
+    /* partie 1 */
+    .image img{
+        width: 100%;
+    }
+    .statistique{
+        width: 100%;
+        display: flex;
+        background-color: #e28739;
+        height: 60px;
+        color: white;
+        text-align: center;
+        font-size: 13px;
+        margin-top: -5px;
+
+    }
+    .statistique section{
+        margin-top: 8px;
+        margin-left:auto;
+        margin-right:auto;
+    
+    }
+    .lign{
+        width: 30px;
+        height: 3px;
+        background-color: white;
+        transform: rotate(90deg);
+        margin-top: 25px;
+    }
+    /* end partie 1 */
+    
+    /* partie 2 plat */
+        .intro {
+            text-align: center;
+            background-color:#141414 ;
+            color: white;
+            height: 450px;
+    
+        }
+        .intro section{
+            width: 450px;
+            margin: 0 auto;
+            margin-top: -20px;
+        }
+        .intro img{
+            width: 450px;
+        }
+        
+    /* end partie 2 plat */
+    
+    /* partie3 sauce */ 
+         .sauce{
+             text-align: center;
+             height: 640px;
+             transform: rotate(180deg);
+    
+         }
+         .sauce img{
+             width: 440px;
+             transform: rotate(180deg);
+         }
+         .sauce section{
+            height: 380px;
+            width: 550px;
+            margin: 0 auto;
+            transform: rotate(180deg);
+          }
+         .notre{
+             color: #e28739;
+         }
+    /* and partie3 sauce */ 
+    
+    /*  partie4 vidio */ 
+        iframe{
+            width: 100%;
+            height: 250px;
+            margin-bottom: 20px;
+        }
+    /*  end partie4 vidio */ 
+    
+    /* partie5 viande */ 
+    .viande{
+        transform: rotate(180deg);
+        text-align: center;
+        background-color: #e28739;
+        margin-top: -25px;
+
+    }
+    .viande img{
+        width: 450px;
+        transform: rotate(180deg);
+        background-color: #e28739;
+        margin-top:20px ;
+    
+    }
+    .viande section{
+        background-color: #e28739;
+        color: white;
+        text-align: center;
+        height: 130px;
+        transform: rotate(180deg);
+        padding-top: 20px;
+    }
+    .viande section p,.viande section h1{
+        width: 500px;
+        margin: 0 auto;
+    }
+    /* end partie5 viande */ 
+    
+    /*  partie6 Loca */
+        .localisation {
+            height: 1320px;
+            text-align: center;
+        }
+        .localisation h1{
+            text-align: center;
+            font-size: 25px;
+            padding-top: 30px;
+        }
+        .localisation .partiloca1{
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .loca1{
+            height: 300px;
+            position: relative;
+            background-color: #141414;
+    
+        }
+        .loca1 h1{
+            font-size: 20px;
+            color: #e28739;
+            margin-bottom: 10px;
+        }
+        .loca1 p{
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        i{
+            margin-bottom: 8px;
+       }
+    
+         .loca2 img{
+             width: 40px;
+         }
+        .loca1 .fas{
+            color: #e28739;
+            margin-right: 15px;
+
+        }
+        .localisation img{
+            width: 80px;
+        }
+        .grouppic{
+            display: flex;
+            justify-content: center;
+         }
+         .grouppic img{
+             width: 40px;
+         }
+        .ret{
+            width: 30px;
+            height: 2px;
+            background-color: white;
+            transform: rotate(90deg);
+            margin-top: 15px;
+        }
+        .localisation .partiloca2{
+            color: white;
+            text-align: center;
+    
+        }
+    
+        .loca2{
+            background-color: #141414;
+    
+        }
+        .loca2 h1{
+            font-size: 20px;
+            color: #e28739;
+            margin-bottom: 10px;
+        }
+        .loca2 img{
+            width: 40px;
+            margin-bottom: 20px;
+        }
+        .loca2 p{
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        .loca2 .fas{
+            color: #e28739;
+            margin-right: 15px;
+
+        }
+        .commander{
+            color: white;
+            background-color: #e28739;
+            width: 150px;
+            height: 50px;
+            border-radius:50px;
+            border: none;
+        }
+        .commander a {
+            text-decoration: none;
+            color: white;
+        }
+    /*  end partie6 Loca */
+      
+    /*  partie7 footer */
+        .footer{
+            background-color: #141414;
+            text-align: center;
+        }
+        .footer img{
+            width: 200px;
+            margin-right: 15px;
+        }
+        .re{
+            height: 2px;
+            margin-top: 10px;        
+            width: 20px;            
+            background-color: white;
+            transform: rotate(90deg);
+    
+        }
+        .footer section{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 0 auto;        
+            width: 100px;
+        }
+        .footer .fab{
+            color: white;
+        }
+    /*  end partie7 footer */
+    }
+/* end 770 px */
+
+/* 1025 px*/ 
+@media  screen and (min-width:1025px)and (max-width:1200px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+  
+    /* NAV */
+    .nav{
+        background-color:#141414 ;
+        position: fixed;
+        z-index: 100;
+        height:100px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+    }
+    .nav img{
+        width: 180px;
+        position: absolute;
+        top: 0;
+        left: -40px;
+    }
+    .button{
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        display: none;
+    }
+    .btn{
+        height: 6px;
+        width: 25px;   
+        background-color: #e28739;
+        margin-bottom: 7px;
+    }
+    .lien{
+        width: 100%;
+        display: flex;
+    }
+    .list{
+        list-style: none;
+        display: flex;
+        position: absolute;
+        right: 260px;
+        top: 40px;
+    }
+    .list li a {
+        text-decoration: none;
+        color: #e28739;
+        margin-left: 50px;
+    }
+    .list li  a{
+        text-decoration: none;
+        margin-left: 30px;
+        position: relative;
+        color: white;
+    }
+    .list li a:after{
+        content: "";
+        position:absolute;
+        background-color: #e28739;
+        height: 3px;
+        width:0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.2s;
+    }
+    .list li a:hover:after{
+        width:100%;
+    }
+  
+    /* end NAV */
+    
+    /* partie 1 */
+    .image img{
+        width: 100%;
+
+    }
+   
+    .statistique{
+        display: flex;
+        height: 90px;
+        color: white;
+        margin: 0 auto;
+        margin-top: -120px;
+        text-align: center;
+        justify-content: center;
+        background: #e28739;
+        position: relative;
+        width: 850px;
+        border-radius: 80px;
+
+    }
+    .statistique section{
+        padding-top: 15px;
+        width: 100px;
+        height: 80px;
+
+
+    }
+    .lign{
+        width: 50px;
+        height: 3px;
+        background-color: white;
+        transform: rotate(90deg);
+        margin-top: 25px;
+        margin-left: 30px;
+
+    }
+    /* end partie 1 */
+    
+    /* partie 2 plat */
+        .intro {
+            background-color:#141414 ;
+            color: white;
+            height: 400px;
+            display: flex;
+        }
+        .intro section{
+            width: 450px;
+            margin-top:150px;
+            margin-left: 20px;
+        }
+        .intro img{
+            width: 520px;
+            height: 420px;
+        }
+        
+    /* end partie 2 plat */
+    
+    /* partie3 sauce */ 
+         .sauce{
+            display: flex;
+            height:490px ;       
+          }
+         .sauce img{
+             width: 620px;
+             height: 420px;
+         }
+         .sauce section{
+            margin-top: 20px;
+            margin-left: 50px;
+          }
+         .notre{
+             color: #e28739;
+         }
+    /* and partie3 sauce */ 
+    
+    /*  partie4 vidio */ 
+        iframe{
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+        }
+    /*  end partie4 vidio */ 
+    
+    /* partie5 viande */ 
+    .viande{
+        display: flex;
+        width: 100%;
+        margin-top: -25px;
+
+    }
+    .viande img{
+        width: 450px;
+        height:250px ;
+    
+    }
+    .viande section{
+        background-color: #e28739;
+        color: white;
+        height:250px ;
+        width: 100%;
+    }
+    .viande section p{
+        padding-left: 80px;
+        width: 480px;
+        margin-bottom: 15px;
+    }
+    .viande section h1{
+        margin-top: 50px;
+        padding-left: 80px;
+    }
+    /* end partie5 viande */ 
+    
+    /*  partie6 Loca */
+        .localisation {
+            height: 900px;
+            text-align: center;
+        }
+        .localisation h1{
+            text-align: center;
+            font-size: 25px;
+            padding-top: 15px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .localisation .partiloca1{
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+        .loca1{
+            height: 350px;
+            position: relative;
+            background-color: #141414;
+            width: 30%;
+           
+        }
+        .loca1 h1{
+            font-size: 20px;
+            color: #e28739;
+            margin-bottom: 20px;
+        }
+        .loca1 p{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .pass{
+            margin-top: 20px;
+        }
+        i{
+            text-align: right;
+            margin-top: 10px;
+       }
+       .localisation iframe{
+           width:50%;
+           height: 350px;
+       }
+        .loca1 .fas{
+            color: #e28739;
+            margin-right: 15px;
+        }
+        .localisation img{
+            width: 80px;
+        }
+        .grouppic{
+            display: flex;
+            justify-content: center;
+         }
+        .grouppic img{
+            margin-left: 10px;
+            width: 50px;
+         }
+        .ret{
+            height: 2px;
+            background-color: white;
+            transform: rotate(90deg);
+        }
+        .localisation .partiloca2{
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+    
+        .loca2{
+            height: 350px;
+            padding-top: 10px;
+            background-color: #141414;
+            width: 30%;
+        }
+        .loca2 img{
+            width: 50px;
+        }
+        .loca2 h1{
+            font-size: 20px;
+            color: #e28739;
+            margin-bottom: 20px;
+        }
+        .loca2 p{
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 20px;
+
+        }
+        .loca2 .fas{
+            color: #e28739;
+            margin-right: 15px;
+
+        }
+        .commander{
+            margin-top: 20px;
+            color: white;
+            background-color: #e28739;
+            width: 150px;
+            height: 50px;
+            border-radius:50px;
+            border: none;
+        }
+        .commander a {
+            text-decoration: none;
+            color: white;
+        }
+    
+    /*  end partie6 Loca */
+      
+    /*  partie7 footer */
+        .footer{
+            background-color: #141414;
+            text-align: center;
+            height: 190px;
+        }
+        .footer img{
+            width: 200px;
+            margin-right: 15px;
+        }
+        .re{
+            height: 2px;
+            width: 20px;
+            background-color: white;
+            transform: rotate(90deg);
+            margin-top: 15px;
+        }
+        .footer section{
+            display: flex;
+            justify-content:center;
+            margin: 0 auto;        
+            width: 100px;
+        }
+        .footer .fab{
+            color: white;
+        }
+    /*  end partie7 footer */
+    }
+/* end 1025 px*/ 
+
+/* 1300 px*/ 
+@media  screen and (min-width:1201px)and (max-width:1300px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+  
+    /* NAV */
+    .nav{
+        background-color:#141414 ;
+        position: fixed;
+        z-index: 100;
+        height:100px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+    }
+    .nav img{
+        width: 180px;
+        position: absolute;
+        top: 0;
+        left: -40px;
+    }
+    .button{
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        display: none;
+    }
+    .btn{
+        height: 6px;
+        width: 25px;   
+        background-color: #e28739;
+        margin-bottom: 7px;
+    }
+    .lien{
+        width: 100%;
+        display: flex;
+    }
+    .list{
+        list-style: none;
+        display: flex;
+        position: absolute;
+        right: 260px;
+        top: 40px;
+    }
+    .list li a {
+        text-decoration: none;
+        color: #e28739;
+        margin-left: 50px;
+    }
+    .list li a{
+        text-decoration: none;
+        margin-left: 30px;
+        position: relative;
+        color: white;
+    }
+    .list li a:after{
+        content: "";
+        position:absolute;
+        background-color: #e28739;
+        height: 3px;
+        width:0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.2s;
+    }
+    .list li a:hover:after{
+        width:100%;
+    }
+  
+    /* end NAV */
+    
+    /* partie 1 */
+    .image img{
+        width: 100%;
+    }
+    .statistique{
+        display: flex;
+        height: 90px;
+        color: white;
+        margin: 0 auto;
+        margin-top: -120px;
+        text-align: center;
+        justify-content: center;
+        background: #e28739;
+        position: relative;
+        width: 850px;
+        border-radius: 80px;
+        
+    }
+    .statistique section{
+        padding-top: 15px;
+        width: 100px;
+        height: 80px;
+    }
+    .lign{
+        width: 50px;
+        height: 3px;
+        background-color: white;
+        transform: rotate(90deg);
+        margin-top: 25px;
+        margin-left: 30px;
+
+    }
+    /* end partie 1 */
+    
+    /* partie 2 plat */
+        .intro {
+            background-color:#141414 ;
+            color: white;
+            height: 400px;
+            display: flex;
+        }
+        .intro section{
+            width: 490px;
+            margin-top:120px;
+            margin-left: 100px;
+        }
+        .intro img{
+            width: 550px;
+            height: 400px;
+            margin-left: 20px;
+        }
+        
+    /* end partie 2 plat */
+    
+    /* partie3 sauce */ 
+         .sauce{
+            display: flex;
+            height: 370px;
+         }
+         .sauce img{
+             width: 600px;
+         }
+         .sauce section{
+            height: 400px;
+            width: 590px;
+            margin-top: 20px;
+            margin-left: 50px;
+          }
+         .notre{
+             color: #e28739;
+         }
+    /* and partie3 sauce */ 
+    
+    /*  partie4 vidio */ 
+        iframe{
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+        }
+    /*  end partie4 vidio */ 
+    
+    /* partie5 viande */ 
+    .viande{
+        display: flex;
+        width: 100%;
+        margin-top: -25px;
+    }
+    .viande img{
+        width: 450px;
+        height:250px ;
+    
+    }
+    .viande section{
+        background-color: #e28739;
+        color: white;
+        height:250px ;
+        width: 100%;
+    }
+    .viande section p{
+        padding-left: 80px;
+        width: 480px;
+
+    }
+    .viande section h1{
+        margin-top: 50px;
+        padding-left: 80px;
+        margin-bottom: 10px;
+    }
+    /* end partie5 viande */ 
+    
+    /*  partie6 Loca */
+        .localisation {
+            height: 900px;
+            text-align: center;
+        }
+        .localisation h1{
+            text-align: center;
+            font-size: 25px;
+            padding-top: 15px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .localisation .partiloca1{
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+        .loca1{
+            height: 350px;
+            position: relative;
+            background-color: #141414;
+            width: 30%;
+        }
+        .loca1 h1{
+            font-size: 20px;
+            color: #e28739;
+            margin-bottom: 20px;
+        }
+        .loca1 p{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .pass{
+            margin-top: 20px;
+        }
+        i{
+            text-align: right;
+            margin-top: 10px;
+       }
+       .localisation iframe{
+           width:50%;
+           height: 350px;
+       }
+        .loca1 .fas{
+            color: #e28739;
+            margin-right: 15px;
+        }
+        .localisation img{
+            width: 80px;
+        }
+        .grouppic{
+            display: flex;
+            justify-content: center;
+         }
+        .grouppic img{
+            margin-left: 10px;
+            width: 50px;
+         }
+        .ret{
+            height: 2px;
+            background-color: white;
+            transform: rotate(90deg);
+        }
+        .localisation .partiloca2{
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+    
+        .loca2{
+            height: 350px;
+            padding-top: 10px;
+            background-color: #141414;
+            width: 30%;
+        }
+        .loca2 img{
+            width: 50px;
+        }
+        .loca2 h1{
+            font-size: 20px;
+            color: #e28739;
+            margin-bottom: 20px;
+        }
+        .loca2 p{
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 20px;
+
+        }
+        .loca2 .fas{
+            color: #e28739;
+            margin-right: 15px;
+
+        }
+        .commander{
+            margin-top: 20px;
+            color: white;
+            background-color: #e28739;
+            width: 150px;
+            height: 50px;
+            border-radius:50px;
+            border: none;
+        }
+        .commander a {
+            text-decoration: none;
+            color: white;
+        }
+    
+    /*  end partie6 Loca */
+      
+    /*  partie7 footer */
+        .footer{
+            background-color: #141414;
+            text-align: center;
+            height: 190px;
+        }
+        .footer img{
+            width: 200px;
+            margin-right: 15px;
+        }
+        .re{
+            height: 2px;
+            width: 20px;
+            background-color: white;
+            transform: rotate(90deg);
+            margin-top: 15px;
+        }
+        .footer section{
+            display: flex;
+            justify-content:center;
+            margin: 0 auto;        
+            width: 100px;
+        }
+        .footer .fab{
+            color: white;
+        }
+    /*  end partie7 footer */
+    }
+/* end 1200 px*/ 
+
+/* 1300px*/
+@media  screen and (min-width:1301px)and (max-width:1400px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+  
+    /* NAV */
+    .nav{
+        background-color:#141414 ;
+        position: fixed;
+        z-index: 100;        
+        height:100px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+    }
+    .nav img{
+        width: 180px;
+        position: absolute;
+        top: 0;
+        left: -40px;
+    }
+    .button{
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        display: none;
+    }
+    .btn{
+        height: 6px;
+        width: 25px;   
+        background-color: #e28739;
+        margin-bottom: 7px;
+    }
+    .lien{
+        width: 100%;
+        display: flex;
+    }
+    .list{
+        list-style: none;
+        display: flex;
+        position: absolute;
+        right: 260px;
+        top: 40px;
+    }
+    .list li a {
+        text-decoration: none;
+        color: #e28739;
+        margin-left: 50px;
+    }
+    .list li a{
+        text-decoration: none;
+        margin-left: 30px;
+        position: relative;
+        color: white;
+    }
+    .list li a:after{
+        content: "";
+        position:absolute;
+        background-color: #e28739;
+        height: 3px;
+        width:0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.2s;
+    }
+    .list li a:hover:after{
+        width:100%;
+    }
+  
+    /* end NAV */
+    
+    /* partie 1 */
+    .image img{
+        width: 100%;
+    }
+    .statistique{
+        display: flex;
+        height: 90px;
+        color: white;
+        margin: 0 auto;
+        margin-top: -120px;
+        text-align: center;
+        justify-content: center;
+        background: #e28739;
+        position: relative;
+        width: 850px;
+        border-radius: 80px;
+        
+    }
+    .statistique section{
+        padding-top: 15px;
+        width: 100px;
+        height: 80px;
+    }
+    .lign{
+        width: 50px;
+        height: 3px;
+        background-color: white;
+        transform: rotate(90deg);
+        margin-top: 25px;
+        margin-left: 30px;
+
+    }
+    /* end partie 1 */
+    
+    /* partie 2 plat */
+        .intro {
+            background-color:#141414 ;
+            color: white;
+            height: 400px;
+            display: flex;
+        }
+        .intro section{
+            width: 490px;
+            margin-top:110px;
+            margin-left: 150px;
+        }
+        .intro img{
+            width: 550px;
+            height: 400px;
+            margin-left: 20px;
+        }
+        
+    /* end partie 2 plat */
+    
+    /* partie3 sauce */ 
+         .sauce{
+            display: flex;
+            height: 370px;
+         }
+         .sauce img{
+             width: 600px;
+         }
+         .sauce section{
+            height: 400px;
+            width: 590px;
+            margin-top: 25px;
+            margin-left: 80px;
+          }
+         .notre{
+             color: #e28739;
+         }
+    /* and partie3 sauce */ 
+    
+    /*  partie4 vidio */ 
+        iframe{
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+        }
+    /*  end partie4 vidio */ 
+    
+    /* partie5 viande */ 
+    .viande{
+        display: flex;
+        width: 100%;
+        margin-top: -25px;
+    }
+    .viande img{
+        width: 600px;
+        height:250px ;
+    
+    }
+    .viande section{
+        background-color: #e28739;
+        color: white;
+        height:250px ;
+        width: 100%;
+    }
+    .viande section p{
+        margin-top: 10px;
+        padding-left: 80px;
+        width: 550px;
+
+    }
+    .viande section h1{
+        margin-top: 60px;
+        padding-left: 80px;
+    }
+    /* end partie5 viande */ 
+    
+    /*  partie6 Loca */
+        .localisation {
+            height: 900px;
+            text-align: center;
+        }
+        .localisation h1{
+            text-align: center;
+            font-size: 25px;
+            padding-top: 15px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .localisation .partiloca1{
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+        .loca1{
+            height: 350px;
+            position: relative;
+            background-color: #141414;
+            width: 30%;
+        }
+        .loca1 h1{
+            font-size: 20px;
+            color: #e28739;
+            margin-bottom: 20px;
+        }
+        .loca1 p{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .pass{
+            margin-top: 20px;
+        }
+        i{
+            text-align: right;
+            margin-top: 10px;
+       }
+       .localisation iframe{
+           width:50%;
+           height: 350px;
+       }
+        .loca1 .fas{
+            color: #e28739;
+            margin-right: 15px;
+        }
+        .localisation img{
+            width: 80px;
+        }
+        .grouppic{
+            display: flex;
+            justify-content: center;
+         }
+        .grouppic img{
+            margin-left: 10px;
+            width: 50px;
+         }
+        .ret{
+            height: 2px;
+            background-color: white;
+            transform: rotate(90deg);
+        }
+        .localisation .partiloca2{
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+    
+        .loca2{
+            height: 350px;
+            padding-top: 10px;
+            background-color: #141414;
+            width: 30%;
+            float: left;
+        }
+        .loca2 img{
+            width: 50px;
+        }
+        .loca2 h1{
+            font-size: 20px;
+            color: #e28739;
+            margin-bottom: 20px;
+        }
+        .loca2 p{
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 20px;
+
+        }
+        .loca2 .fas{
+            color: #e28739;
+            margin-right: 15px;
+
+        }
+        .commander{
+            margin-top: 20px;
+            color: white;
+            background-color: #e28739;
+            width: 150px;
+            height: 50px;
+            border-radius:50px;
+            border: none;
+        }
+        .commander a {
+            text-decoration: none;
+            color: white;
+        }
+    
+    /*  end partie6 Loca */
+      
+    /*  partie7 footer */
+        .footer{
+            background-color: #141414;
+            text-align: center;
+            height: 190px;
+        }
+        .footer img{
+            width: 200px;
+            margin-right: 15px;
+        }
+        .re{
+            height: 2px;
+            width: 20px;
+            background-color: white;
+            transform: rotate(90deg);
+            margin-top: 15px;
+        }
+        .footer section{
+            display: flex;
+            justify-content:center;
+            margin: 0 auto;        
+            width: 100px;
+        }
+        .footer .fab{
+            color: white;
+        }
+    /*  end partie7 footer */
+    }
+/* end 1300px*/
+
+/* 1400px*/
+@media  screen and (min-width:1401px)and (max-width:1600px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+  
+    /* NAV */
+    .nav{
+        background-color:#141414 ;
+        position: fixed;
+        z-index: 100;        
+        height:100px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+    }
+    .nav img{
+        width: 180px;
+        position: absolute;
+        top: 0;
+        left: -40px;
+    }
+    .button{
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        display: none;
+    }
+    .btn{
+        height: 6px;
+        width: 25px;   
+        background-color: #e28739;
+        margin-bottom: 7px;
+    }
+    .lien{
+        width: 100%;
+        display: flex;
+    }
+    .list{
+        list-style: none;
+        display: flex;
+        position: absolute;
+        right: 260px;
+        top: 40px;
+    }
+    .list li a {
+        text-decoration: none;
+        color: #e28739;
+        margin-left: 50px;
+    }
+    .list li a{
+        text-decoration: none;
+        margin-left: 30px;
+        position: relative;
+        color: white;
+    }
+    .list li a:after{
+        content: "";
+        position:absolute;
+        background-color: #e28739;
+        height: 3px;
+        width:0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.2s;
+    }
+    .list li a:hover:after{
+        width:100%;
+    }
+  
+    /* end NAV */
+    
+       /* partie 1 */
+       .image img{
+        width: 100%;
+    }
+    .statistique{
+        display: flex;
+        height: 90px;
+        color: white;
+        margin: 0 auto;
+        margin-top: -120px;
+        text-align: center;
+        justify-content: center;
+        background: #e28739;
+        position: relative;
+        width: 850px;
+        border-radius: 80px;
+        
+    }
+    .statistique section{
+        padding-top: 15px;
+        width: 100px;
+        height: 80px;
+    }
+    .lign{
+        width: 50px;
+        height: 3px;
+        background-color: white;
+        transform: rotate(90deg);
+        margin-top: 25px;
+        margin-left: 30px;
+
+    }
+    /* end partie 1 */
+    
+    /* partie 2 plat */
+        .intro {
+            background-color:#141414 ;
+            color: white;
+            height: 400px;
+            display: flex;
+        }
+        .intro section{
+            width: 490px;
+            margin-top:140px;
+            margin-left: 150px;
+        }
+        .intro img{
+            width: 550px;
+            height: 400px;
+            margin-left: 70px;
+        }
+        
+    /* end partie 2 plat */
+    
+    /* partie3 sauce */ 
+         .sauce{
+            display: flex;
+            height: 380px;
+         }
+         .sauce img{
+             width: 650px;
+             margin-left: 150px;
+             height: 400px;
+             margin-top: -25px;
+         }
+         .sauce section{
+            width: 590px;
+            margin-top: 20px;
+            margin-left: 90px;
+          }
+         .notre{
+             color: #e28739;
+         }
+    /* and partie3 sauce */ 
+    
+    /*  partie4 vidio */ 
+        iframe{
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+        }
+    /*  end partie4 vidio */ 
+    
+    /* partie5 viande */ 
+    .viande{
+        display: flex;
+        width: 100%;
+        margin-top: -25px;
+        background-color: #e28739;
+
+    }
+    .viande img{
+        width: 500px;
+        height:250px ;
+    }
+    .viande section{
+        color: white;
+        height:250px ;
+    }
+    .viande section p{
+        margin-top: 10px;
+        padding-left: 150px;
+        width: 550px;
+
+    }
+    .viande section h1{
+        margin-top: 60px;
+        padding-left: 150px;
+    }
+    /* end partie5 viande */ 
+    
+    /*  partie6 Loca */
+        .localisation {
+            height: 900px;
+            text-align: center;
+        }
+        .localisation h1{
+            text-align: center;
+            font-size: 25px;
+            margin-bottom: 20px;          
+            padding-top: 20px;
+            width: 100%;
+        }
+        .localisation .partiloca1{
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+        .loca1{
+            height: 350px;
+            position: relative;
+            background-color: #141414;
+            width: 30%;
+        }
+        .loca1 h1{
+            font-size: 20px;
+            color: #e28739;
+            margin-bottom: 20px;
+        }
+        .loca1 p{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .pass{
+            margin-top: 20px;
+        }
+        i{
+            text-align: right;
+            margin-top: 10px;
+       }
+       .localisation iframe{
+           width:50%;
+           height: 350px;
+       }
+        .loca1 .fas{
+            color: #e28739;
+            margin-right: 15px;
+        }
+        .localisation img{
+            width: 80px;
+        }
+        .grouppic{
+            display: flex;
+            justify-content: center;
+         }
+        .grouppic img{
+            margin-left: 10px;
+            width: 50px;
+         }
+        .ret{
+            height: 2px;
+            background-color: white;
+            transform: rotate(90deg);
+        }
+        .localisation .partiloca2{
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+    
+        .loca2{
+            height: 350px;
+            padding-top: 10px;
+            background-color: #141414;
+            width: 30%;
+            float: left;
+        }
+        .loca2 iframe{
+            width: 50%;
+        }
+        .loca2 img{
+            width: 50px;
+        }
+        .loca2 h1{
+            font-size: 20px;
+            color: #e28739;
+            margin-bottom: 20px;
+        }
+        .loca2 p{
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 20px;
+
+        }
+        .loca2 .fas{
+            color: #e28739;
+            margin-right: 15px;
+
+        }
+        .commander{
+            margin-top: 20px;
+            color: white;
+            background-color: #e28739;
+            width: 150px;
+            height: 50px;
+            border-radius:50px;
+            border: none;
+        }
+        .commander a {
+            text-decoration: none;
+            color: white;
+        }
+    /*  end partie6 Loca */
+      
+    /*  partie7 footer */
+        .footer{
+            background-color: #141414;
+            text-align: center;
+            height: 190px;
+        }
+        .footer img{
+            width: 200px;
+            margin-right: 15px;
+        }
+        .re{
+            height: 2px;
+            width: 20px;
+            background-color: white;
+            transform: rotate(90deg);
+            margin-top: 15px;
+        }
+        .footer section{
+            display: flex;
+            justify-content:center;
+            margin: 0 auto;        
+            width: 100px;
+        }
+        .footer .fab{
+            color: white;
+        }
+    /*  end partie7 footer */
+    }
+/* end 1400px*/
+
+/* 1600px*/
+@media  screen and (min-width:1601px)and (max-width:1800px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+  
+    /* NAV */
+    .nav{
+        background-color:#141414 ;
+        position: fixed;
+        z-index: 100;        
+        height:100px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+    }
+    .nav img{
+        width: 180px;
+        position: absolute;
+        top: 0;
+        left: -40px;
+    }
+    .button{
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        display: none;
+    }
+    .btn{
+        height: 6px;
+        width: 25px;   
+        background-color: #e28739;
+        margin-bottom: 7px;
+    }
+    .lien{
+        width: 100%;
+        display: flex;
+    }
+    .list{
+        list-style: none;
+        display: flex;
+        position: absolute;
+        right: 360px;
+        top: 40px;
+    }
+    .list li a {
+        text-decoration: none;
+        color: #e28739;
+        margin-left: 50px;
+    }
+    .list li a{
+        text-decoration: none;
+        margin-left: 30px;
+        position: relative;
+        color: white;
+    }
+    .list li a:after{
+        content: "";
+        position:absolute;
+        background-color: #e28739;
+        height: 3px;
+        width:0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.2s;
+    }
+    .list li a:hover:after{
+        width:100%;
+    }
+  
+    /* end NAV */
+    
+       /* partie 1 */
+       .image img{
+        width: 100%;
+    }
+    .statistique{
+        display: flex;
+        height: 90px;
+        color: white;
+        margin: 0 auto;
+        margin-top: -120px;
+        text-align: center;
+        justify-content: center;
+        background: #e28739;
+        position: relative;
+        width: 850px;
+        border-radius: 80px;
+        
+    }
+    .statistique section{
+        padding-top: 15px;
+        width: 100px;
+        height: 80px;
+    }
+    .lign{
+        width: 50px;
+        height: 3px;
+        background-color: white;
+        transform: rotate(90deg);
+        margin-top: 25px;
+        margin-left: 30px;
+
+    }
+    /* end partie 1 */
+    
+    /* partie 2 plat */
+        .intro {
+            background-color:#141414 ;
+            color: white;
+            height: 400px;
+            display: flex;
+        }
+        .intro section{
+            width: 490px;
+            margin-top:140px;
+            margin-left: 120px;
+        }
+        .intro img{
+            width: 550px;
+            height: 400px;
+            margin-left: 290px;
+        }
+        
+    /* end partie 2 plat */
+    
+    /* partie3 sauce */ 
+         .sauce{
+            display: flex;
+            height: 380px;
+         }
+         .sauce img{
+             width: 550px;
+         }
+         .sauce section{
+            height: 400px;
+            width: 590px;
+            margin-top: 25px;
+            margin-left: 300px;
+          }
+         .notre{
+             color: #e28739;
+         }
+    /* and partie3 sauce */ 
+    
+    /*  partie4 vidio */ 
+        iframe{
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+        }
+    /*  end partie4 vidio */ 
+    
+    /* partie5 viande */ 
+    .viande{
+        display: flex;
+        width: 100%;
+        margin-top: -25px;
+        background-color: #e28739;
+
+    }
+    .viande img{
+        width: 500px;
+        height:250px ;
+        margin-left: 250px;
+    }
+    .viande section{
+        color: white;
+        height:250px ;
+        
+    }
+    .viande section p{
+        margin-top: 10px;
+        padding-left: 80px;
+        width: 550px;
+
+    }
+    .viande section h1{
+        margin-top: 60px;
+        padding-left: 80px;
+    }
+    /* end partie5 viande */ 
+    
+    /*  partie6 Loca */
+        .localisation {
+            height: 900px;
+            text-align: center;
+        }
+        .localisation h1{
+            text-align: center;
+            font-size: 25px;
+            padding-top: 15px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .localisation .partiloca1{
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+        .loca1{
+            height: 350px;
+            position: relative;
+            background-color: #141414;
+            width: 30%;
+        }
+        .loca1 h1{
+            font-size: 20px;
+            color: #e28739;
+            margin-bottom: 20px;
+        }
+        .loca1 p{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .pass{
+            margin-top: 20px;
+        }
+        i{
+            text-align: right;
+            margin-top: 10px;
+       }
+       .localisation iframe{
+           width:50%;
+           height: 350px;
+       }
+        .loca1 .fas{
+            color: #e28739;
+            margin-right: 15px;
+        }
+        .localisation img{
+            width: 80px;
+        }
+        .grouppic{
+            display: flex;
+            justify-content: center;
+         }
+        .grouppic img{
+            margin-left: 10px;
+            width: 50px;
+         }
+        .ret{
+            height: 2px;
+            background-color: white;
+            transform: rotate(90deg);
+        }
+        .localisation .partiloca2{
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+    
+        .loca2{
+            height: 350px;
+            padding-top: 10px;
+            background-color: #141414;
+            width: 30%;
+            float: left;
+        }
+        .loca2 iframe{
+            width: 50%;
+        }
+        .loca2 img{
+            width: 50px;
+        }
+        .loca2 h1{
+            font-size: 20px;
+            color: #e28739;
+            margin-bottom: 20px;
+        }
+        .loca2 p{
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 20px;
+
+        }
+        .loca2 .fas{
+            color: #e28739;
+            margin-right: 15px;
+
+        }
+        .commander{
+            margin-top: 20px;
+            color: white;
+            background-color: #e28739;
+            width: 150px;
+            height: 50px;
+            border-radius:50px;
+            border: none;
+        }
+        .commander a {
+            text-decoration: none;
+            color: white;
+        }
+    /*  end partie6 Loca */
+      
+    /*  partie7 footer */
+        .footer{
+            background-color: #141414;
+            text-align: center;
+            height: 190px;
+        }
+        .footer img{
+            width: 200px;
+            margin-right: 15px;
+        }
+        .re{
+            height: 2px;
+            width: 20px;
+            background-color: white;
+            transform: rotate(90deg);
+            margin-top: 15px;
+        }
+        .footer section{
+            display: flex;
+            justify-content:center;
+            margin: 0 auto;        
+            width: 100px;
+        }
+        .footer .fab{
+            color: white;
+        }
+    /*  end partie7 footer */
+    }
+/* end 1600px*/
+
+/* 1800px*/
+@media  screen and (min-width:1801px)and (max-width:2000px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+  
+    /* NAV */
+    .nav{
+        background-color:#141414 ;
+        position: fixed;
+        z-index: 100;        
+        height:100px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+    }
+    .nav img{
+        width: 180px;
+        position: absolute;
+        top: 0;
+        left: -40px;
+    }
+    .button{
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        display: none;
+    }
+    .btn{
+        height: 6px;
+        width: 25px;   
+        background-color: #e28739;
+        margin-bottom: 7px;
+    }
+    .lien{
+        width: 100%;
+        display: flex;
+    }
+    .list{
+        list-style: none;
+        display: flex;
+        position: absolute;
+        right: 360px;
+        top: 40px;
+    }
+    .list li a {
+        text-decoration: none;
+        color: #e28739;
+        margin-left: 50px;
+    }
+    .list li  a{
+        text-decoration: none;
+        margin-left: 30px;
+        position: relative;
+        color: white;
+    }
+    .list li a:after{
+        content: "";
+        position:absolute;
+        background-color: #e28739;
+        height: 3px;
+        width:0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.2s;
+    }
+    .list li a:hover:after{
+        width:100%;
+    }
+  
+    /* end NAV */
+    
+       /* partie 1 */
+       .image img{
+        width: 100%;
+    }
+    .statistique{
+        display: flex;
+        height: 90px;
+        color: white;
+        margin: 0 auto;
+        margin-top: -120px;
+        text-align: center;
+        justify-content: center;
+        background: #e28739;
+        position: relative;
+        width: 850px;
+        border-radius: 80px;
+        
+    }
+    .statistique section{
+        padding-top: 15px;
+        width: 100px;
+        height: 80px;
+    }
+    .lign{
+        width: 50px;
+        height: 3px;
+        background-color: white;
+        transform: rotate(90deg);
+        margin-top: 25px;
+        margin-left: 30px;
+
+    }
+    /* end partie 1 */
+    /* partie 2 plat */
+        .intro {
+            background-color:#141414 ;
+            color: white;
+            height: 400px;
+            display: flex;
+        }
+        .intro section{
+            width: 490px;
+            margin-top:150px;
+            margin-left: 30px;
+        }
+        .intro img{
+            width: 550px;
+            height: 400px;
+            margin-left: 400px;
+        }
+        
+    /* end partie 2 plat */
+    
+    /* partie3 sauce */ 
+         .sauce{
+            display: flex;
+            height: 380px;
+         }
+         .sauce img{
+             width: 550px;
+         }
+         .sauce section{
+            height: 400px;
+            width: 590px;
+            margin-top: 20px;
+            margin-left: 400px;
+          }
+         .notre{
+             color: #e28739;
+         }
+    /* and partie3 sauce */ 
+    
+    /*  partie4 vidio */ 
+        iframe{
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+        }
+    /*  end partie4 vidio */ 
+    
+    /* partie5 viande */ 
+    .viande{
+        display: flex;
+        width: 100%;
+        margin-top: -25px;
+        background-color: #e28739;
+
+    }
+    .viande img{
+        width: 500px;
+        height:250px ;
+        margin-left: 400px;
+    }
+    .viande section{
+        color: white;
+        height:250px ;
+    }
+    .viande section p{
+        margin-top: 10px;
+        padding-left: 250px;
+        width: 550px;
+
+    }
+    .viande section h1{
+        margin-top: 60px;
+        padding-left: 250px;
+    }
+    /* end partie5 viande */ 
+    
+    /*  partie6 Loca */
+        .localisation {
+            height: 900px;
+            text-align: center;
+        }
+        .localisation h1{
+            text-align: center;
+            font-size: 25px;
+            padding-top: 15px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .localisation .partiloca1{
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+        .loca1{
+            height: 350px;
+            position: relative;
+            background-color: #141414;
+            width: 30%;
+        }
+        .loca1 h1{
+            font-size: 20px;
+            color: #e28739;
+            margin-bottom: 20px;
+        }
+        .loca1 p{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .pass{
+            margin-top: 20px;
+        }
+        i{
+            text-align: right;
+            margin-top: 10px;
+       }
+       .localisation iframe{
+           width:50%;
+           height: 350px;
+       }
+        .loca1 .fas{
+            color: #e28739;
+            margin-right: 15px;
+        }
+        .localisation img{
+            width: 80px;
+        }
+        .grouppic{
+            display: flex;
+            justify-content: center;
+         }
+        .grouppic img{
+            margin-left: 10px;
+            width: 50px;
+         }
+        .ret{
+            height: 2px;
+            background-color: white;
+            transform: rotate(90deg);
+        }
+        .localisation .partiloca2{
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+    
+        .loca2{
+            height: 350px;
+            padding-top: 10px;
+            background-color: #141414;
+            width: 30%;
+            float: left;
+        }
+        .loca2 iframe{
+            width: 50%;
+        }
+        .loca2 img{
+            width: 50px;
+        }
+        .loca2 h1{
+            font-size: 20px;
+            color: #e28739;
+            margin-bottom: 20px;
+        }
+        .loca2 p{
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 20px;
+
+        }
+        .loca2 .fas{
+            color: #e28739;
+            margin-right: 15px;
+
+        }
+        .commander{
+            margin-top: 20px;
+            color: white;
+            background-color: #e28739;
+            width: 150px;
+            height: 50px;
+            border-radius:50px;
+            border: none;
+        }
+        .commander a {
+            text-decoration: none;
+            color: white;
+        }
+    /*  end partie6 Loca */
+      
+    /*  partie7 footer */
+        .footer{
+            background-color: #141414;
+            text-align: center;
+            height: 190px;
+        }
+        .footer img{
+            width: 200px;
+            margin-right: 15px;
+        }
+        .re{
+            height: 2px;
+            width: 20px;
+            background-color: white;
+            transform: rotate(90deg);
+            margin-top: 15px;
+        }
+        .footer section{
+            display: flex;
+            justify-content:center;
+            margin: 0 auto;        
+            width: 100px;
+        }
+        .footer .fab{
+            color: white;
+        }
+    /*  end partie7 footer */
+    }
+/* end 1800px*/
+
+@media  screen and (min-width:2001px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+  
+    /* NAV */
+    .nav{
+        background-color:#141414 ;
+        position: fixed;
+        z-index: 100;        
+        height:100px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+    }
+    .nav img{
+        width: 180px;
+        position: absolute;
+        top: 0;
+        left: -40px;
+    }
+    .button{
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        display: none;
+    }
+    .btn{
+        height: 6px;
+        width: 25px;   
+        background-color: #e28739;
+        margin-bottom: 7px;
+    }
+    .lien{
+        width: 100%;
+        display: flex;
+    }
+    .list{
+        list-style: none;
+        display: flex;
+        position: absolute;
+        right: 360px;
+        top: 40px;
+    }
+    .list li a {
+        text-decoration: none;
+        color: #e28739;
+        margin-left: 50px;
+    }
+    .list li  a{
+        text-decoration: none;
+        margin-left: 30px;
+        position: relative;
+        color: white;
+    }
+    .list li a:after{
+        content: "";
+        position:absolute;
+        background-color: #e28739;
+        height: 3px;
+        width:0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.2s;
+    }
+    .list li a:hover:after{
+        width:100%;
+    }
+  
+    /* end NAV */
+    
+    /* partie 1 */
+    .image img{
+        width: 100%;
+    }
+    .statistique{
+        display: flex;
+        height: 90px;
+        color: white;
+        margin: 0 auto;
+        margin-top: -120px;
+        text-align: center;
+        justify-content: center;
+        background: #e28739;
+        position: relative;
+        width: 850px;
+        border-radius: 80px;
+        
+    }
+    .statistique section{
+        padding-top: 15px;
+        width: 120px;
+        height: 80px;
+    }
+    .lign{
+        width: 50px;
+        height: 3px;
+        background-color: white;
+        transform: rotate(90deg);
+        margin-top: 25px;
+        margin-left: 30px;
+
+    }
+    /* end partie 1 */
+    
+    /* partie 2 plat */
+        .intro {
+            background-color:#141414 ;
+            color: white;
+            height: 400px;
+            display: flex;
+        }
+        .intro section{
+            width: 490px;
+            margin-top:150px;
+            margin-left: 300px;
+        }
+        .intro img{
+            width: 550px;
+            height: 400px;
+            margin-left: 400px;
+        }
+        
+    /* end partie 2 plat */
+    
+    /* partie3 sauce */ 
+         .sauce{
+            display: flex;
+            height: 400px;
+         }
+         .sauce img{
+             width: 550px;
+             margin-left: 250px;
+
+         }
+         .sauce section{
+            height: 400px;
+            width: 590px;
+            margin-top: 40px;
+            margin-left: 400px;
+          }
+         .notre{
+             color: #e28739;
+         }
+    /* and partie3 sauce */ 
+    
+    /*  partie4 vidio */ 
+        iframe{
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+        }
+    /*  end partie4 vidio */ 
+    
+    /* partie5 viande */ 
+    .viande{
+        display: flex;
+        width: 100%;
+        margin-top: -25px;
+        background-color: #e28739;
+
+    }
+    .viande img{
+        width: 500px;
+        height:250px ;
+        margin-left: 400px;
+    }
+    .viande section{
+        color: white;
+        height:250px ;
+    }
+    .viande section p{
+        margin-top: 10px;
+        padding-left: 320px;
+        width: 550px;
+
+    }
+    .viande section h1{
+        margin-top: 60px;
+        padding-left: 320px;
+    }
+    /* end partie5 viande */ 
+    
+    /*  partie6 Loca */
+        .localisation {
+            height: 900px;
+            text-align: center;
+        }
+        .localisation h1{
+            text-align: center;
+            font-size: 25px;
+            padding-top: 15px;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .localisation .partiloca1{
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+        .loca1{
+            height: 350px;
+            position: relative;
+            background-color: #141414;
+            width: 30%;
+        }
+        .loca1 h1{
+            font-size: 20px;
+            color: #e28739;
+            margin-bottom: 20px;
+        }
+        .loca1 p{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .pass{
+            margin-top: 20px;
+        }
+        i{
+            text-align: right;
+            margin-top: 10px;
+       }
+       .localisation iframe{
+           width:50%;
+           height: 350px;
+       }
+        .loca1 .fas{
+            color: #e28739;
+            margin-right: 15px;
+        }
+        .localisation img{
+            width: 80px;
+        }
+        .grouppic{
+            display: flex;
+            justify-content: center;
+         }
+        .grouppic img{
+            margin-left: 10px;
+            width: 50px;
+         }
+        .ret{
+            height: 2px;
+            background-color: white;
+            transform: rotate(90deg);
+        }
+        .localisation .partiloca2{
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+    
+        .loca2{
+            height: 350px;
+            padding-top: 10px;
+            background-color: #141414;
+            width: 30%;
+            float: left;
+        }
+        .loca2 iframe{
+            width: 50%;
+        }
+        .loca2 img{
+            width: 50px;
+        }
+        .loca2 h1{
+            font-size: 20px;
+            color: #e28739;
+            margin-bottom: 20px;
+        }
+        .loca2 p{
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 20px;
+
+        }
+        .loca2 .fas{
+            color: #e28739;
+            margin-right: 15px;
+
+        }
+        .commander{
+            margin-top: 20px;
+            color: white;
+            background-color: #e28739;
+            width: 150px;
+            height: 50px;
+            border-radius:50px;
+            border: none;
+        }
+        .commander a {
+            text-decoration: none;
+            color: white;
+        }
+    /*  end partie6 Loca */
+      
+    /*  partie7 footer */
+        .footer{
+            background-color: #141414;
+            text-align: center;
+            height: 190px;
+        }
+        .footer img{
+            width: 200px;
+            margin-right: 15px;
+        }
+        .re{
+            height: 2px;
+            width: 20px;
+            background-color: white;
+            transform: rotate(90deg);
+            margin-top: 15px;
+        }
+        .footer section{
+            display: flex;
+            justify-content:center;
+            margin: 0 auto;        
+            width: 100px;
+        }
+        .footer .fab{
+            color: white;
+        }
+       
+    /*  end partie7 footer */
+    }
