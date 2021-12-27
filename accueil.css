@@ -3226,7 +3226,7 @@
     /* end NAV */
     
     /* partie 1 */
-    .image img{
+       .image img{
         width: 100%;
     }
     .statistique{
@@ -3245,7 +3245,7 @@
     }
     .statistique section{
         padding-top: 15px;
-        width: 120px;
+        width: 100px;
         height: 80px;
     }
     .lign{
