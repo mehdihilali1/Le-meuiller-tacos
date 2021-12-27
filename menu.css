@@ -6,6 +6,9 @@
 .food section h1{
     font-size: 20px;
 }
+.footer .fab:hover{
+    color: #e28739;
+}
 @media  screen and (min-width:320px)and (max-width:449px) {
     *{
         margin: 0;
@@ -107,10 +110,13 @@
         background-color: white;
         width: 250px;
         margin: 30px auto;
+    
     }
     .gratine img{
         width: 150px;
-        height: 100px;
+        height: 90px;
+        margin: 5px;
+
     }
     .gratine h1{
         font-size: 26px;
@@ -137,6 +143,7 @@
     .speciaux img{
         width: 150px;
         height: 100px;
+    
     }
     .speciaux h1{
         font-size: 26px;
@@ -368,7 +375,7 @@
     
         .food{
             background-color:#f6f6f6;
-            height: 9280px;
+            height: 7500px;
         }
         .nos{
             font-size:25px ;
@@ -383,7 +390,7 @@
         }
         .gratine section{
             text-align: center;   
-            height: 290px;
+            height: 270px;
             background-color: white;
             width: 300px;
             margin-top: 35px;
@@ -391,7 +398,8 @@
         }
         .gratine img{
             width: 150px;
-            height: 100px;
+            height: 90px;
+            margin: 5px;
         }
         .gratine h1{
             font-size: 26px;
@@ -409,7 +417,7 @@
         }
         .speciaux section{
             text-align: center;   
-            height: 290px;
+            height: 270px;
             background-color: white;
             width: 300px;
             margin-top: 35px;
@@ -461,7 +469,7 @@
         }
         .burger section{
             text-align: center;   
-            height: 270px;
+            height: 250px;
             background-color: white;
             width: 300px;
             margin-top: 35px;
@@ -673,7 +681,8 @@
 }
 .gratine img{
     width: 170px;
-    height: 120px;
+    height: 110px;
+    margin: 5px;
 }
 .gratine h1{
     font-size: 26px;
@@ -691,7 +700,7 @@
 }
 .speciaux section{
     text-align: center;   
-    height: 300px;
+    height: 290px;
     background-color: white;
     width: 350px;
     margin-top: 35px;
@@ -934,7 +943,7 @@
 
 .food{
     background-color:#f6f6f6;
-    height: 8150px;
+    height: 8100px;
 }
 .nos{
     font-size:25px ;
@@ -957,7 +966,7 @@
 }
 .gratine img{
     width: 180px;
-    height: 130px;
+    height: 120px;
 }
 .gratine h1{
     font-size: 26px;
@@ -1254,17 +1263,18 @@
     justify-content:space-around;
 }
 .gratine section:hover,.speciaux section:hover,.clasique section:hover,.burger section:hover,.appetizers .gg:hover,.glace section:hover{
-    box-shadow: 2px 1px 1px 1px #e28739;
-
+    transform: scale(1.1);
 }
 .gratine section{
     width: 300px;
     background-color: white;
     margin-top: 30px;
     height: 240px;
+    transition: .7s ease;
 }
 .gratine section img{
     width: 130px;
+    margin: 5px;
 }
 .gratine section p{
     width: 200px;
@@ -1279,6 +1289,7 @@
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
 }
 .speciaux section h1{
     padding-top: 20px;
@@ -1300,6 +1311,7 @@
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
 }
 .clasique .p1  section img{
     width: 130px;
@@ -1322,6 +1334,7 @@
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
 }
 .clasique .p2  section img{
     width: 130px;
@@ -1340,6 +1353,7 @@
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
 }
 .clasique .p3  section img{
     width: 130px;
@@ -1359,6 +1373,7 @@
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
 }
 .burger section h1{
     padding-top: 20px;
@@ -1385,6 +1400,7 @@
     background-color: white;
     margin-top: 30px;
     margin-left: 20px;
+    transition: .7s ease;
 }
 .glace section h1{
     padding-top: 20px;
@@ -1413,6 +1429,8 @@ height: 400px;
 .appetizers .n1 section{
     width: 300px;
     background-color: white;
+    transition: .7s ease;
+
 }
 .appetizers .n1  section img{
     width: 130px;
@@ -1433,6 +1451,7 @@ height: 400px;
 .appetizers .n2 section{
     width: 300px;
     background-color: white;
+    transition: .7s ease;
 }
 .appetizers .n2  section img{
     width: 130px;
@@ -1597,17 +1616,19 @@ height: 400px;
     justify-content:space-around;
 }
 .gratine section:hover,.speciaux section:hover,.clasique section:hover,.burger section:hover,.appetizers .gg:hover,.glace section:hover{
-    box-shadow: 2px 1px 1px 1px #e28739;
-
+    transform: scale(1.1);
 }
 .gratine section{
     width: 300px;
     background-color: white;
     margin-top: 30px;
     height: 240px;
+    transition: .7s ease;
 }
 .gratine section img{
     width: 130px;
+    margin: 5px;
+
 }
 .gratine section p{
     width: 200px;
@@ -1622,6 +1643,7 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
 }
 .speciaux section h1{
     padding-top: 20px;
@@ -1644,6 +1666,8 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
+
 }
 .clasique .p1  section img{
     width: 130px;
@@ -1665,6 +1689,8 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
+
 }
 .clasique .p2  section img{
     width: 130px;
@@ -1683,6 +1709,8 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
+
 }
 .clasique .p3  section img{
     width: 130px;
@@ -1702,6 +1730,8 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
+
 }
 .burger section h1{
     padding-top: 20px;
@@ -1727,6 +1757,8 @@ height: 400px;
     background-color: white;
     margin-top: 30px;
     margin-left: 20px;
+    transition: .7s ease;
+
 }
 .glace section h1{
     padding-top: 20px;
@@ -1748,6 +1780,7 @@ height: 400px;
     justify-content:space-around;
     margin-top: 25px;
     margin-bottom: 25px;
+    transition: .7s ease;
 
 }
 .appetizers section h1{
@@ -1770,6 +1803,8 @@ height: 400px;
 .appetizers .n2{
     display: flex;
     justify-content:space-around;
+    transition: .7s ease;
+
 }
 .appetizers .n2 section{
     width: 300px;
@@ -1939,18 +1974,20 @@ height: 400px;
     justify-content:space-around;
 }
 .gratine section:hover,.speciaux section:hover,.clasique section:hover,.burger section:hover,.appetizers .gg:hover,.glace section:hover{
-    box-shadow: 2px 1px 1px 1px #e28739;
-
+transform: scale(1.1);
 }
 .gratine section{
     width: 300px;
     background-color: white;
     margin-top: 30px;
     height: 240px;
+    transition: .7s ease;
 
 }
 .gratine section img{
     width: 130px;
+    margin: 5px;
+
 }
 .gratine section p{
     width: 200px;
@@ -1965,6 +2002,7 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
 }
 .speciaux section h1{
     padding-top: 20px;
@@ -1986,6 +2024,7 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
 }
 .clasique .p1  section img{
     width: 130px;
@@ -2007,6 +2046,7 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
 }
 .clasique .p2  section img{
     width: 130px;
@@ -2025,6 +2065,7 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
 }
 .clasique .p3  section img{
     width: 130px;
@@ -2071,6 +2112,7 @@ height: 400px;
     background-color: white;
     margin-top: 30px;
     margin-left: 20px;
+    transition: .7s ease;
 }
 .glace section h1{
     padding-top: 20px;
@@ -2100,6 +2142,8 @@ height: 400px;
 .appetizers .n1 section{
     width: 300px;
     background-color: white;
+    transition: .7s ease;
+
 }
 .appetizers .n1  section img{
     width: 130px;
@@ -2118,6 +2162,7 @@ height: 400px;
 .appetizers .n2 section{
     width: 300px;
     background-color: white;
+    transition: .7s ease;
 }
 .appetizers .n2  section img{
     width: 130px;
@@ -2283,18 +2328,19 @@ height: 400px;
     justify-content:space-around;
 }
 .gratine section:hover,.speciaux section:hover,.clasique section:hover,.burger section:hover,.appetizers .gg:hover,.glace section:hover{
-    box-shadow: 2px 1px 1px 1px #e28739;
-
+transform: scale(1.1);
 }
 .gratine section{
     width: 300px;
     background-color: white;
     margin-top: 30px;
     height: 240px;
+    transition: .7s ease;
 
 }
 .gratine section img{
     width: 130px;
+    margin: 5px;
 }
 .gratine section p{
     width: 200px;
@@ -2309,6 +2355,7 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
 }
 .speciaux section h1{
     padding-top: 20px;
@@ -2331,6 +2378,8 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
+
 }
 .clasique .p1  section img{
     width: 130px;
@@ -2352,6 +2401,8 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
+
 }
 .clasique .p2  section img{
     width: 130px;
@@ -2370,6 +2421,8 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
+
 }
 .clasique .p3  section img{
     width: 130px;
@@ -2389,6 +2442,8 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
+
 }
 .burger section h1{
     padding-top: 20px;
@@ -2415,6 +2470,8 @@ height: 400px;
     background-color: white;
     margin-top: 30px;
     margin-left: 20px;
+    transition: .7s ease;
+
 }
 .glace section h1{
     padding-top: 20px;
@@ -2444,6 +2501,8 @@ height: 400px;
 .appetizers .n1 section{
     width: 300px;
     background-color: white;
+    transition: .7s ease;
+
 }
 .appetizers .n1  section img{
     width: 130px;
@@ -2462,6 +2521,8 @@ height: 400px;
 .appetizers .n2 section{
     width: 300px;
     background-color: white;
+    transition: .7s ease;
+
 }
 .appetizers .n2  section img{
     width: 130px;
@@ -2627,18 +2688,18 @@ height: 400px;
     justify-content:space-around;
 }
 .gratine section:hover,.speciaux section:hover,.clasique section:hover,.burger section:hover,.appetizers .gg:hover,.glace section:hover{
-    box-shadow: 2px 1px 1px 1px #e28739;
-
+transform: scale(1.1);
 }
 .gratine section{
     width: 300px;
     background-color: white;
     margin-top: 30px;
     height: 240px;
-
+    transition: .7s ease;
 }
 .gratine section img{
     width: 130px;
+    margin: 5px;
 }
 .gratine section p{
     width: 200px;
@@ -2653,6 +2714,7 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
 }
 .speciaux section h1{
     padding-top: 20px;
@@ -2675,6 +2737,8 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
+
 }
 .clasique .p1  section img{
     width: 130px;
@@ -2696,6 +2760,7 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
 }
 .clasique .p2  section img{
     width: 130px;
@@ -2714,6 +2779,8 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
+
 }
 .clasique .p3  section img{
     width: 130px;
@@ -2733,6 +2800,8 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
+
 }
 .burger section h1{
     padding-top: 20px;
@@ -2760,6 +2829,8 @@ height: 400px;
     background-color: white;
     margin-top: 30px;
     margin-left: 20px;
+    transition: .7s ease;
+
 }
 .glace section h1{
     padding-top: 20px;
@@ -2789,6 +2860,8 @@ height: 400px;
 .appetizers .n1 section{
     width: 300px;
     background-color: white;
+    transition: .7s ease;
+
 }
 .appetizers .n1  section img{
     width: 130px;
@@ -2807,6 +2880,8 @@ height: 400px;
 .appetizers .n2 section{
     width: 300px;
     background-color: white;
+    transition: .7s ease;
+
 }
 .appetizers .n2  section img{
     width: 130px;
@@ -2972,18 +3047,19 @@ height: 400px;
     justify-content:space-around;
 }
 .gratine section:hover,.speciaux section:hover,.clasique section:hover,.burger section:hover,.appetizers .gg:hover,.glace section:hover{
-    box-shadow: 2px 1px 1px 1px #e28739;
-
+  transform: scale(1.1);
 }
 .gratine section{
     width: 300px;
     background-color: white;
     margin-top: 30px;
     height: 240px;
+    transition: .7s ease;
 
 }
 .gratine section img{
     width: 130px;
+    margin: 5px;
 }
 .gratine section p{
     width: 200px;
@@ -2997,7 +3073,9 @@ height: 400px;
 .speciaux section{
     width: 300px;
     background-color: white;
-    margin-top: 30px;
+    margin-top: 30px;    
+    transition: .7s ease;
+
 }
 .speciaux section h1{
     padding-top: 20px;
@@ -3020,6 +3098,8 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
+
 }
 .clasique .p1  section img{
     width: 130px;
@@ -3041,6 +3121,8 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
+
 }
 .clasique .p2  section img{
     width: 130px;
@@ -3059,6 +3141,8 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
+
 }
 .clasique .p3  section img{
     width: 130px;
@@ -3078,6 +3162,8 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
+
 }
 .burger section h1{
     padding-top: 20px;
@@ -3105,6 +3191,8 @@ height: 400px;
     background-color: white;
     margin-top: 30px;
     margin-left: 20px;
+    transition: .7s ease;
+
 }
 .glace section h1{
     padding-top: 20px;
@@ -3134,6 +3222,8 @@ height: 400px;
 .appetizers .n1 section{
     width: 300px;
     background-color: white;
+    transition: .7s ease;
+
 }
 .appetizers .n1  section img{
     width: 130px;
@@ -3152,6 +3242,8 @@ height: 400px;
 .appetizers .n2 section{
     width: 300px;
     background-color: white;
+    transition: .7s ease;
+
 }
 .appetizers .n2  section img{
     width: 130px;
@@ -3317,18 +3409,19 @@ height: 400px;
     justify-content:space-around;
 }
 .gratine section:hover,.speciaux section:hover,.clasique section:hover,.burger section:hover,.appetizers .gg:hover,.glace section:hover{
-    box-shadow: 2px 1px 1px 1px #e28739;
-
+transform: scale(1.1);
 }
 .gratine section{
     width: 300px;
     background-color: white;
     margin-top: 30px;
     height: 240px;
+    transition: .7s ease;
 
 }
 .gratine section img{
     width: 130px;
+    margin: 5px;
 }
 .gratine section p{
     width: 200px;
@@ -3344,6 +3437,7 @@ height: 400px;
     background-color: white;
     margin-top: 30px;
     height: 240px;
+    transition: .7s ease;
 
 }
 .speciaux section h1{
@@ -3365,6 +3459,8 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
+
 }
 .clasique .p1  section img{
     width: 130px;
@@ -3386,6 +3482,8 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
+
 }
 .clasique .p2  section img{
     width: 130px;
@@ -3404,6 +3502,8 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
+
 }
 .clasique .p3  section img{
     width: 130px;
@@ -3423,6 +3523,8 @@ height: 400px;
     width: 300px;
     background-color: white;
     margin-top: 30px;
+    transition: .7s ease;
+
 }
 .burger section h1{
     padding-top: 20px;
@@ -3450,6 +3552,8 @@ height: 400px;
     background-color: white;
     margin-top: 30px;
     margin-left: 20px;
+    transition: .7s ease;
+
 }
 .glace section h1{
     padding-top: 20px;
@@ -3471,7 +3575,6 @@ height: 400px;
     justify-content:space-around;
     margin-top: 20px;
     margin-bottom: 20px;
-
 }
 .appetizers section h1{
     padding-top: 20px;
@@ -3479,6 +3582,8 @@ height: 400px;
 .appetizers .n1 section{
     width: 300px;
     background-color: white;
+    transition: .7s ease;
+
 }
 .appetizers .n1  section img{
     width: 130px;
@@ -3497,6 +3602,7 @@ height: 400px;
 .appetizers .n2 section{
     width: 300px;
     background-color: white;
+    transition: .7s ease;
 }
 .appetizers .n2  section img{
     width: 130px;
