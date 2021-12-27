@@ -1780,7 +1780,6 @@ height: 400px;
     justify-content:space-around;
     margin-top: 25px;
     margin-bottom: 25px;
-    transition: .7s ease;
 
 }
 .appetizers section h1{
@@ -1789,6 +1788,8 @@ height: 400px;
 .appetizers .n1 section{
     width: 300px;
     background-color: white;
+    transition: .7s ease;
+
 }
 .appetizers .n1  section img{
     width: 130px;
@@ -1803,12 +1804,12 @@ height: 400px;
 .appetizers .n2{
     display: flex;
     justify-content:space-around;
-    transition: .7s ease;
-
 }
 .appetizers .n2 section{
     width: 300px;
     background-color: white;
+    transition: .7s ease;
+
 }
 .appetizers .n2  section img{
     width: 130px;
