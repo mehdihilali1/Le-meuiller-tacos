@@ -379,7 +379,7 @@
         height: 3px;
         background-color: white;
         transform: rotate(90deg);
-        margin-top: 10px;
+        margin-top: 15px;
     }
     /* end partie 1 */
     
@@ -759,7 +759,7 @@
     
     /*  partie6 Loca */
         .localisation {
-            height: 1320px;
+            height: 1300px;
             text-align: center;
         }
         .localisation h1{
@@ -1052,7 +1052,7 @@
     
     /*  partie6 Loca */
         .localisation {
-            height: 1320px;
+            height: 1300px;
             text-align: center;
         }
         .localisation h1{
@@ -1444,6 +1444,7 @@
             padding-top: 10px;
             background-color: #141414;
             width: 30%;
+            box-sizing: border-box;
         }
         .loca2 img{
             width: 50px;
@@ -1770,6 +1771,8 @@
             padding-top: 10px;
             background-color: #141414;
             width: 30%;
+            box-sizing: border-box;
+
         }
         .loca2 img{
             width: 50px;
@@ -2097,6 +2100,7 @@
             background-color: #141414;
             width: 30%;
             float: left;
+            box-sizing: border-box;
         }
         .loca2 img{
             width: 50px;
@@ -2425,6 +2429,7 @@
             background-color: #141414;
             width: 30%;
             float: left;
+            box-sizing: border-box;
         }
         .loca2 iframe{
             width: 50%;
@@ -2755,6 +2760,8 @@
             background-color: #141414;
             width: 30%;
             float: left;
+            box-sizing: border-box;
+
         }
         .loca2 iframe{
             width: 50%;
@@ -3083,6 +3090,8 @@
             background-color: #141414;
             width: 30%;
             float: left;
+            box-sizing: border-box;
+
         }
         .loca2 iframe{
             width: 50%;
@@ -3225,10 +3234,8 @@
   
     /* end NAV */
     
-    /* end NAV */
-    
-       /* partie 1 */
-       .image img{
+    /* partie 1 */
+    .image img{
         width: 100%;
     }
     .statistique{
@@ -3415,6 +3422,8 @@
             background-color: #141414;
             width: 30%;
             float: left;
+            box-sizing: border-box;
+
         }
         .loca2 iframe{
             width: 50%;
