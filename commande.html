@@ -12,6 +12,18 @@
 
 </head>
 <body>
+     <!-- loade -->
+     <div class="loader">
+        <span class="lettre">S</span>
+        <span class="lettre">-</span>
+        <span class="lettre">T</span>
+        <span class="lettre">A</span>
+        <span class="lettre">C</span>
+        <span class="lettre">O</span>
+        <span class="lettre">S</span>
+        
+    </div>
+    <!-- end load -->
     <!-- nav -->
     <div class="nav">
         <a href="index.html"> <img src="logostacos.png"></a>
@@ -100,7 +112,15 @@ else if(show==1){
 }
 }
 </script>
+<script>
+    const loader = document.querySelector('.loader');
 
+    window.addEventListener('load', () => {
+
+    loader.classList.add('fondu-out');
+    loader.style.display="none";
+})
+</script>
        <!--  END JAVA SCRIPT  -->
 
 
