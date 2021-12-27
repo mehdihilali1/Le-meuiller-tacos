@@ -8,6 +8,9 @@
     width: 100%;
 }
 /* partie 1*/
+.footer .fab:hover{
+    color: #e28739;
+}
 @media  screen and (min-width:320px)and (max-width:449px) {
     *{
         margin: 0;
