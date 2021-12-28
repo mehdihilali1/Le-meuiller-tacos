@@ -5,20 +5,146 @@
 .footer .fab:hover{
     color: #e28739;
 }
+
+/* loader */
+
+.loader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    z-index: 50000;
+}
+.lettre {
+    color: #484848;
+    font-size: 80px;
+    letter-spacing: 15px;
+    margin-bottom: 150px;
+    animation: flash 1.2s linear infinite;
+}
+@keyframes flash {
+    0% {
+        color: #e28739;
+        text-shadow: 0 0 7px #e28739;
+    }
+    90% {
+        color: #484848;
+        text-shadow: none;
+    }
+    100% {
+        color: #e28739;
+        text-shadow: 0 0 7px #e28739;
+    }
+}
+
+.lettre:nth-child(1){
+    animation-delay: 0.1s;
+}
+.lettre:nth-child(2){
+    animation-delay: 0.2s;
+}
+.lettre:nth-child(3){
+    animation-delay: 0.3s;
+}
+.lettre:nth-child(4){
+    animation-delay: 0.4s;
+}
+.lettre:nth-child(5){
+    animation-delay: 0.5s;
+}
+.lettre:nth-child(6){
+    animation-delay: 0.6s;
+}
+.lettre:nth-child(7){
+    animation-delay: 0.7s;
+}
+
+
+.fondu-out {
+    opacity: 0;
+    transition: opacity 0.4s ease-out;
+}
+/* end load*/
 @media  screen and (min-width:320px)and (max-width:449px) {
-*{
+/* loader */
+
+.loader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    z-index: 50000;
+}
+.lettre {
+    color: #484848;
+    font-size: 30px;
+    letter-spacing: 15px;
+    margin-bottom: 150px;
+    animation: flash 1.2s linear infinite;
+}
+@keyframes flash {
+    0% {
+        color: #e28739;
+        text-shadow: 0 0 7px #e28739;
+    }
+    90% {
+        color: #484848;
+        text-shadow: none;
+    }
+    100% {
+        color: #e28739;
+        text-shadow: 0 0 7px #e28739;
+    }
+}
+
+.lettre:nth-child(1){
+    animation-delay: 0.1s;
+}
+.lettre:nth-child(2){
+    animation-delay: 0.2s;
+}
+.lettre:nth-child(3){
+    animation-delay: 0.3s;
+}
+.lettre:nth-child(4){
+    animation-delay: 0.4s;
+}
+.lettre:nth-child(5){
+    animation-delay: 0.5s;
+}
+.lettre:nth-child(6){
+    animation-delay: 0.6s;
+}
+.lettre:nth-child(7){
+    animation-delay: 0.7s;
+}
+
+
+.fondu-out {
+    opacity: 0;
+    transition: opacity 0.4s ease-out;
+}
+/* end load*/
+    *{
     margin: 0;
     padding: 0;
 }
 /* NAV */
 .nav{
     background-color:#141414 ;
-    position: relative;
+    position: fixed;
     height:100px;
     display: flex;
     justify-content: space-around;
     text-align: center;
     width: 100%;
+    z-index: 44;
 }
 .nav img{
     width: 180px;
@@ -63,6 +189,7 @@
 /* partie 1 */
 .image img{
     width: 100%;
+    margin-top: 100px;
 }
 .statistique{
     width: 100%;
@@ -301,6 +428,68 @@
 /* 480px */
 
 @media  screen and (min-width:450px)and (max-width:599px) {
+    /* loader */
+
+.loader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    z-index: 50000;
+}
+.lettre {
+    color: #484848;
+    font-size: 40px;
+    letter-spacing: 15px;
+    margin-bottom: 150px;
+    animation: flash 1.2s linear infinite;
+}
+@keyframes flash {
+    0% {
+        color: #e28739;
+        text-shadow: 0 0 7px #e28739;
+    }
+    90% {
+        color: #484848;
+        text-shadow: none;
+    }
+    100% {
+        color: #e28739;
+        text-shadow: 0 0 7px #e28739;
+    }
+}
+
+.lettre:nth-child(1){
+    animation-delay: 0.1s;
+}
+.lettre:nth-child(2){
+    animation-delay: 0.2s;
+}
+.lettre:nth-child(3){
+    animation-delay: 0.3s;
+}
+.lettre:nth-child(4){
+    animation-delay: 0.4s;
+}
+.lettre:nth-child(5){
+    animation-delay: 0.5s;
+}
+.lettre:nth-child(6){
+    animation-delay: 0.6s;
+}
+.lettre:nth-child(7){
+    animation-delay: 0.7s;
+}
+
+
+.fondu-out {
+    opacity: 0;
+    transition: opacity 0.4s ease-out;
+}
+/* end load*/
     *{
         margin: 0;
         padding: 0;
@@ -308,12 +497,14 @@
     /* NAV */
     .nav{
         background-color:#141414 ;
-        position: relative;
+        position: fixed;
         height:100px;
         display: flex;
         justify-content: space-around;
         text-align: center;
         width: 100%;
+        z-index: 1000;
+
     }
     .nav img{
         width: 180px;
@@ -357,6 +548,7 @@
     /* partie 1 */
     .image img{
         width: 100%;
+        margin-top: 100px;
     }
     .statistique{
         width: 100%;
@@ -593,6 +785,68 @@
 
 /* 600px */
 @media  screen and (min-width:600px)and (max-width:769px) {
+   /* loader */
+
+.loader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    z-index: 50000;
+}
+.lettre {
+    color: #484848;
+    font-size: 50px;
+    letter-spacing: 15px;
+    margin-bottom: 150px;
+    animation: flash 1.2s linear infinite;
+}
+@keyframes flash {
+    0% {
+        color: #e28739;
+        text-shadow: 0 0 7px #e28739;
+    }
+    90% {
+        color: #484848;
+        text-shadow: none;
+    }
+    100% {
+        color: #e28739;
+        text-shadow: 0 0 7px #e28739;
+    }
+}
+
+.lettre:nth-child(1){
+    animation-delay: 0.1s;
+}
+.lettre:nth-child(2){
+    animation-delay: 0.2s;
+}
+.lettre:nth-child(3){
+    animation-delay: 0.3s;
+}
+.lettre:nth-child(4){
+    animation-delay: 0.4s;
+}
+.lettre:nth-child(5){
+    animation-delay: 0.5s;
+}
+.lettre:nth-child(6){
+    animation-delay: 0.6s;
+}
+.lettre:nth-child(7){
+    animation-delay: 0.7s;
+}
+
+
+.fondu-out {
+    opacity: 0;
+    transition: opacity 0.4s ease-out;
+}
+/* end load*/
     *{
         margin: 0;
         padding: 0;
@@ -600,12 +854,14 @@
     /* NAV */
     .nav{
         background-color:#141414 ;
-        position: relative;
+        position: fixed;
         height:100px;
         display: flex;
         justify-content: space-around;
         text-align: center;
         width: 100%;
+        z-index: 1000;
+
     }
     .nav img{
         width: 180px;
@@ -649,6 +905,7 @@
     /* partie 1 */
     .image img{
         width: 100%;
+        margin-top: 100px;
     }
     .statistique{
         width: 100%;
@@ -896,12 +1153,14 @@
   
     .nav{
         background-color:#141414 ;
-        position: relative;
+        position: fixed;
         height:100px;
         display: flex;
         justify-content: space-around;
         text-align: center;
-        width: 100%;
+        width: 100%;        
+        z-index: 1000;
+
     }
     .nav img{
         width: 180px;
@@ -945,6 +1204,8 @@
     /* partie 1 */
     .image img{
         width: 100%;
+        margin-top: 100px;
+
     }
     .statistique{
         width: 100%;
@@ -986,7 +1247,7 @@
             margin-top: -20px;
         }
         .intro img{
-            width: 420px;
+            width: 450px;
         }
         
     /* end partie 2 plat */
@@ -1198,6 +1459,7 @@
         justify-content: space-around;
         text-align: center;
         width: 100%;
+        z-index: 1000;
     }
     .nav img{
         width: 180px;
@@ -1303,11 +1565,11 @@
         }
         .intro section{
             width: 450px;
-            margin-top:130px;
+            margin-top:110px;
             margin-left: 20px;
         }
         .intro img{
-            width: 500px;
+            width: 520px;
             height: 400px;
         }
         
@@ -1473,15 +1735,12 @@
             height: 50px;
             border-radius:50px;
             border: none;
-            transition: .7s ease;
         }
         .commander a {
             text-decoration: none;
             color: white;
         }
-        .commander:hover{
-            transform: scale(1.1);
-        }
+    
     /*  end partie6 Loca */
       
     /*  partie7 footer */
@@ -1593,7 +1852,6 @@
     .image img{
         width: 100%;
         margin-top: 100px;
-
     }
     .statistique{
         display: flex;
@@ -1799,22 +2057,19 @@
 
         }
         .commander{
-            margin-top: 15px;
+            margin-top: 20px;
             color: white;
             background-color: #e28739;
             width: 150px;
             height: 50px;
             border-radius:50px;
             border: none;
-            transition: .7s ease;
         }
         .commander a {
             text-decoration: none;
             color: white;
         }
-        .commander:hover{
-            transform: scale(1.1);
-        }
+    
     /*  end partie6 Loca */
       
     /*  partie7 footer */
@@ -2132,21 +2387,17 @@
 
         }
         .commander{
-            margin-top: 15px;
+            margin-top: 20px;
             color: white;
             background-color: #e28739;
             width: 150px;
             height: 50px;
             border-radius:50px;
             border: none;
-            transition: .7s ease;
         }
         .commander a {
             text-decoration: none;
             color: white;
-        }
-        .commander:hover{
-            transform: scale(1.1);
         }
     
     /*  end partie6 Loca */
@@ -2470,21 +2721,17 @@
 
         }
         .commander{
-            margin-top: 15px;
+            margin-top: 20px;
             color: white;
             background-color: #e28739;
             width: 150px;
             height: 50px;
             border-radius:50px;
             border: none;
-            transition: .7s ease;
         }
         .commander a {
             text-decoration: none;
             color: white;
-        }
-        .commander:hover{
-            transform: scale(1.1);
         }
     /*  end partie6 Loca */
       
@@ -2808,21 +3055,17 @@
 
         }
         .commander{
-            margin-top: 15px;
+            margin-top: 20px;
             color: white;
             background-color: #e28739;
             width: 150px;
             height: 50px;
             border-radius:50px;
             border: none;
-            transition: .7s ease;
         }
         .commander a {
             text-decoration: none;
             color: white;
-        }
-        .commander:hover{
-            transform: scale(1.1);
         }
     /*  end partie6 Loca */
       
@@ -3144,21 +3387,17 @@
 
         }
         .commander{
-            margin-top: 15px;
+            margin-top: 20px;
             color: white;
             background-color: #e28739;
             width: 150px;
             height: 50px;
             border-radius:50px;
             border: none;
-            transition: .7s ease;
         }
         .commander a {
             text-decoration: none;
             color: white;
-        }
-        .commander:hover{
-            transform: scale(1.1);
         }
     /*  end partie6 Loca */
       
@@ -3482,21 +3721,17 @@
 
         }
         .commander{
-            margin-top: 15px;
+            margin-top: 20px;
             color: white;
             background-color: #e28739;
             width: 150px;
             height: 50px;
             border-radius:50px;
             border: none;
-            transition: .7s ease;
         }
         .commander a {
             text-decoration: none;
             color: white;
-        }
-        .commander:hover{
-            transform: scale(1.1);
         }
     /*  end partie6 Loca */
       
