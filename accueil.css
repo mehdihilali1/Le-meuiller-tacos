@@ -1727,7 +1727,7 @@
             margin-right: 15px;
 
         }
-        .commander{
+          .commander{
             margin-top: 15px;
             color: white;
             background-color: #e28739;
@@ -1735,10 +1735,15 @@
             height: 50px;
             border-radius:50px;
             border: none;
+            transition: .7s ease;
         }
         .commander a {
             text-decoration: none;
             color: white;
+        }
+        .commander:hover{
+            transform: scale(1.1);
+
         }
     
     /*  end partie6 Loca */
@@ -2056,18 +2061,23 @@
             margin-right: 15px;
 
         }
-        .commander{
-            margin-top: 20px;
+           .commander{
+            margin-top: 15px;
             color: white;
             background-color: #e28739;
             width: 150px;
             height: 50px;
             border-radius:50px;
             border: none;
+            transition: .7s ease;
         }
         .commander a {
             text-decoration: none;
             color: white;
+        }
+        .commander:hover{
+            transform: scale(1.1);
+
         }
     
     /*  end partie6 Loca */
@@ -2386,20 +2396,24 @@
             margin-right: 15px;
 
         }
-        .commander{
-            margin-top: 20px;
+         .commander{
+            margin-top: 15px;
             color: white;
             background-color: #e28739;
             width: 150px;
             height: 50px;
             border-radius:50px;
             border: none;
+            transition: .7s ease;
         }
         .commander a {
             text-decoration: none;
             color: white;
         }
-    
+        .commander:hover{
+            transform: scale(1.1);
+
+        }
     /*  end partie6 Loca */
       
     /*  partie7 footer */
@@ -2720,18 +2734,23 @@
             margin-right: 15px;
 
         }
-        .commander{
-            margin-top: 20px;
+         .commander{
+            margin-top: 15px;
             color: white;
             background-color: #e28739;
             width: 150px;
             height: 50px;
             border-radius:50px;
             border: none;
+            transition: .7s ease;
         }
         .commander a {
             text-decoration: none;
             color: white;
+        }
+        .commander:hover{
+            transform: scale(1.1);
+
         }
     /*  end partie6 Loca */
       
@@ -3054,18 +3073,23 @@
             margin-right: 15px;
 
         }
-        .commander{
-            margin-top: 20px;
+    .commander{
+            margin-top: 15px;
             color: white;
             background-color: #e28739;
             width: 150px;
             height: 50px;
             border-radius:50px;
             border: none;
+            transition: .7s ease;
         }
         .commander a {
             text-decoration: none;
             color: white;
+        }
+        .commander:hover{
+            transform: scale(1.1);
+
         }
     /*  end partie6 Loca */
       
@@ -3386,18 +3410,23 @@
             margin-right: 15px;
 
         }
-        .commander{
-            margin-top: 20px;
+         .commander{
+            margin-top: 15px;
             color: white;
             background-color: #e28739;
             width: 150px;
             height: 50px;
             border-radius:50px;
             border: none;
+            transition: .7s ease;
         }
         .commander a {
             text-decoration: none;
             color: white;
+        }
+        .commander:hover{
+            transform: scale(1.1);
+
         }
     /*  end partie6 Loca */
       
@@ -3721,17 +3750,22 @@
 
         }
         .commander{
-            margin-top: 20px;
+            margin-top: 15px;
             color: white;
             background-color: #e28739;
             width: 150px;
             height: 50px;
             border-radius:50px;
             border: none;
+            transition: .7s ease;
         }
         .commander a {
             text-decoration: none;
             color: white;
+        }
+        .commander:hover{
+            transform: scale(1.1);
+
         }
     /*  end partie6 Loca */
       
