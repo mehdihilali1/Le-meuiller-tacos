@@ -303,6 +303,8 @@
         text-align: center;
         height: 750px;
         transform: rotate(180deg);
+        box-sizing:border-box;
+
     }
 
     .sauce img {
@@ -315,6 +317,7 @@
         width: 300px;
         margin: 0 auto;
         transform: rotate(180deg);
+        box-sizing:border-box;
     }
 
     .notre {
@@ -338,6 +341,8 @@
         text-align: center;
         background-color: #e28739;
         margin-top: -25px;
+                box-sizing:border-box;
+
     }
 
     .viande img {
@@ -356,6 +361,7 @@
         margin-top: -4px;
         transform: rotate(180deg);
         padding-top: 20px;
+        box-sizing:border-box;
 
     }
 
