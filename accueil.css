@@ -303,7 +303,6 @@
         text-align: center;
         height: 750px;
         transform: rotate(180deg);
-        box-sizing:border-box;
 
     }
 
@@ -317,7 +316,7 @@
         width: 300px;
         margin: 0 auto;
         transform: rotate(180deg);
-overflow: hidden;   }
+  }
 
     .notre {
         color: #e28739;
@@ -340,7 +339,7 @@ overflow: hidden;   }
         text-align: center;
         background-color: #e28739;
         margin-top: -25px;
-overflow: hidden;
+
     }
 
     .viande img {
@@ -359,8 +358,6 @@ overflow: hidden;
         margin-top: -4px;
         transform: rotate(180deg);
         padding-top: 20px;
-        box-sizing:border-box;
-
     }
 
     .viande section p,
