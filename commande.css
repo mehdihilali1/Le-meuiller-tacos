@@ -1,16 +1,22 @@
-*{
+* {
     font-family: 'Roboto', sans-serif;
-    letter-spacing:.5px;
+    letter-spacing: .5px;
+}
+
+.btn {
+    border-radius: 17px;
 }
 
 /* partie 1*/
-.partie1 img{
+.partie1 img {
     width: 100%;
 }
+
 /* partie 1*/
-.footer .fab:hover{
+.footer .fab:hover {
     color: #e28739;
 }
+
 /* loader */
 
 .loader {
@@ -18,12 +24,13 @@
     width: 100%;
     height: 100%;
     background: #000;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
     z-index: 50000;
 
 }
+
 .lettre {
     color: #484848;
     font-size: 80px;
@@ -31,40 +38,49 @@
     margin-bottom: 150px;
     animation: flash 1.2s linear infinite;
 }
+
 @keyframes flash {
     0% {
         color: #e28739;
         text-shadow: 0 0 7px #e28739;
     }
+
     90% {
         color: #484848;
         text-shadow: none;
     }
+
     100% {
         color: #e28739;
         text-shadow: 0 0 7px #e28739;
     }
 }
 
-.lettre:nth-child(1){
+.lettre:nth-child(1) {
     animation-delay: 0.1s;
 }
-.lettre:nth-child(2){
+
+.lettre:nth-child(2) {
     animation-delay: 0.2s;
 }
-.lettre:nth-child(3){
+
+.lettre:nth-child(3) {
     animation-delay: 0.3s;
 }
-.lettre:nth-child(4){
+
+.lettre:nth-child(4) {
     animation-delay: 0.4s;
 }
-.lettre:nth-child(5){
+
+.lettre:nth-child(5) {
     animation-delay: 0.5s;
 }
-.lettre:nth-child(6){
+
+.lettre:nth-child(6) {
     animation-delay: 0.6s;
 }
-.lettre:nth-child(7){
+
+.lettre:nth-child(7) {
     animation-delay: 0.7s;
 }
 
@@ -73,79 +89,92 @@
     opacity: 0;
     transition: opacity 0.4s ease-out;
 }
+
 /* end load*/
-@media  screen and (min-width:320px)and (max-width:449px) {
+@media screen and (min-width:320px)and (max-width:449px) {
     /* loader */
 
-.loader {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    z-index: 50000;
-}
-.lettre {
-    color: #484848;
-    font-size: 30px;
-    letter-spacing: 15px;
-    margin-bottom: 150px;
-    animation: flash 1.2s linear infinite;
-}
-@keyframes flash {
-    0% {
-        color: #e28739;
-        text-shadow: 0 0 7px #e28739;
+    .loader {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 50000;
     }
-    90% {
+
+    .lettre {
         color: #484848;
-        text-shadow: none;
+        font-size: 30px;
+        letter-spacing: 15px;
+        margin-bottom: 150px;
+        animation: flash 1.2s linear infinite;
     }
-    100% {
-        color: #e28739;
-        text-shadow: 0 0 7px #e28739;
+
+    @keyframes flash {
+        0% {
+            color: #e28739;
+            text-shadow: 0 0 7px #e28739;
+        }
+
+        90% {
+            color: #484848;
+            text-shadow: none;
+        }
+
+        100% {
+            color: #e28739;
+            text-shadow: 0 0 7px #e28739;
+        }
     }
-}
 
-.lettre:nth-child(1){
-    animation-delay: 0.1s;
-}
-.lettre:nth-child(2){
-    animation-delay: 0.2s;
-}
-.lettre:nth-child(3){
-    animation-delay: 0.3s;
-}
-.lettre:nth-child(4){
-    animation-delay: 0.4s;
-}
-.lettre:nth-child(5){
-    animation-delay: 0.5s;
-}
-.lettre:nth-child(6){
-    animation-delay: 0.6s;
-}
-.lettre:nth-child(7){
-    animation-delay: 0.7s;
-}
+    .lettre:nth-child(1) {
+        animation-delay: 0.1s;
+    }
+
+    .lettre:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+
+    .lettre:nth-child(3) {
+        animation-delay: 0.3s;
+    }
+
+    .lettre:nth-child(4) {
+        animation-delay: 0.4s;
+    }
+
+    .lettre:nth-child(5) {
+        animation-delay: 0.5s;
+    }
+
+    .lettre:nth-child(6) {
+        animation-delay: 0.6s;
+    }
+
+    .lettre:nth-child(7) {
+        animation-delay: 0.7s;
+    }
 
 
-.fondu-out {
-    opacity: 0;
-    transition: opacity 0.4s ease-out;
-}
-/* end load*/
-    *{
+    .fondu-out {
+        opacity: 0;
+        transition: opacity 0.4s ease-out;
+    }
+
+    /* end load*/
+    * {
         margin: 0;
         padding: 0;
     }
+
     /* NAV */
-    .nav{
-        background-color:#141414 ;
+    .nav {
+        background-color: #141414;
         position: fixed;
-        height:100px;
+        height: 100px;
         display: flex;
         justify-content: space-around;
         text-align: center;
@@ -153,253 +182,319 @@
         z-index: 1000;
 
     }
-    .nav img{
+
+    .nav img {
         width: 180px;
         position: absolute;
         top: 0;
         left: -60px;
     }
-    .button{
+
+    .button {
         height: 30px;
         position: absolute;
         right: 10px;
         top: 30px;
     }
-    .btn{
+
+    .btn {
         height: 6px;
-        width: 25px;   
+        width: 25px;
         background-color: #e28739;
         margin-bottom: 7px;
     }
-    .lien{
+
+    .lien {
         margin-top: 100px;
         height: 150px;
-        background-color: #141414 ;
+        background-color: #141414;
         width: 100%;
         display: none;
         z-index: 22;
     }
-    .list{
+
+    .list {
         list-style: none;
         margin-top: 10px;
     }
+
     .list li a {
         text-decoration: none;
         color: #e28739;
-        
+
     }
-    .list li{
+
+    .list li {
         margin-bottom: 15px;
     }
+
     /* end NAV */
-    .partie1 img{
-        width: 100%;
-        margin-top: 100px;
+    .mobile {
+        background-color: #141414;
+        height: 0px;
+        padding-top: 100px;
+        text-align: center;
+        display: block;
+        transition: .7s ease;
+        overflow: hidden;
     }
+
+    .mobile a {
+        color: #e28739;
+        display: inline-block;
+        text-decoration: none;
+        margin-top: 15px;
+    }
+
+    .listm {
+        color: black;
+        list-style: none;
+    }
+
+    .partie1 img {
+        width: 100%;
+    }
+
     /*  partie6 Loca */
     .localisation {
         height: 1030px;
         text-align: center;
     }
-    .localisation h3{
+
+    .localisation h3 {
         margin-top: 10px;
         font-size: 15px;
     }
-    .localisation h1{
+
+    .localisation h1 {
         text-align: center;
         font-size: 25px;
         padding-top: 20px;
         color: #e28739;
     }
-    .localisation .partiloca1{
+
+    .localisation .partiloca1 {
         color: white;
         text-align: center;
         margin-top: 30px;
     }
-    .loca1{
+
+    .loca1 {
         height: 300px;
         position: relative;
         background-color: #141414;
 
     }
-    .loca1 h1{
+
+    .loca1 h1 {
         font-size: 20px;
         color: #e28739;
         margin-bottom: 10px;
     }
-    .loca1 p{
+
+    .loca1 p {
         text-align: center;
         margin-bottom: 8px;
     }
-    i{
+
+    i {
         margin-bottom: 8px;
-   }
-    .loca1 .fas{
+    }
+
+    .loca1 .fas {
         color: #e28739;
         margin-right: 15px;
 
     }
-    .localisation img{
+
+    .localisation img {
         width: 80px;
     }
-    .grouppic{
+
+    .grouppic {
         display: flex;
         justify-content: center;
 
-   }
-    .grouppic img{
-        width: 40px;
-        margin-left: auto;  
-        margin-right: auto; 
     }
-    .ret{
+
+    .grouppic img {
+        width: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ret {
         width: 20px;
         height: 2px;
         background-color: white;
         transform: rotate(90deg);
         margin-top: 20px;
     }
-    .localisation .partiloca2{
+
+    .localisation .partiloca2 {
         color: white;
         text-align: center;
     }
 
-    .loca2{
+    .loca2 {
         background-color: #141414;
     }
-    .loca2 h1{
+
+    .loca2 h1 {
         font-size: 20px;
         color: #e28739;
         margin-bottom: 10px;
     }
-    .loca2 p{
+
+    .loca2 p {
         text-align: center;
         margin-bottom: 8px;
     }
-    .loca2 img{
+
+    .loca2 img {
         width: 40px;
         margin-bottom: 40px;
     }
-   
-    .loca2 .fas{
+
+    .loca2 .fas {
         color: #e28739;
         margin-right: 15px;
 
     }
-    .commander{
+
+    .commander {
         margin-top: 20px;
         color: white;
         background-color: #e28739;
         width: 150px;
         height: 50px;
-        border-radius:50px;
+        border-radius: 50px;
         border: none;
     }
-    .localisation iframe{
+
+    .localisation iframe {
         width: 100%;
     }
-/*  end partie6 Loca */
-/*  partie7 footer */
-.footer{
-    background-color: #141414;
-    text-align: center;
-}
-.footer img{
-    width: 200px;
-    margin-right: 15px;
-}
-.re{
-    height: 2px;
-    background-color: white;
-    transform: rotate(90deg);
-    margin-top: 10px;    
-    width: 20px;
 
-}
-.footer section{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;        
-    width: 100px;
-}
-.footer .fab{
-    color: white;
-}
-/*  end partie7 footer */
+    /*  end partie6 Loca */
+    /*  partie7 footer */
+    .footer {
+        background-color: #141414;
+        text-align: center;
+    }
+
+    .footer img {
+        width: 200px;
+        margin-right: 15px;
+        margin-top: 20px;
+    }
+
+    .re {
+        height: 2px;
+        margin-top: 10px;
+        width: 10px;
+        background-color: white;
+        transform: rotate(90deg);
+    }
+
+    .footer section {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        width: 70px;
+    }
+
+    .footer .fab {
+        color: white;
+    }
+
+    /*  end partie7 footer */
 }
 
-@media  screen and (min-width:450px)and (max-width:599px) {
+@media screen and (min-width:450px)and (max-width:599px) {
     /* loader */
 
-.loader {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    z-index: 50000;
-}
-.lettre {
-    color: #484848;
-    font-size: 40px;
-    letter-spacing: 15px;
-    margin-bottom: 150px;
-    animation: flash 1.2s linear infinite;
-}
-@keyframes flash {
-    0% {
-        color: #e28739;
-        text-shadow: 0 0 7px #e28739;
+    .loader {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 50000;
     }
-    90% {
+
+    .lettre {
         color: #484848;
-        text-shadow: none;
+        font-size: 40px;
+        letter-spacing: 15px;
+        margin-bottom: 150px;
+        animation: flash 1.2s linear infinite;
     }
-    100% {
-        color: #e28739;
-        text-shadow: 0 0 7px #e28739;
+
+    @keyframes flash {
+        0% {
+            color: #e28739;
+            text-shadow: 0 0 7px #e28739;
+        }
+
+        90% {
+            color: #484848;
+            text-shadow: none;
+        }
+
+        100% {
+            color: #e28739;
+            text-shadow: 0 0 7px #e28739;
+        }
     }
-}
 
-.lettre:nth-child(1){
-    animation-delay: 0.1s;
-}
-.lettre:nth-child(2){
-    animation-delay: 0.2s;
-}
-.lettre:nth-child(3){
-    animation-delay: 0.3s;
-}
-.lettre:nth-child(4){
-    animation-delay: 0.4s;
-}
-.lettre:nth-child(5){
-    animation-delay: 0.5s;
-}
-.lettre:nth-child(6){
-    animation-delay: 0.6s;
-}
-.lettre:nth-child(7){
-    animation-delay: 0.7s;
-}
+    .lettre:nth-child(1) {
+        animation-delay: 0.1s;
+    }
+
+    .lettre:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+
+    .lettre:nth-child(3) {
+        animation-delay: 0.3s;
+    }
+
+    .lettre:nth-child(4) {
+        animation-delay: 0.4s;
+    }
+
+    .lettre:nth-child(5) {
+        animation-delay: 0.5s;
+    }
+
+    .lettre:nth-child(6) {
+        animation-delay: 0.6s;
+    }
+
+    .lettre:nth-child(7) {
+        animation-delay: 0.7s;
+    }
 
 
-.fondu-out {
-    opacity: 0;
-    transition: opacity 0.4s ease-out;
-}
-/* end load*/
-    *{
+    .fondu-out {
+        opacity: 0;
+        transition: opacity 0.4s ease-out;
+    }
+
+    /* end load*/
+    * {
         margin: 0;
         padding: 0;
     }
+
     /* NAV */
-    .nav{
-        background-color:#141414 ;
+    .nav {
+        background-color: #141414;
         position: fixed;
-        height:100px;
+        height: 100px;
         display: flex;
         justify-content: space-around;
         text-align: center;
@@ -407,249 +502,317 @@
         z-index: 100;
 
     }
-    .nav img{
+
+    .nav img {
         width: 180px;
         position: absolute;
         top: 0;
         left: -60px;
     }
-    .button{
+
+    .button {
         height: 30px;
         position: absolute;
         right: 10px;
         top: 30px;
     }
-    .btn{
+
+    .btn {
         height: 6px;
-        width: 25px;   
+        width: 25px;
         background-color: #e28739;
         margin-bottom: 7px;
     }
-    .lien{
+
+    .lien {
         margin-top: 100px;
         height: 170px;
-        background-color: #141414 ;
+        background-color: #141414;
         width: 100%;
         display: none;
     }
-    .list{
+
+    .list {
         list-style: none;
         margin-top: 10px;
     }
+
     .list li a {
         text-decoration: none;
         color: #e28739;
-        
+
     }
-    .list li{
+
+    .list li {
         margin-bottom: 15px;
     }
-    .partie1 img{
+
+    .partie1 img {
         width: 100%;
-        margin-top: 100px;
     }
+
     /* end NAV */
+    .mobile {
+        background-color: #141414;
+        height: 0px;
+        padding-top: 100px;
+        text-align: center;
+        display: block;
+        transition: .7s ease;
+        overflow: hidden;
+    }
+
+    .mobile a {
+        color: #e28739;
+        display: inline-block;
+        text-decoration: none;
+        margin-top: 15px;
+    }
+
+    .listm {
+        color: black;
+        list-style: none;
+    }
+
     /*  partie6 Loca */
     .localisation {
         height: 1030px;
         text-align: center;
     }
-    .localisation h1{
+
+    .localisation h1 {
         text-align: center;
         font-size: 25px;
         padding-top: 20px;
         color: #e28739;
     }
-    .localisation h3{
+
+    .localisation h3 {
         margin-top: 10px;
         font-size: 15px;
     }
-    .localisation .partiloca1{
+
+    .localisation .partiloca1 {
         color: white;
         text-align: center;
         margin-top: 30px;
     }
-    .loca1{
+
+    .loca1 {
         height: 300px;
         position: relative;
         background-color: #141414;
 
     }
-    .loca1 h1{
+
+    .loca1 h1 {
         font-size: 20px;
         color: #e28739;
         margin-bottom: 10px;
     }
-    .loca1 p{
+
+    .loca1 p {
         text-align: center;
         margin-bottom: 8px;
     }
-    i{
+
+    i {
         margin-bottom: 8px;
-   }
-    .loca1 .fas{
+    }
+
+    .loca1 .fas {
         color: #e28739;
         margin-right: 15px;
 
     }
-    .localisation img{
+
+    .localisation img {
         width: 80px;
     }
-    .grouppic{
+
+    .grouppic {
         display: flex;
         justify-content: center;
-     }
-     .grouppic img{
+    }
+
+    .grouppic img {
         width: 40px;
-     }
-    .ret{
+    }
+
+    .ret {
         width: 30px;
         height: 2px;
         background-color: white;
         transform: rotate(90deg);
         margin-top: 20px;
     }
-    .localisation .partiloca2{
+
+    .localisation .partiloca2 {
         color: white;
         text-align: center;
     }
-    .loca2{
+
+    .loca2 {
         padding-top: 10px;
         background-color: #141414;
 
     }
-    .loca2 h1{
+
+    .loca2 h1 {
         font-size: 20px;
         color: #e28739;
         margin-bottom: 10px;
     }
-    .loca2 p{
+
+    .loca2 p {
         text-align: center;
         margin-bottom: 8px;
     }
-    .loca2 img{
+
+    .loca2 img {
         width: 40px;
         margin-bottom: 25px;
     }
-    .loca2 .fas{
+
+    .loca2 .fas {
         color: #e28739;
         margin-right: 15px;
 
     }
-    .commander{
+
+    .commander {
         margin-top: 20px;
         color: white;
         background-color: #e28739;
         width: 150px;
         height: 50px;
-        border-radius:50px;
+        border-radius: 50px;
         border: none;
     }
-    .localisation iframe{
+
+    .localisation iframe {
         width: 100%;
     }
-/*  end partie6 Loca */
-/*  partie7 footer */
-.footer{
-    background-color: #141414;
-    text-align: center;
-}
-.footer img{
-    width: 200px;
-    margin-right: 15px;
-}
-.re{
-    height: 2px;
-    margin-top: 10px;    
-    width: 20px;
-    background-color: white;
-    transform: rotate(90deg);
 
-}
-.footer section{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;        
-    width: 100px;
-}
-.footer .fab{
-    color: white;
-}
-/*  end partie7 footer */
+    /*  end partie6 Loca */
+    /*  partie7 footer */
+    .footer {
+        background-color: #141414;
+        text-align: center;
+    }
+
+    .footer img {
+        width: 200px;
+        margin-right: 15px;
+        margin-top: 20px;
+    }
+
+    .re {
+        height: 2px;
+        margin-top: 10px;
+        width: 10px;
+        background-color: white;
+        transform: rotate(90deg);
+    }
+
+    .footer section {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        width: 70px;
+    }
+
+    .footer .fab {
+        color: white;
+    }
+
+    /*  end partie7 footer */
 }
 
-@media  screen and (min-width:600px)and (max-width:769px) {
+@media screen and (min-width:600px)and (max-width:769px) {
     /* loader */
 
-.loader {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    z-index: 50000;
-}
-.lettre {
-    color: #484848;
-    font-size: 50px;
-    letter-spacing: 15px;
-    margin-bottom: 150px;
-    animation: flash 1.2s linear infinite;
-}
-@keyframes flash {
-    0% {
-        color: #e28739;
-        text-shadow: 0 0 7px #e28739;
+    .loader {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 50000;
     }
-    90% {
+
+    .lettre {
         color: #484848;
-        text-shadow: none;
+        font-size: 50px;
+        letter-spacing: 15px;
+        margin-bottom: 150px;
+        animation: flash 1.2s linear infinite;
     }
-    100% {
-        color: #e28739;
-        text-shadow: 0 0 7px #e28739;
+
+    @keyframes flash {
+        0% {
+            color: #e28739;
+            text-shadow: 0 0 7px #e28739;
+        }
+
+        90% {
+            color: #484848;
+            text-shadow: none;
+        }
+
+        100% {
+            color: #e28739;
+            text-shadow: 0 0 7px #e28739;
+        }
     }
-}
 
-.lettre:nth-child(1){
-    animation-delay: 0.1s;
-}
-.lettre:nth-child(2){
-    animation-delay: 0.2s;
-}
-.lettre:nth-child(3){
-    animation-delay: 0.3s;
-}
-.lettre:nth-child(4){
-    animation-delay: 0.4s;
-}
-.lettre:nth-child(5){
-    animation-delay: 0.5s;
-}
-.lettre:nth-child(6){
-    animation-delay: 0.6s;
-}
-.lettre:nth-child(7){
-    animation-delay: 0.7s;
-}
+    .lettre:nth-child(1) {
+        animation-delay: 0.1s;
+    }
+
+    .lettre:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+
+    .lettre:nth-child(3) {
+        animation-delay: 0.3s;
+    }
+
+    .lettre:nth-child(4) {
+        animation-delay: 0.4s;
+    }
+
+    .lettre:nth-child(5) {
+        animation-delay: 0.5s;
+    }
+
+    .lettre:nth-child(6) {
+        animation-delay: 0.6s;
+    }
+
+    .lettre:nth-child(7) {
+        animation-delay: 0.7s;
+    }
 
 
-.fondu-out {
-    opacity: 0;
-    transition: opacity 0.4s ease-out;
-}
-/* end load*/
-    *{
+    .fondu-out {
+        opacity: 0;
+        transition: opacity 0.4s ease-out;
+    }
+
+    /* end load*/
+    * {
         margin: 0;
         padding: 0;
     }
+
     /* NAV */
-    .nav{
-        background-color:#141414 ;
+    .nav {
+        background-color: #141414;
         position: fixed;
-        height:100px;
+        height: 100px;
         display: flex;
         justify-content: space-around;
         text-align: center;
@@ -657,674 +820,576 @@
         z-index: 100;
 
     }
-    .nav img{
+
+    .nav img {
         width: 180px;
         position: absolute;
         top: 0;
         left: -60px;
     }
-    .button{
+
+    .button {
         height: 30px;
         position: absolute;
         right: 10px;
         top: 30px;
     }
-    .btn{
+
+    .btn {
         height: 6px;
-        width: 25px;   
+        width: 25px;
         background-color: #e28739;
         margin-bottom: 7px;
     }
-    .lien{
+
+    .lien {
         margin-top: 100px;
         height: 170px;
-        background-color: #141414 ;
+        background-color: #141414;
         width: 100%;
         display: none;
     }
-    .list{
+
+    .list {
         list-style: none;
         margin-top: 10px;
     }
+
     .list li a {
         text-decoration: none;
         color: #e28739;
-        
+
     }
-    .list li{
+
+    .list li {
         margin-bottom: 15px;
     }
-    .partie1 img{
+
+    .partie1 img {
         width: 100%;
-        margin-top: 100px;
     }
+
     /* end NAV */
+    .mobile {
+        background-color: #141414;
+        height: 0px;
+        padding-top: 100px;
+        text-align: center;
+        display: block;
+        transition: .7s ease;
+        overflow: hidden;
+    }
+
+    .mobile a {
+        color: #e28739;
+        display: inline-block;
+        text-decoration: none;
+        margin-top: 15px;
+    }
+
+    .listm {
+        color: black;
+        list-style: none;
+    }
+
     /*  partie6 Loca */
     .localisation {
         height: 1020px;
         text-align: center;
     }
-    .localisation h1{
+
+    .localisation h1 {
         text-align: center;
         font-size: 25px;
         padding-top: 20px;
         color: #e28739;
     }
-    .localisation h3{
+
+    .localisation h3 {
         margin-top: 10px;
         font-size: 15px;
     }
-    .localisation .partiloca1{
+
+    .localisation .partiloca1 {
         color: white;
         text-align: center;
         margin-top: 30px;
     }
-    .loca1{
+
+    .loca1 {
         height: 300px;
         position: relative;
         background-color: #141414;
 
     }
-    .loca1 h1{
+
+    .loca1 h1 {
         font-size: 20px;
         color: #e28739;
         margin-bottom: 10px;
     }
-    .loca1 p{
+
+    .loca1 p {
         text-align: center;
         margin-bottom: 8px;
     }
-    i{
+
+    i {
         margin-bottom: 8px;
-   }
-    .loca1 .fas{
+    }
+
+    .loca1 .fas {
         color: #e28739;
         margin-right: 15px;
 
     }
-    .localisation img{
+
+    .localisation img {
         width: 80px;
     }
-    .grouppic{
+
+    .grouppic {
         display: flex;
-        justify-content:center;
-     }
-     .grouppic img{
+        justify-content: center;
+    }
+
+    .grouppic img {
         width: 40px;
-     }
-    .ret{
+    }
+
+    .ret {
         width: 30px;
         height: 2px;
         background-color: white;
         transform: rotate(90deg);
         margin-top: 15px;
     }
-    .localisation .partiloca2{
+
+    .localisation .partiloca2 {
         color: white;
         text-align: center;
 
     }
-    .loca2{
+
+    .loca2 {
         padding-top: 10px;
         background-color: #141414;
 
     }
-    .loca2 h1{
+
+    .loca2 h1 {
         font-size: 20px;
         color: #e28739;
         margin-bottom: 10px;
     }
-    .loca2 p{
+
+    .loca2 p {
         text-align: center;
         margin-bottom: 8px;
     }
-    .loca2 .fas{
+
+    .loca2 .fas {
         color: #e28739;
         margin-right: 15px;
 
     }
-    .loca2 img{
+
+    .loca2 img {
         width: 40px;
         margin-bottom: 20px;
     }
-    .commander{
+
+    .commander {
         margin-top: 20px;
         color: white;
         background-color: #e28739;
         width: 150px;
         height: 50px;
-        border-radius:50px;
+        border-radius: 50px;
         border: none;
     }
-    .localisation iframe{
+
+    .localisation iframe {
         width: 100%;
     }
-/*  end partie6 Loca */
-/*  partie7 footer */
-.footer{
-    background-color: #141414;
-    text-align: center;
-}
-.footer img{
-    width: 200px;
-    margin-right: 15px;
-}
-.re{
-    height: 2px;
-    margin-top: 10px;    
-    width: 20px;
-    background-color: white;
-    transform: rotate(90deg);
 
-}
-.footer section{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;        
-    width: 100px;
-}
-.footer .fab{
-    color: white;
-}
-/*  end partie7 footer */
+    /*  end partie6 Loca */
+    /*  partie7 footer */
+    .footer {
+        background-color: #141414;
+        text-align: center;
+    }
+
+    .footer img {
+        width: 200px;
+        margin-right: 15px;
+        margin-top: 20px;
+    }
+
+    .re {
+        height: 2px;
+        margin-top: 10px;
+        width: 10px;
+        background-color: white;
+        transform: rotate(90deg);
+    }
+
+    .footer section {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        width: 70px;
+    }
+
+    .footer .fab {
+        color: white;
+    }
+
+    /*  end partie7 footer */
 }
 
-@media  screen and (min-width:770px)and (max-width:1024px) {
-    *{
+@media screen and (min-width:770px)and (max-width:1024px) {
+    * {
         margin: 0;
         padding: 0;
     }
+
     /* NAV */
-  
-    .nav{
-        background-color:#141414 ;
+
+    .nav {
+        background-color: #141414;
         position: fixed;
-        height:100px;
+        height: 100px;
         display: flex;
         justify-content: space-around;
         text-align: center;
         width: 100%;
         z-index: 100;
     }
-    .nav img{
+
+    .nav img {
         width: 180px;
         position: absolute;
         top: 0;
         left: -60px;
     }
-    .button{
+
+    .button {
         height: 30px;
         position: absolute;
         right: 10px;
         top: 30px;
     }
-    .btn{
+
+    .btn {
         height: 6px;
-        width: 25px;   
+        width: 25px;
         background-color: #e28739;
         margin-bottom: 7px;
     }
-    .lien{
+
+    .lien {
         margin-top: 100px;
         height: 170px;
-        background-color: #141414 ;
+        background-color: #141414;
         width: 100%;
         display: none;
     }
-    .list{
+
+    .list {
         list-style: none;
         margin-top: 10px;
     }
+
     .list li a {
         text-decoration: none;
         color: #e28739;
-        
+
     }
-    .list li{
+
+    .list li {
         margin-bottom: 15px;
     }
+
     /* end NAV */
-/*  partie6 Loca */
-.localisation {
-    height: 1020px;
-    text-align: center;
-}
-.localisation h1{
-    text-align: center;
-    font-size: 25px;
-    padding-top: 20px;
-    color: #e28739;
-}
-.localisation h3{
-    margin-top: 10px;
-    font-size: 15px;
-}
-.localisation .partiloca1{
-    color: white;
-    text-align: center;
-    margin-top: 30px;
-}
-.loca1{
-    height: 300px;
-    position: relative;
-    background-color: #141414;
-
-}
-.loca1 h1{
-    font-size: 20px;
-    color: #e28739;
-    margin-bottom: 10px;
-}
-.loca1 p{
-    text-align: center;
-    margin-bottom: 8px;
-}
-i{
-    margin-bottom: 8px;
-}
-
- .loca2 img{
-     width: 40px;
- }
-.loca1 .fas{
-    color: #e28739;
-    margin-right: 15px;
-
-}
-.localisation img{
-    width: 80px;
-}
-.grouppic{
-    display: flex;
-    justify-content: center;
- }
- .grouppic img{
-     width: 40px;
- }
-.ret{
-    width: 30px;
-    height: 2px;
-    background-color: white;
-    transform: rotate(90deg);
-    margin-top: 15px;
-}
-.localisation .partiloca2{
-    color: white;
-    text-align: center;
-
-}
-
-.loca2{
-    background-color: #141414;
-
-}
-.loca2 h1{
-    font-size: 20px;
-    color: #e28739;
-    margin-bottom: 10px;
-}
-.loca2 img{
-    width: 40px;
-    margin-bottom: 20px;
-}
-.loca2 p{
-    text-align: center;
-    margin-bottom: 8px;
-}
-.loca2 .fas{
-    color: #e28739;
-    margin-right: 15px;
-}
-.commander{
-    margin-top: 10px;
-    color: white;
-    background-color: #e28739;
-    width: 150px;
-    height: 50px;
-    border-radius:50px;
-    border: none;
-}
-.localisation iframe{
-    width: 100%;
-}
-.partie1 img{
-    width: 100%;
-    margin-top: 100px;
-}
-/*  end partie6 Loca */
-/*  partie7 footer */
-.footer{
-    background-color: #141414;
-    text-align: center;
-}
-.footer img{
-    width: 200px;
-    margin-right: 15px;
-}
-.re{
-    height: 2px;
-    margin-top: 10px;    
-    width: 20px;
-    background-color: white;
-    transform: rotate(90deg);
-
-}
-.footer section{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;        
-    width: 100px;
-}
-.footer .fab{
-    color: white;
-}
-/*  end partie7 footer */
-}
-
-@media  screen and (min-width:1025px)and (max-width:1200px){
-    *{
-        margin: 0;
-        padding: 0;
-    }
-  
-    /* NAV */
-    .nav{
-        background-color:#141414 ;
-        position: fixed;
-        z-index: 100;        
-        height:100px;
-        display: flex;
-        justify-content: space-around;
+    .mobile {
+        background-color: #141414;
+        height: 0px;
+        padding-top: 100px;
         text-align: center;
-        width: 100%;
+        display: block;
+        transition: .7s ease;
+        overflow: hidden;
     }
-    .nav img{
-        width: 180px;
-        position: absolute;
-        top: 0;
-        left: -40px;
-    }
-    .button{
-        height: 30px;
-        position: absolute;
-        right: 10px;
-        top: 30px;
-        display: none;
-    }
-    .btn{
-        height: 6px;
-        width: 25px;   
-        background-color: #e28739;
-        margin-bottom: 7px;
-    }
-    .lien{
-        width: 100%;
-        display: flex;
-    }
-    .list{
-        list-style: none;
-        display: flex;
-        position: absolute;
-        right: 260px;
-        top: 40px;
-    }
-    .list li a {
-        text-decoration: none;
+
+    .mobile a {
         color: #e28739;
-        margin-left: 50px;
-    }
-    .list li a{
+        display: inline-block;
         text-decoration: none;
-        margin-left: 30px;
-        position: relative;
+        margin-top: 15px;
+    }
+
+    .listm {
+        color: black;
+        list-style: none;
+    }
+
+
+    /*  partie6 Loca */
+    .localisation {
+        height: 1020px;
+        text-align: center;
+    }
+
+    .localisation h1 {
+        text-align: center;
+        font-size: 25px;
+        padding-top: 20px;
+        color: #e28739;
+    }
+
+    .localisation h3 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .localisation .partiloca1 {
         color: white;
+        text-align: center;
+        margin-top: 30px;
     }
-    .list li a:after{
-        content: "";
-        position:absolute;
+
+    .loca1 {
+        height: 300px;
+        position: relative;
+        background-color: #141414;
+
+    }
+
+    .loca1 h1 {
+        font-size: 20px;
+        color: #e28739;
+        margin-bottom: 10px;
+    }
+
+    .loca1 p {
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    i {
+        margin-bottom: 8px;
+    }
+
+    .loca2 img {
+        width: 40px;
+    }
+
+    .loca1 .fas {
+        color: #e28739;
+        margin-right: 15px;
+
+    }
+
+    .localisation img {
+        width: 80px;
+    }
+
+    .grouppic {
+        display: flex;
+        justify-content: center;
+    }
+
+    .grouppic img {
+        width: 40px;
+    }
+
+    .ret {
+        width: 30px;
+        height: 2px;
+        background-color: white;
+        transform: rotate(90deg);
+        margin-top: 15px;
+    }
+
+    .localisation .partiloca2 {
+        color: white;
+        text-align: center;
+
+    }
+
+    .loca2 {
+        background-color: #141414;
+
+    }
+
+    .loca2 h1 {
+        font-size: 20px;
+        color: #e28739;
+        margin-bottom: 10px;
+    }
+
+    .loca2 img {
+        width: 40px;
+        margin-bottom: 20px;
+    }
+
+    .loca2 p {
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .loca2 .fas {
+        color: #e28739;
+        margin-right: 15px;
+    }
+
+    .commander {
+        margin-top: 10px;
+        color: white;
         background-color: #e28739;
-        height: 3px;
-        width:0;
-        left: 0;
-        bottom: -10px;
-        transition: 0.2s;
+        width: 150px;
+        height: 50px;
+        border-radius: 50px;
+        border: none;
     }
-    .list li a:hover:after{
-        width:100%;
-    }
-  
-    .partie1 img{
+
+    .localisation iframe {
         width: 100%;
-        margin-top: 100px;
     }
-    /* end NAV */
-        /*  partie6 Loca */
-        .localisation {
-            height: 900px;
-            text-align: center;
-        }
-        .localisation h1{
-            text-align: center;
-            font-size: 25px;
-            padding-top: 15px;
-            margin-bottom: 20px;
-            width: 100%;
-            color: #e28739;
-        }
-        .localisation h3{
-            margin-bottom: 25px;
-            font-size: 15px; 
-         }
-        
-        .localisation .partiloca1{
-            color: white;
-            display: flex;
-            justify-content: center;
-            margin-bottom: 30px;
-        }
-        .loca1{
-            height: 350px;
-            position: relative;
-            background-color: #141414;
-            width: 30%;
-           
-        }
-        .loca1 h1{
-            font-size: 20px;
-            color: #e28739;
-            margin-bottom: 20px;
-        }
-        .loca1 p{
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .pass{
-            margin-top: 20px;
-        }
-        i{
-            text-align: right;
-            margin-top: 10px;
-       }
-       .localisation iframe{
-           width:50%;
-           height: 350px;
-       }
-        .loca1 .fas{
-            color: #e28739;
-            margin-right: 15px;
-        }
-        .localisation img{
-            width: 80px;
-        }
-        .grouppic{
-            display: flex;
-            justify-content: center;
-         }
-        .grouppic img{
-            margin-left: 10px;
-            width: 50px;
-         }
-        .ret{
-            height: 2px;
-            background-color: white;
-            transform: rotate(90deg);
-        }
-        .localisation .partiloca2{
-            color: white;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-        }
-    
-        .loca2{
-            height: 350px;
-            padding-top: 10px;
-            background-color: #141414;
-            width: 30%;
-            box-sizing: border-box;
 
-        }
-        .loca2 img{
-            width: 50px;
-        }
-        .loca2 h1{
-            font-size: 20px;
-            color: #e28739;
-            margin-bottom: 20px;
-        }
-        .loca2 p{
-            text-align: center;
-            margin-bottom: 20px;
-            margin-top: 20px;
+    .partie1 img {
+        width: 100%;
+    }
 
-        }
-        .loca2 .fas{
-            color: #e28739;
-            margin-right: 15px;
-
-        }
-        .commander{
-            margin-top: 20px;
-            color: white;
-            background-color: #e28739;
-            width: 150px;
-            height: 50px;
-            border-radius:50px;
-            border: none;
-        }
-    
     /*  end partie6 Loca */
     /*  partie7 footer */
-    .footer{
+    .footer {
         background-color: #141414;
         text-align: center;
     }
-    .footer img{
+
+    .footer img {
         width: 200px;
         margin-right: 15px;
+        margin-top: 20px;
     }
-    .re{
+
+    .re {
         height: 2px;
-        margin-top: 15px;    
-        width: 20px;
+        margin-top: 10px;
+        width: 10px;
         background-color: white;
         transform: rotate(90deg);
-
     }
-    .footer section{
+
+    .footer section {
         display: flex;
         justify-content: space-evenly;
-        margin: 0 auto;        
-        width: 100px;
+        margin: 0 auto;
+        width: 70px;
     }
-    .footer .fab{
+
+    .footer .fab {
         color: white;
     }
-/*  end partie7 footer */
+
+    /*  end partie7 footer */
 }
 
-@media  screen and (min-width:1201px)and (max-width:1300px){
-    *{
+@media screen and (min-width:1025px)and (max-width:1200px) {
+    * {
         margin: 0;
         padding: 0;
     }
-  
+
     /* NAV */
-    .nav{
-        background-color:#141414 ;
+    .nav {
+        background-color: #141414;
         position: fixed;
-        z-index: 100;        
-        height:100px;
+        z-index: 100;
+        height: 100px;
         display: flex;
         justify-content: space-around;
         text-align: center;
         width: 100%;
     }
-    .nav img{
+
+    .nav img {
         width: 180px;
         position: absolute;
         top: 0;
         left: -40px;
     }
-    .button{
+
+    .button {
         height: 30px;
         position: absolute;
         right: 10px;
         top: 30px;
         display: none;
     }
-    .btn{
+
+    .btn {
         height: 6px;
-        width: 25px;   
+        width: 25px;
         background-color: #e28739;
         margin-bottom: 7px;
     }
-    .lien{
+
+    .lien {
         width: 100%;
         display: flex;
     }
-    .list{
+
+    .list {
         list-style: none;
         display: flex;
         position: absolute;
         right: 260px;
         top: 40px;
     }
+
     .list li a {
         text-decoration: none;
         color: #e28739;
         margin-left: 50px;
     }
-    .list li a{
+
+    .list li a {
         text-decoration: none;
         margin-left: 30px;
         position: relative;
         color: white;
     }
-    .list li a:after{
+
+    .list li a:after {
         content: "";
-        position:absolute;
+        position: absolute;
         background-color: #e28739;
         height: 3px;
-        width:0;
+        width: 0;
         left: 0;
         bottom: -10px;
         transition: 0.2s;
     }
-    .list li a:hover:after{
-        width:100%;
-    }
-    .partie1 img{
+
+    .list li a:hover:after {
         width: 100%;
-        margin-top: 100px;
     }
+
+    .partie1 img {
+        width: 100%;
+    }
+
     /* end NAV */
     /*  partie6 Loca */
     .localisation {
         height: 900px;
         text-align: center;
     }
-    .localisation h1{
+
+    .localisation h1 {
         text-align: center;
         font-size: 25px;
         padding-top: 15px;
@@ -1332,70 +1397,85 @@ i{
         width: 100%;
         color: #e28739;
     }
-    .localisation h3{
+
+    .localisation h3 {
         margin-bottom: 25px;
-        font-size: 15px;  
-     }
-    .localisation .partiloca1{
+        font-size: 15px;
+    }
+
+    .localisation .partiloca1 {
         color: white;
         display: flex;
         justify-content: center;
         margin-bottom: 30px;
     }
-    .loca1{
+
+    .loca1 {
         height: 350px;
         position: relative;
         background-color: #141414;
         width: 30%;
+
     }
-    .loca1 h1{
+
+    .loca1 h1 {
         font-size: 20px;
         color: #e28739;
         margin-bottom: 20px;
     }
-    .loca1 p{
+
+    .loca1 p {
         text-align: center;
         margin-bottom: 20px;
     }
-    .pass{
+
+    .pass {
         margin-top: 20px;
     }
-    i{
+
+    i {
         text-align: right;
         margin-top: 10px;
-   }
-   .localisation iframe{
-       width:50%;
-       height: 350px;
-   }
-    .loca1 .fas{
+    }
+
+    .localisation iframe {
+        width: 50%;
+        height: 350px;
+    }
+
+    .loca1 .fas {
         color: #e28739;
         margin-right: 15px;
     }
-    .localisation img{
+
+    .localisation img {
         width: 80px;
     }
-    .grouppic{
+
+    .grouppic {
         display: flex;
         justify-content: center;
-     }
-    .grouppic img{
+    }
+
+    .grouppic img {
         margin-left: 10px;
         width: 50px;
-     }
-    .ret{
+    }
+
+    .ret {
         height: 2px;
         background-color: white;
         transform: rotate(90deg);
     }
-    .localisation .partiloca2{
+
+    .localisation .partiloca2 {
         color: white;
         text-align: center;
         display: flex;
         justify-content: center;
     }
 
-    .loca2{
+    .loca2 {
         height: 350px;
         padding-top: 10px;
         background-color: #141414;
@@ -1403,146 +1483,168 @@ i{
         box-sizing: border-box;
 
     }
-    .loca2 img{
+
+    .loca2 img {
         width: 50px;
     }
-    .loca2 h1{
+
+    .loca2 h1 {
         font-size: 20px;
         color: #e28739;
         margin-bottom: 20px;
     }
-    .loca2 p{
+
+    .loca2 p {
         text-align: center;
         margin-bottom: 20px;
         margin-top: 20px;
 
     }
-    .loca2 .fas{
+
+    .loca2 .fas {
         color: #e28739;
         margin-right: 15px;
 
     }
-    .commander{
+
+    .commander {
         margin-top: 20px;
         color: white;
         background-color: #e28739;
         width: 150px;
         height: 50px;
-        border-radius:50px;
+        border-radius: 50px;
         border: none;
     }
 
-/*  end partie6 Loca */
-/*  partie7 footer */
-.footer{
-    background-color: #141414;
-    text-align: center;
-}
-.footer img{
-    width: 200px;
-    margin-right: 15px;
-}
-.re{
-    height: 2px;
-    margin-top: 15px;    
-    width: 20px;    background-color: white;
-    transform: rotate(90deg);
+    /*  end partie6 Loca */
+    /*  partie7 footer */
+    .footer {
+        background-color: #141414;
+        text-align: center;
+    }
 
-}
-.footer section{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;        
-    width: 100px;
-}
-.footer .fab{
-    color: white;
-}
-/*  end partie7 footer */
+    .footer img {
+        width: 200px;
+        margin-right: 15px;
+    }
+
+    .re {
+        height: 2px;
+        margin-top: 20px;
+        width: 15px;
+        background-color: white;
+        transform: rotate(90deg);
+
+    }
+
+    .footer section {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        width: 100px;
+    }
+
+    .footer .fab {
+        color: white;
+    }
+
+    /*  end partie7 footer */
 }
 
-@media  screen and (min-width:1301px)and (max-width:1400px){
-    *{
+@media screen and (min-width:1201px)and (max-width:1300px) {
+    * {
         margin: 0;
         padding: 0;
     }
-  
+
     /* NAV */
-    .nav{
-        background-color:#141414 ;
+    .nav {
+        background-color: #141414;
         position: fixed;
-        z-index: 100;        
-        height:100px;
+        z-index: 100;
+        height: 100px;
         display: flex;
         justify-content: space-around;
         text-align: center;
         width: 100%;
     }
-    .nav img{
+
+    .nav img {
         width: 180px;
         position: absolute;
         top: 0;
         left: -40px;
     }
-    .button{
+
+    .button {
         height: 30px;
         position: absolute;
         right: 10px;
         top: 30px;
         display: none;
     }
-    .btn{
+
+    .btn {
         height: 6px;
-        width: 25px;   
+        width: 25px;
         background-color: #e28739;
         margin-bottom: 7px;
     }
-    .lien{
+
+    .lien {
         width: 100%;
         display: flex;
     }
-    .list{
+
+    .list {
         list-style: none;
         display: flex;
         position: absolute;
         right: 260px;
         top: 40px;
     }
+
     .list li a {
         text-decoration: none;
         color: #e28739;
         margin-left: 50px;
     }
-    .list li a{
+
+    .list li a {
         text-decoration: none;
         margin-left: 30px;
         position: relative;
         color: white;
     }
-    .list li a:after{
+
+    .list li a:after {
         content: "";
-        position:absolute;
+        position: absolute;
         background-color: #e28739;
         height: 3px;
-        width:0;
+        width: 0;
         left: 0;
         bottom: -10px;
         transition: 0.2s;
     }
-    .list li a:hover:after{
-        width:100%;
-    }
-    .partie1 img{
+
+    .list li a:hover:after {
         width: 100%;
-        margin-top: 100px;
     }
+
+    .partie1 img {
+        width: 100%;
+    }
+
     /* end NAV */
     /*  partie6 Loca */
     .localisation {
         height: 900px;
         text-align: center;
     }
-    .localisation h1{
+
+    .localisation h1 {
         text-align: center;
         font-size: 25px;
         padding-top: 15px;
@@ -1550,71 +1652,339 @@ i{
         width: 100%;
         color: #e28739;
     }
-    .localisation h3{
+
+    .localisation h3 {
         margin-bottom: 25px;
-        font-size: 15px; 
-        }
-    .localisation .partiloca1{
+        font-size: 15px;
+    }
+
+    .localisation .partiloca1 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .loca1 {
+        height: 350px;
+        position: relative;
+        background-color: #141414;
+        width: 30%;
+    }
+
+    .loca1 h1 {
+        font-size: 20px;
+        color: #e28739;
+        margin-bottom: 20px;
+    }
+
+    .loca1 p {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .pass {
+        margin-top: 20px;
+    }
+
+    i {
+        text-align: right;
+        margin-top: 10px;
+    }
+
+    .localisation iframe {
+        width: 50%;
+        height: 350px;
+    }
+
+    .loca1 .fas {
+        color: #e28739;
+        margin-right: 15px;
+    }
+
+    .localisation img {
+        width: 80px;
+    }
+
+    .grouppic {
+        display: flex;
+        justify-content: center;
+    }
+
+    .grouppic img {
+        margin-left: 10px;
+        width: 50px;
+    }
+
+    .ret {
+        height: 2px;
+        background-color: white;
+        transform: rotate(90deg);
+    }
+
+    .localisation .partiloca2 {
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .loca2 {
+        height: 350px;
+        padding-top: 10px;
+        background-color: #141414;
+        width: 30%;
+        box-sizing: border-box;
+
+    }
+
+    .loca2 img {
+        width: 50px;
+    }
+
+    .loca2 h1 {
+        font-size: 20px;
+        color: #e28739;
+        margin-bottom: 20px;
+    }
+
+    .loca2 p {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+    }
+
+    .loca2 .fas {
+        color: #e28739;
+        margin-right: 15px;
+
+    }
+
+    .commander {
+        margin-top: 20px;
+        color: white;
+        background-color: #e28739;
+        width: 150px;
+        height: 50px;
+        border-radius: 50px;
+        border: none;
+    }
+
+    /*  end partie6 Loca */
+    /*  partie7 footer */
+    .footer {
+        background-color: #141414;
+        text-align: center;
+    }
+
+    .footer img {
+        width: 200px;
+        margin-right: 15px;
+    }
+
+    .re {
+        height: 2px;
+        margin-top: 15px;
+        width: 15px;
+        background-color: white;
+        transform: rotate(90deg);
+
+    }
+
+    .footer section {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        width: 100px;
+    }
+
+    .footer .fab {
+        color: white;
+    }
+
+    /*  end partie7 footer */
+}
+
+@media screen and (min-width:1301px)and (max-width:1400px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* NAV */
+    .nav {
+        background-color: #141414;
+        position: fixed;
+        z-index: 100;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav img {
+        width: 180px;
+        position: absolute;
+        top: 0;
+        left: -40px;
+    }
+
+    .button {
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        display: none;
+    }
+
+    .btn {
+        height: 6px;
+        width: 25px;
+        background-color: #e28739;
+        margin-bottom: 7px;
+    }
+
+    .lien {
+        width: 100%;
+        display: flex;
+    }
+
+    .list {
+        list-style: none;
+        display: flex;
+        position: absolute;
+        right: 260px;
+        top: 40px;
+    }
+
+    .list li a {
+        text-decoration: none;
+        color: #e28739;
+        margin-left: 50px;
+    }
+
+    .list li a {
+        text-decoration: none;
+        margin-left: 30px;
+        position: relative;
+        color: white;
+    }
+
+    .list li a:after {
+        content: "";
+        position: absolute;
+        background-color: #e28739;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.2s;
+    }
+
+    .list li a:hover:after {
+        width: 100%;
+    }
+
+    .partie1 img {
+        width: 100%;
+    }
+
+    /* end NAV */
+    /*  partie6 Loca */
+    .localisation {
+        height: 900px;
+        text-align: center;
+    }
+
+    .localisation h1 {
+        text-align: center;
+        font-size: 25px;
+        padding-top: 15px;
+        margin-bottom: 20px;
+        width: 100%;
+        color: #e28739;
+    }
+
+    .localisation h3 {
+        margin-bottom: 25px;
+        font-size: 15px;
+    }
+
+    .localisation .partiloca1 {
         color: white;
         display: flex;
         justify-content: center;
         margin-bottom: 30px;
 
     }
-    .loca1{
+
+    .loca1 {
         height: 350px;
         position: relative;
         background-color: #141414;
         width: 30%;
     }
-    .loca1 h1{
+
+    .loca1 h1 {
         font-size: 20px;
         color: #e28739;
         margin-bottom: 20px;
     }
-    .loca1 p{
+
+    .loca1 p {
         text-align: center;
         margin-bottom: 20px;
     }
-    .pass{
+
+    .pass {
         margin-top: 20px;
     }
-    i{
+
+    i {
         text-align: right;
         margin-top: 10px;
-   }
-   .localisation iframe{
-       width:50%;
-       height: 350px;
-   }
-    .loca1 .fas{
+    }
+
+    .localisation iframe {
+        width: 50%;
+        height: 350px;
+    }
+
+    .loca1 .fas {
         color: #e28739;
         margin-right: 15px;
     }
-    .localisation img{
+
+    .localisation img {
         width: 80px;
     }
-    .grouppic{
+
+    .grouppic {
         display: flex;
         justify-content: center;
-     }
-    .grouppic img{
+    }
+
+    .grouppic img {
         margin-left: 10px;
         width: 50px;
-     }
-    .ret{
+    }
+
+    .ret {
         height: 2px;
         background-color: white;
         transform: rotate(90deg);
     }
-    .localisation .partiloca2{
+
+    .localisation .partiloca2 {
         color: white;
         text-align: center;
         display: flex;
         justify-content: center;
     }
 
-    .loca2{
+    .loca2 {
         height: 350px;
         padding-top: 10px;
         background-color: #141414;
@@ -1623,223 +1993,523 @@ i{
         box-sizing: border-box;
 
     }
-    .loca2 img{
+
+    .loca2 img {
         width: 50px;
     }
-    .loca2 h1{
+
+    .loca2 h1 {
         font-size: 20px;
         color: #e28739;
         margin-bottom: 20px;
     }
-    .loca2 p{
+
+    .loca2 p {
         text-align: center;
         margin-bottom: 20px;
         margin-top: 20px;
 
     }
-    .loca2 .fas{
+
+    .loca2 .fas {
         color: #e28739;
         margin-right: 15px;
 
     }
-    .commander{
+
+    .commander {
         margin-top: 20px;
         color: white;
         background-color: #e28739;
         width: 150px;
         height: 50px;
-        border-radius:50px;
+        border-radius: 50px;
         border: none;
     }
-    .partie1 img{
+
+    .partie1 img {
         width: 100%;
-        margin-top: 100px;
     }
-/*  end partie6 Loca */
-/*  partie7 footer */
-.footer{
-    background-color: #141414;
-    text-align: center;
-}
-.footer img{
-    width: 200px;
-    margin-right: 15px;
-}
-.re{
-    height: 2px;
-    margin-top: 15px;    
-    width: 20px;
-     background-color: white;
-    transform: rotate(90deg);
 
-}
-.footer section{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;        
-    width: 100px;
-}
-.footer .fab{
-    color: white;
-}
-/*  end partie7 footer */
+    /*  end partie6 Loca */
+    /*  partie7 footer */
+    .footer {
+        background-color: #141414;
+        text-align: center;
+    }
+
+    .footer img {
+        width: 200px;
+        margin-right: 15px;
+    }
+
+    .re {
+        height: 2px;
+        margin-top: 15px;
+        width: 15px;
+        background-color: white;
+        transform: rotate(90deg);
+
+    }
+
+    .footer section {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        width: 100px;
+    }
+
+    .footer .fab {
+        color: white;
+    }
+
+    /*  end partie7 footer */
 }
 
-@media  screen and (min-width:1401px)and (max-width:1600px){
-    *{
+@media screen and (min-width:1401px)and (max-width:1600px) {
+    * {
         margin: 0;
         padding: 0;
     }
-  
+
     /* NAV */
-    .nav{
-        background-color:#141414 ;
+    .nav {
+        background-color: #141414;
         position: fixed;
-        z-index: 100;        
-        height:100px;
+        z-index: 100;
+        height: 100px;
         display: flex;
         justify-content: space-around;
         text-align: center;
         width: 100%;
     }
-    .nav img{
+
+    .nav img {
         width: 180px;
         position: absolute;
         top: 0;
         left: -40px;
     }
-    .button{
+
+    .button {
         height: 30px;
         position: absolute;
         right: 10px;
         top: 30px;
         display: none;
     }
-    .btn{
+
+    .btn {
         height: 6px;
-        width: 25px;   
+        width: 25px;
         background-color: #e28739;
         margin-bottom: 7px;
     }
-    .lien{
+
+    .lien {
         width: 100%;
         display: flex;
     }
-    .list{
+
+    .list {
         list-style: none;
         display: flex;
         position: absolute;
         right: 260px;
         top: 40px;
     }
+
     .list li a {
         text-decoration: none;
         color: #e28739;
         margin-left: 50px;
     }
-    .list li a{
+
+    .list li a {
         text-decoration: none;
         margin-left: 30px;
         position: relative;
         color: white;
     }
-    .list li a:after{
+
+    .list li a:after {
         content: "";
-        position:absolute;
+        position: absolute;
         background-color: #e28739;
         height: 3px;
-        width:0;
+        width: 0;
         left: 0;
         bottom: -10px;
         transition: 0.2s;
     }
-    .list li a:hover:after{
-        width:100%;
-    }
-    .partie1 img{
+
+    .list li a:hover:after {
         width: 100%;
-        margin-top: 100px;
     }
+
+    .partie1 img {
+        width: 100%;
+    }
+
     /* end NAV */
-     /*  partie6 Loca */
-     .localisation {
+    /*  partie6 Loca */
+    .localisation {
         height: 900px;
         text-align: center;
     }
-    .localisation h1{
+
+    .localisation h1 {
         text-align: center;
         font-size: 25px;
-        margin-bottom: 20px;          
+        margin-bottom: 20px;
         padding-top: 20px;
         width: 100%;
         color: #e28739;
     }
-    .localisation h3{
+
+    .localisation h3 {
+        margin-bottom: 25px;
+        font-size: 15px;
+    }
+
+    .localisation .partiloca1 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+
+    }
+
+    .loca1 {
+        height: 350px;
+        position: relative;
+        background-color: #141414;
+        width: 30%;
+    }
+
+    .loca1 h1 {
+        font-size: 20px;
+        color: #e28739;
+        margin-bottom: 20px;
+    }
+
+    .loca1 p {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .pass {
+        margin-top: 20px;
+    }
+
+    i {
+        text-align: right;
+        margin-top: 10px;
+    }
+
+    .localisation iframe {
+        width: 50%;
+        height: 350px;
+    }
+
+    .loca1 .fas {
+        color: #e28739;
+        margin-right: 15px;
+    }
+
+    .localisation img {
+        width: 80px;
+    }
+
+    .grouppic {
+        display: flex;
+        justify-content: center;
+    }
+
+    .grouppic img {
+        margin-left: 10px;
+        width: 50px;
+    }
+
+    .ret {
+        height: 2px;
+        background-color: white;
+        transform: rotate(90deg);
+    }
+
+    .localisation .partiloca2 {
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .loca2 {
+        height: 350px;
+        padding-top: 10px;
+        background-color: #141414;
+        width: 30%;
+        float: left;
+        box-sizing: border-box;
+
+    }
+
+    .loca2 iframe {
+        width: 50%;
+    }
+
+    .loca2 img {
+        width: 50px;
+    }
+
+    .loca2 h1 {
+        font-size: 20px;
+        color: #e28739;
+        margin-bottom: 20px;
+    }
+
+    .loca2 p {
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+    }
+
+    .loca2 .fas {
+        color: #e28739;
+        margin-right: 15px;
+
+    }
+
+    .commander {
+        margin-top: 20px;
+        color: white;
+        background-color: #e28739;
+        width: 150px;
+        height: 50px;
+        border-radius: 50px;
+        border: none;
+    }
+
+    .partie1 img {
+        width: 100%;
+    }
+
+    /*  end partie6 Loca */
+    /*  partie7 footer */
+    .footer {
+        background-color: #141414;
+        text-align: center;
+    }
+
+    .footer img {
+        width: 200px;
+        margin-right: 15px;
+    }
+
+    .re {
+        height: 2px;
+        margin-top: 15px;
+        width: 15px;
+        background-color: white;
+        transform: rotate(90deg);
+
+    }
+
+    .footer section {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        width: 100px;
+    }
+
+    .footer .fab {
+        color: white;
+    }
+
+    /*  end partie7 footer */
+}
+
+@media screen and (min-width:1600px)and (max-width:1800px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* NAV */
+    .nav {
+        background-color: #141414;
+        position: fixed;
+        z-index: 100;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav img {
+        width: 180px;
+        position: absolute;
+        top: 0;
+        left: -40px;
+    }
+
+    .button {
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        display: none;
+    }
+
+    .btn {
+        height: 6px;
+        width: 25px;
+        background-color: #e28739;
+        margin-bottom: 7px;
+    }
+
+    .lien {
+        width: 100%;
+        display: flex;
+    }
+
+    .list {
+        list-style: none;
+        display: flex;
+        position: absolute;
+        right: 360px;
+        top: 40px;
+    }
+
+    .list li a {
+        text-decoration: none;
+        color: #e28739;
+        margin-left: 50px;
+    }
+
+    .list li a {
+        text-decoration: none;
+        margin-left: 30px;
+        position: relative;
+        color: white;
+    }
+
+    .list li a:after {
+        content: "";
+        position: absolute;
+        background-color: #e28739;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.2s;
+    }
+
+    .list li a:hover:after {
+        width: 100%;
+    }
+
+    .partie1 img {
+        width: 100%;
+    }
+
+    /* end NAV */
+    /*  partie6 Loca */
+    .localisation {
+        height: 900px;
+        text-align: center;
+    }
+
+    .localisation h1 {
+        text-align: center;
+        font-size: 25px;
+        padding-top: 15px;
+        margin-bottom: 20px;
+        width: 100%;
+        color: #e28739;
+    }
+
+    .localisation h3 {
         margin-bottom: 25px;
         font-size: 15px;
 
     }
-    .localisation .partiloca1{
+
+    .localisation .partiloca1 {
         color: white;
         display: flex;
         justify-content: center;
         margin-bottom: 30px;
 
     }
-    .loca1{
+
+    .loca1 {
         height: 350px;
         position: relative;
         background-color: #141414;
         width: 30%;
     }
-    .loca1 h1{
+
+    .loca1 h1 {
         font-size: 20px;
         color: #e28739;
         margin-bottom: 20px;
     }
-    .loca1 p{
+
+    .loca1 p {
         text-align: center;
         margin-bottom: 20px;
     }
-    .pass{
+
+    .pass {
         margin-top: 20px;
     }
-    i{
+
+    i {
         text-align: right;
         margin-top: 10px;
-   }
-   .localisation iframe{
-       width:50%;
-       height: 350px;
-   }
-    .loca1 .fas{
+    }
+
+    .localisation iframe {
+        width: 50%;
+        height: 350px;
+    }
+
+    .loca1 .fas {
         color: #e28739;
         margin-right: 15px;
     }
-    .localisation img{
+
+    .localisation img {
         width: 80px;
     }
-    .grouppic{
+
+    .grouppic {
         display: flex;
         justify-content: center;
-     }
-    .grouppic img{
+    }
+
+    .grouppic img {
         margin-left: 10px;
         width: 50px;
-     }
-    .ret{
+    }
+
+    .ret {
         height: 2px;
         background-color: white;
         transform: rotate(90deg);
     }
-    .localisation .partiloca2{
+
+    .localisation .partiloca2 {
         color: white;
         text-align: center;
         display: flex;
         justify-content: center;
     }
 
-    .loca2{
+    .loca2 {
         height: 350px;
         padding-top: 10px;
         background-color: #141414;
@@ -1848,377 +2518,172 @@ i{
         box-sizing: border-box;
 
     }
-    .loca2 iframe{
+
+    .loca2 iframe {
         width: 50%;
     }
-    .loca2 img{
+
+    .loca2 img {
         width: 50px;
     }
-    .loca2 h1{
+
+    .loca2 h1 {
         font-size: 20px;
         color: #e28739;
         margin-bottom: 20px;
     }
-    .loca2 p{
+
+    .loca2 p {
         text-align: center;
         margin-bottom: 20px;
         margin-top: 20px;
 
     }
-    .loca2 .fas{
+
+    .loca2 .fas {
         color: #e28739;
         margin-right: 15px;
 
     }
-    .commander{
+
+    .commander {
         margin-top: 20px;
         color: white;
         background-color: #e28739;
         width: 150px;
         height: 50px;
-        border-radius:50px;
+        border-radius: 50px;
         border: none;
     }
-    .partie1 img{
-        width: 100%;
-        margin-top: 100px;
-    }
-/*  end partie6 Loca */
-/*  partie7 footer */
-.footer{
-    background-color: #141414;
-    text-align: center;
-}
-.footer img{
-    width: 200px;
-    margin-right: 15px;
-}
-.re{
-    height: 2px;
-    margin-top: 15px;    
-    width: 20px;
-    background-color: white;
-    transform: rotate(90deg);
 
-}
-.footer section{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;        
-    width: 100px;
-}
-.footer .fab{
-    color: white;
-}
-/*  end partie7 footer */
-}
-@media  screen and (min-width:1600px)and (max-width:1800px){
-    *{
-        margin: 0;
-        padding: 0;
-    }
-  
-    /* NAV */
-    .nav{
-        background-color:#141414 ;
-        position: fixed;
-        z-index: 100;        
-        height:100px;
-        display: flex;
-        justify-content: space-around;
-        text-align: center;
-        width: 100%;
-    }
-    .nav img{
-        width: 180px;
-        position: absolute;
-        top: 0;
-        left: -40px;
-    }
-    .button{
-        height: 30px;
-        position: absolute;
-        right: 10px;
-        top: 30px;
-        display: none;
-    }
-    .btn{
-        height: 6px;
-        width: 25px;   
-        background-color: #e28739;
-        margin-bottom: 7px;
-    }
-    .lien{
-        width: 100%;
-        display: flex;
-    }
-    .list{
-        list-style: none;
-        display: flex;
-        position: absolute;
-        right: 360px;
-        top: 40px;
-    }
-    .list li a {
-        text-decoration: none;
-        color: #e28739;
-        margin-left: 50px;
-    }
-    .list li a{
-        text-decoration: none;
-        margin-left: 30px;
-        position: relative;
-        color: white;
-    }
-    .list li a:after{
-        content: "";
-        position:absolute;
-        background-color: #e28739;
-        height: 3px;
-        width:0;
-        left: 0;
-        bottom: -10px;
-        transition: 0.2s;
-    }
-    .list li a:hover:after{
-        width:100%;
-    }
-    .partie1 img{
-        width: 100%;
-        margin-top: 100px;
-    }
-    /* end NAV */
-    /*  partie6 Loca */
-    .localisation {
-        height: 900px;
-        text-align: center;
-    }
-    .localisation h1{
-        text-align: center;
-        font-size: 25px;
-        padding-top: 15px;
-        margin-bottom: 20px;
-        width: 100%;
-        color: #e28739;
-    }
-    .localisation h3{
-        margin-bottom: 25px;
-        font-size: 15px;
-
-    }
-    .localisation .partiloca1{
-        color: white;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 30px;
-
-    }
-    .loca1{
-        height: 350px;
-        position: relative;
+    /*  end partie6 Loca */
+    /*  partie7 footer */
+    .footer {
         background-color: #141414;
-        width: 30%;
-    }
-    .loca1 h1{
-        font-size: 20px;
-        color: #e28739;
-        margin-bottom: 20px;
-    }
-    .loca1 p{
         text-align: center;
-        margin-bottom: 20px;
     }
-    .pass{
-        margin-top: 20px;
-    }
-    i{
-        text-align: right;
-        margin-top: 10px;
-   }
-   .localisation iframe{
-       width:50%;
-       height: 350px;
-   }
-    .loca1 .fas{
-        color: #e28739;
+
+    .footer img {
+        width: 200px;
         margin-right: 15px;
     }
-    .localisation img{
-        width: 80px;
-    }
-    .grouppic{
-        display: flex;
-        justify-content: center;
-     }
-    .grouppic img{
-        margin-left: 10px;
-        width: 50px;
-     }
-    .ret{
+
+    .re {
         height: 2px;
+        margin-top: 15px;
+        width: 15px;
         background-color: white;
         transform: rotate(90deg);
+
     }
-    .localisation .partiloca2{
-        color: white;
-        text-align: center;
+
+    .footer section {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        width: 100px;
     }
 
-    .loca2{
-        height: 350px;
-        padding-top: 10px;
-        background-color: #141414;
-        width: 30%;
-        float: left;
-        box-sizing: border-box;
-
-    }
-    .loca2 iframe{
-        width: 50%;
-    }
-    .loca2 img{
-        width: 50px;
-    }
-    .loca2 h1{
-        font-size: 20px;
-        color: #e28739;
-        margin-bottom: 20px;
-    }
-    .loca2 p{
-        text-align: center;
-        margin-bottom: 20px;
-        margin-top: 20px;
-
-    }
-    .loca2 .fas{
-        color: #e28739;
-        margin-right: 15px;
-
-    }
-    .commander{
-        margin-top: 20px;
+    .footer .fab {
         color: white;
-        background-color: #e28739;
-        width: 150px;
-        height: 50px;
-        border-radius:50px;
-        border: none;
     }
 
-/*  end partie6 Loca */
-/*  partie7 footer */
-.footer{
-    background-color: #141414;
-    text-align: center;
-}
-.footer img{
-    width: 200px;
-    margin-right: 15px;
-}
-.re{
-    height: 2px;
-    margin-top: 15px;    
-    width: 20px;    
-    background-color: white;
-    transform: rotate(90deg);
-
-}
-.footer section{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;        
-    width: 100px;
-}
-.footer .fab{
-    color: white;
-}
-/*  end partie7 footer */
+    /*  end partie7 footer */
 }
 
-@media  screen and (min-width:1801px)and (max-width:2000px){
-    *{
+@media screen and (min-width:1801px)and (max-width:2000px) {
+    * {
         margin: 0;
         padding: 0;
     }
-  
+
     /* NAV */
-    .nav{
-        background-color:#141414 ;
+    .nav {
+        background-color: #141414;
         position: fixed;
-        z-index: 100;        
-        height:100px;
+        z-index: 100;
+        height: 100px;
         display: flex;
         justify-content: space-around;
         text-align: center;
         width: 100%;
     }
-    .nav img{
+
+    .nav img {
         width: 180px;
         position: absolute;
         top: 0;
         left: -40px;
     }
-    .button{
+
+    .button {
         height: 30px;
         position: absolute;
         right: 10px;
         top: 30px;
         display: none;
     }
-    .btn{
+
+    .btn {
         height: 6px;
-        width: 25px;   
+        width: 25px;
         background-color: #e28739;
         margin-bottom: 7px;
     }
-    .lien{
+
+    .lien {
         width: 100%;
         display: flex;
     }
-    .list{
+
+    .list {
         list-style: none;
         display: flex;
         position: absolute;
         right: 360px;
         top: 40px;
     }
+
     .list li a {
         text-decoration: none;
         color: #e28739;
         margin-left: 50px;
     }
-    .list li a{
+
+    .list li a {
         text-decoration: none;
         margin-left: 30px;
         position: relative;
         color: white;
     }
-    .list li a:after{
+
+    .list li a:after {
         content: "";
-        position:absolute;
+        position: absolute;
         background-color: #e28739;
         height: 3px;
-        width:0;
+        width: 0;
         left: 0;
         bottom: -10px;
         transition: 0.2s;
     }
-    .list li a:hover:after{
-        width:100%;
-    }
-    .partie1 img{
+
+    .list li a:hover:after {
         width: 100%;
-        margin-top: 100px;
     }
+
+    .partie1 img {
+        width: 100%;
+    }
+
     /* end NAV */
     /*  partie6 Loca */
     .localisation {
         height: 900px;
         text-align: center;
     }
-    .localisation h1{
+
+    .localisation h1 {
         text-align: center;
         font-size: 25px;
         padding-top: 15px;
@@ -2226,73 +2691,87 @@ i{
         width: 100%;
         color: #e28739;
     }
-    .localisation h3{
+
+    .localisation h3 {
         margin-bottom: 15px;
         font-size: 15px;
 
     }
-    .localisation .partiloca1{
+
+    .localisation .partiloca1 {
         color: white;
         display: flex;
         justify-content: center;
         margin-bottom: 30px;
 
     }
-    .loca1{
+
+    .loca1 {
         height: 350px;
         position: relative;
         background-color: #141414;
         width: 30%;
     }
-    .loca1 h1{
+
+    .loca1 h1 {
         font-size: 20px;
         color: #e28739;
         margin-bottom: 20px;
     }
-    .loca1 p{
+
+    .loca1 p {
         text-align: center;
         margin-bottom: 20px;
     }
-    .pass{
+
+    .pass {
         margin-top: 20px;
     }
-    i{
+
+    i {
         text-align: right;
         margin-top: 10px;
-   }
-   .localisation iframe{
-       width:50%;
-       height: 350px;
-   }
-    .loca1 .fas{
+    }
+
+    .localisation iframe {
+        width: 50%;
+        height: 350px;
+    }
+
+    .loca1 .fas {
         color: #e28739;
         margin-right: 15px;
     }
-    .localisation img{
+
+    .localisation img {
         width: 80px;
     }
-    .grouppic{
+
+    .grouppic {
         display: flex;
         justify-content: center;
 
-     }
-    .grouppic img{
+    }
+
+    .grouppic img {
         margin-left: 10px;
         width: 50px;
-     }
-    .ret{
+    }
+
+    .ret {
         height: 2px;
         background-color: white;
         transform: rotate(90deg);
     }
-    .localisation .partiloca2{
+
+    .localisation .partiloca2 {
         color: white;
         text-align: center;
         display: flex;
         justify-content: center;
     }
 
-    .loca2{
+    .loca2 {
         height: 350px;
         padding-top: 10px;
         background-color: #141414;
@@ -2301,151 +2780,174 @@ i{
         box-sizing: border-box;
 
     }
-    .loca2 iframe{
+
+    .loca2 iframe {
         width: 50%;
     }
-    .loca2 img{
+
+    .loca2 img {
         width: 50px;
     }
-    .loca2 h1{
+
+    .loca2 h1 {
         font-size: 20px;
         color: #e28739;
         margin-bottom: 20px;
     }
-    .loca2 p{
+
+    .loca2 p {
         text-align: center;
         margin-bottom: 20px;
         margin-top: 20px;
 
     }
-    .loca2 .fas{
+
+    .loca2 .fas {
         color: #e28739;
         margin-right: 15px;
 
     }
-    .commander{
+
+    .commander {
         margin-top: 20px;
         color: white;
         background-color: #e28739;
         width: 150px;
         height: 50px;
-        border-radius:50px;
+        border-radius: 50px;
         border: none;
     }
 
-/*  end partie6 Loca */
-/*  partie7 footer */
-.footer{
-    background-color: #141414;
-    text-align: center;
-}
-.footer img{
-    width: 200px;
-    margin-right: 15px;
-}
-.re{
-    height: 2px;
-    margin-top: 15px;    
-    width: 20px;    
-    background-color: white;
-    transform: rotate(90deg);
+    /*  end partie6 Loca */
+    /*  partie7 footer */
+    .footer {
+        background-color: #141414;
+        text-align: center;
+    }
 
-}
-.footer section{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;        
-    width: 100px;
-}
-.footer .fab{
-    color: white;
-}
-/*  end partie7 footer */
-}
-/* end 2000px*/ 
+    .footer img {
+        width: 200px;
+        margin-right: 15px;
+    }
 
-@media  screen and (min-width:2001px){
-    *{
+    .re {
+        height: 2px;
+        margin-top: 15px;
+        width: 15px;
+        background-color: white;
+        transform: rotate(90deg);
+
+    }
+
+    .footer section {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        width: 100px;
+    }
+
+    .footer .fab {
+        color: white;
+    }
+
+    /*  end partie7 footer */
+}
+
+/* end 2000px*/
+
+@media screen and (min-width:2001px) {
+    * {
         margin: 0;
         padding: 0;
     }
-  
+
     /* NAV */
-    .nav{
-        background-color:#141414 ;
+    .nav {
+        background-color: #141414;
         position: fixed;
-        z-index: 100;        
-        height:100px;
+        z-index: 100;
+        height: 100px;
         display: flex;
         justify-content: space-around;
         text-align: center;
         width: 100%;
     }
-    .nav img{
+
+    .nav img {
         width: 180px;
         position: absolute;
         top: 0;
         left: -40px;
     }
-    .button{
+
+    .button {
         height: 30px;
         position: absolute;
         right: 10px;
         top: 30px;
         display: none;
     }
-    .btn{
+
+    .btn {
         height: 6px;
-        width: 25px;   
+        width: 25px;
         background-color: #e28739;
         margin-bottom: 7px;
     }
-    .lien{
+
+    .lien {
         width: 100%;
         display: flex;
     }
-    .list{
+
+    .list {
         list-style: none;
         display: flex;
         position: absolute;
         right: 360px;
         top: 40px;
     }
+
     .list li a {
         text-decoration: none;
         color: #e28739;
         margin-left: 50px;
     }
-    .list li a{
+
+    .list li a {
         text-decoration: none;
         margin-left: 30px;
         position: relative;
         color: white;
     }
-    .list li a:after{
+
+    .list li a:after {
         content: "";
-        position:absolute;
+        position: absolute;
         background-color: #e28739;
         height: 3px;
-        width:0;
+        width: 0;
         left: 0;
         bottom: -10px;
         transition: 0.2s;
     }
-    .list li a:hover:after{
-        width:100%;
-    }
-    .partie1 img{
+
+    .list li a:hover:after {
         width: 100%;
-        margin-top: 100px;
     }
+
+    .partie1 img {
+        width: 100%;
+    }
+
     /* end NAV */
     /*  partie6 Loca */
     .localisation {
         height: 900px;
         text-align: center;
     }
-    .localisation h1{
+
+    .localisation h1 {
         text-align: center;
         font-size: 25px;
         padding-top: 15px;
@@ -2453,72 +2955,86 @@ i{
         width: 100%;
         color: #e28739;
     }
-    .localisation h3{
+
+    .localisation h3 {
         margin-bottom: 15px;
         font-size: 15px;
 
     }
-    .localisation .partiloca1{
+
+    .localisation .partiloca1 {
         color: white;
         display: flex;
         justify-content: center;
         margin-bottom: 30px;
 
     }
-    .loca1{
+
+    .loca1 {
         height: 350px;
         position: relative;
         background-color: #141414;
         width: 30%;
     }
-    .loca1 h1{
+
+    .loca1 h1 {
         font-size: 20px;
         color: #e28739;
         margin-bottom: 20px;
     }
-    .loca1 p{
+
+    .loca1 p {
         text-align: center;
         margin-bottom: 20px;
     }
-    .pass{
+
+    .pass {
         margin-top: 20px;
     }
-    i{
+
+    i {
         text-align: right;
         margin-top: 10px;
-   }
-   .localisation iframe{
-       width:50%;
-       height: 350px;
-   }
-    .loca1 .fas{
+    }
+
+    .localisation iframe {
+        width: 50%;
+        height: 350px;
+    }
+
+    .loca1 .fas {
         color: #e28739;
         margin-right: 15px;
     }
-    .localisation img{
+
+    .localisation img {
         width: 80px;
     }
-    .grouppic{
+
+    .grouppic {
         display: flex;
         justify-content: center;
-     }
-    .grouppic img{
+    }
+
+    .grouppic img {
         margin-left: 10px;
         width: 50px;
-     }
-    .ret{
+    }
+
+    .ret {
         height: 2px;
         background-color: white;
         transform: rotate(90deg);
     }
-    .localisation .partiloca2{
+
+    .localisation .partiloca2 {
         color: white;
         text-align: center;
         display: flex;
         justify-content: center;
     }
 
-    .loca2{
+    .loca2 {
         height: 350px;
         padding-top: 10px;
         background-color: #141414;
@@ -2527,64 +3043,75 @@ i{
         box-sizing: border-box;
 
     }
-    .loca2 iframe{
+
+    .loca2 iframe {
         width: 50%;
     }
-    .loca2 img{
+
+    .loca2 img {
         width: 50px;
     }
-    .loca2 h1{
+
+    .loca2 h1 {
         font-size: 20px;
         color: #e28739;
         margin-bottom: 20px;
     }
-    .loca2 p{
+
+    .loca2 p {
         text-align: center;
         margin-bottom: 20px;
         margin-top: 20px;
 
     }
-    .loca2 .fas{
+
+    .loca2 .fas {
         color: #e28739;
         margin-right: 15px;
 
     }
-    .commander{
+
+    .commander {
         margin-top: 20px;
         color: white;
         background-color: #e28739;
         width: 150px;
         height: 50px;
-        border-radius:50px;
+        border-radius: 50px;
         border: none;
     }
 
-/*  end partie6 Loca */
-/*  partie7 footer */
-.footer{
-    background-color: #141414;
-    text-align: center;
-}
-.footer img{
-    width: 200px;
-    margin-right: 15px;
-}
-.re{
-    height: 2px;
-    margin-top: 15px;    
-    width: 20px;    
-    background-color: white;
-    transform: rotate(90deg);
+    /*  end partie6 Loca */
+    /*  partie7 footer */
+    .footer {
+        background-color: #141414;
+        text-align: center;
+    }
 
-}
-.footer section{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;        
-    width: 100px;
-}
-.footer .fab{
-    color: white;
-}
-/*  end partie7 footer */
+    .footer img {
+        width: 200px;
+        margin-right: 15px;
+    }
+
+    .re {
+        height: 2px;
+        margin-top: 15px;
+        width: 15px;
+        background-color: white;
+        transform: rotate(90deg);
+
+    }
+
+    .footer section {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        width: 100px;
+    }
+
+    .footer .fab {
+        color: white;
+    }
+
+    /*  end partie7 footer */
 }
