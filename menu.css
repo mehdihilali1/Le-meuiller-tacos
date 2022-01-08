@@ -1,12 +1,15 @@
-
-*{
+* {
     font-family: 'Roboto', sans-serif;
-    letter-spacing:.5px;
+    letter-spacing: .5px;
 }
-.food section h1{
+.btn {
+    border-radius: 17px;
+}
+.food section h1 {
     font-size: 20px;
 }
-.footer .fab:hover{
+
+.footer .fab:hover {
     color: #e28739;
 }
 
@@ -17,12 +20,13 @@
     width: 100%;
     height: 100%;
     background: #000;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
     z-index: 50000;
 
 }
+
 .lettre {
     color: #484848;
     font-size: 80px;
@@ -30,40 +34,49 @@
     margin-bottom: 150px;
     animation: flash 1.2s linear infinite;
 }
+
 @keyframes flash {
     0% {
         color: #e28739;
         text-shadow: 0 0 7px #e28739;
     }
+
     90% {
         color: #484848;
         text-shadow: none;
     }
+
     100% {
         color: #e28739;
         text-shadow: 0 0 7px #e28739;
     }
 }
 
-.lettre:nth-child(1){
+.lettre:nth-child(1) {
     animation-delay: 0.1s;
 }
-.lettre:nth-child(2){
+
+.lettre:nth-child(2) {
     animation-delay: 0.2s;
 }
-.lettre:nth-child(3){
+
+.lettre:nth-child(3) {
     animation-delay: 0.3s;
 }
-.lettre:nth-child(4){
+
+.lettre:nth-child(4) {
     animation-delay: 0.4s;
 }
-.lettre:nth-child(5){
+
+.lettre:nth-child(5) {
     animation-delay: 0.5s;
 }
-.lettre:nth-child(6){
+
+.lettre:nth-child(6) {
     animation-delay: 0.6s;
 }
-.lettre:nth-child(7){
+
+.lettre:nth-child(7) {
     animation-delay: 0.7s;
 }
 
@@ -72,3852 +85,4613 @@
     opacity: 0;
     transition: opacity 0.4s ease-out;
 }
+
 /* end load*/
-@media  screen and (min-width:320px)and (max-width:449px) {
+@media screen and (min-width:320px)and (max-width:449px) {
     /* loader */
 
-.loader {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    z-index: 50000;
-}
-.lettre {
-    color: #484848;
-    font-size: 30px;
-    letter-spacing: 15px;
-    margin-bottom: 150px;
-    animation: flash 1.2s linear infinite;
-}
-@keyframes flash {
-    0% {
-        color: #e28739;
-        text-shadow: 0 0 7px #e28739;
+    .loader {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 50000;
     }
-    90% {
+
+    .lettre {
         color: #484848;
-        text-shadow: none;
+        font-size: 30px;
+        letter-spacing: 15px;
+        margin-bottom: 150px;
+        animation: flash 1.2s linear infinite;
     }
-    100% {
-        color: #e28739;
-        text-shadow: 0 0 7px #e28739;
+
+    @keyframes flash {
+        0% {
+            color: #e28739;
+            text-shadow: 0 0 7px #e28739;
+        }
+
+        90% {
+            color: #484848;
+            text-shadow: none;
+        }
+
+        100% {
+            color: #e28739;
+            text-shadow: 0 0 7px #e28739;
+        }
     }
-}
 
-.lettre:nth-child(1){
-    animation-delay: 0.1s;
-}
-.lettre:nth-child(2){
-    animation-delay: 0.2s;
-}
-.lettre:nth-child(3){
-    animation-delay: 0.3s;
-}
-.lettre:nth-child(4){
-    animation-delay: 0.4s;
-}
-.lettre:nth-child(5){
-    animation-delay: 0.5s;
-}
-.lettre:nth-child(6){
-    animation-delay: 0.6s;
-}
-.lettre:nth-child(7){
-    animation-delay: 0.7s;
-}
+    .lettre:nth-child(1) {
+        animation-delay: 0.1s;
+    }
+
+    .lettre:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+
+    .lettre:nth-child(3) {
+        animation-delay: 0.3s;
+    }
+
+    .lettre:nth-child(4) {
+        animation-delay: 0.4s;
+    }
+
+    .lettre:nth-child(5) {
+        animation-delay: 0.5s;
+    }
+
+    .lettre:nth-child(6) {
+        animation-delay: 0.6s;
+    }
+
+    .lettre:nth-child(7) {
+        animation-delay: 0.7s;
+    }
 
 
-.fondu-out {
-    opacity: 0;
-    transition: opacity 0.4s ease-out;
-}
-/* end load*/
-    *{
+    .fondu-out {
+        opacity: 0;
+        transition: opacity 0.4s ease-out;
+    }
+
+    /* end load*/
+    * {
         margin: 0;
         padding: 0;
     }
+
     /* NAV */
-    .nav{
-        background-color:#141414 ;
+    .nav {
+        background-color: #141414;
         position: fixed;
-        height:100px;
+        height: 100px;
         display: flex;
         justify-content: space-around;
         text-align: center;
         width: 100%;
         z-index: 1000;
     }
-    .nav img{
+
+    .nav img {
         width: 180px;
         position: absolute;
         top: 0;
         left: -60px;
     }
-    .button{
+
+    .button {
         height: 30px;
         position: absolute;
         right: 10px;
         top: 30px;
     }
-    .btn{
+
+    .btn {
         height: 6px;
-        width: 25px;   
+        width: 25px;
         background-color: #e28739;
         margin-bottom: 7px;
     }
-    .lien{
+
+    .lien {
         margin-top: 100px;
         height: 150px;
-        background-color: #141414 ;
+        background-color: #141414;
         width: 100%;
         display: none;
         z-index: 22;
     }
-    .list{
+
+    .list {
         list-style: none;
         margin-top: 10px;
     }
+
     .list li a {
         text-decoration: none;
         color: #e28739;
-        
+
     }
-    .list li{
+
+    .list li {
         margin-bottom: 15px;
     }
-    /* end NAV */
 
+    /* end NAV */
+    .mobile {
+        background-color: #141414;
+        height: 0px;
+        padding-top: 100px;
+        text-align: center;
+        display: block;
+        transition: .7s ease;
+        overflow: hidden;
+    }
+
+    .mobile a {
+        color: #e28739;
+        display: inline-block;
+        text-decoration: none;
+        margin-top: 15px;
+    }
+
+    .listm {
+        color: black;
+        list-style: none;
+    }
     /* partie 1 */
 
-    .partie1 img{
+    .partie1 img {
         width: 100%;
-        margin-top: 100px;
     }
+
     /* end partie 1 */
 
     /* partie 2 */
-    .discription{
+    .discription {
         height: 150px;
         color: white;
         background-color: #141414;
         margin-top: -4px;
-        padding-top:30px ;
+        padding-top: 30px;
     }
-    .discription h1{
+
+    .discription h1 {
         margin-bottom: 10px;
         color: #e28739;
         text-align: center;
     }
-    .discription p{
+
+    .discription p {
         text-align: center;
     }
+
     /* end partie 2 */
 
     /*  partie 3 */
 
-    .food{
-        background-color:#f6f6f6;
+    .food {
+        background-color: #f6f6f6;
         height: 7880px;
     }
-    .nos{
-        font-size:25px ;
+
+    .nos {
+        font-size: 25px;
         padding-top: 20px;
         text-align: center;
     }
- 
-    .gratine{
+
+    .gratine {
         text-align: center;
     }
-    .gratine section{
-        text-align: center;   
+
+    .gratine section {
+        text-align: center;
         height: 300px;
         background-color: white;
         width: 250px;
         margin: 30px auto;
-    
+
     }
-    .gratine img{
+
+    .gratine img {
         width: 150px;
         height: 90px;
         margin: 5px;
 
     }
-    .gratine h1{
+
+    .gratine h1 {
         font-size: 26px;
         text-align: center;
         padding-top: 20px;
     }
-    .gratine p{
+
+    .gratine p {
         width: 200px;
         text-align: center;
         margin-left: 20px;
     }
-    
-    .speciaux{
+
+    .speciaux {
         text-align: center;
     }
-    .speciaux section{
-        text-align: center;   
+
+    .speciaux section {
+        text-align: center;
         height: 280px;
         background-color: white;
         width: 250px;
         margin-top: 35px;
         margin: 30px auto;
     }
-    .speciaux img{
+
+    .speciaux img {
         width: 150px;
         height: 100px;
-    
+
     }
-    .speciaux h1{
+
+    .speciaux h1 {
         font-size: 26px;
         text-align: center;
         padding-top: 20px;
     }
-    .speciaux p{
+
+    .speciaux p {
         width: 200px;
         text-align: center;
         margin-left: 20px;
     }
 
-    .clasique{
+    .clasique {
         text-align: center;
     }
-    .clasique section{
-        text-align: center;   
+
+    .clasique section {
+        text-align: center;
         height: 240px;
         background-color: white;
         width: 250px;
         margin-top: 35px;
         margin: 30px auto;
     }
-    .clasique img{
+
+    .clasique img {
         width: 150px;
         height: 100px;
     }
-    .clasique h1{
+
+    .clasique h1 {
         font-size: 26px;
         text-align: center;
         padding-top: 20px;
     }
-    .clasique p{
+
+    .clasique p {
         width: 200px;
         text-align: center;
         margin-left: 20px;
     }
 
-    .burger{
+    .burger {
         text-align: center;
     }
-    .burger section{
-        text-align: center;   
+
+    .burger section {
+        text-align: center;
         height: 280px;
         background-color: white;
         width: 250px;
         margin-top: 35px;
         margin: 30px auto;
     }
-    .burger img{
+
+    .burger img {
         width: 150px;
         height: 100px;
     }
-    .burger h1{
+
+    .burger h1 {
         font-size: 26px;
         text-align: center;
         padding-top: 20px;
     }
-    .burger p{
+
+    .burger p {
         width: 200px;
         text-align: center;
         margin-left: 20px;
     }
 
-    .glace{
+    .glace {
         text-align: center;
     }
-    .glace section{
-        text-align: center;   
+
+    .glace section {
+        text-align: center;
         height: 250px;
         background-color: white;
         width: 250px;
         margin-top: 35px;
         margin: 30px auto;
     }
-    .glace img{
+
+    .glace img {
         width: 150px;
         height: 100px;
     }
-    .glace h1{
+
+    .glace h1 {
         font-size: 26px;
         text-align: center;
         padding-top: 20px;
     }
-    .glace p{
+
+    .glace p {
         width: 200px;
         text-align: center;
         margin-left: 20px;
     }
 
-    .appetizers{
+    .appetizers {
         text-align: center;
-        background-color:#f6f6f6;
+        background-color: #f6f6f6;
     }
-    .appetizers .gg{
-        text-align: center;   
+
+    .appetizers .gg {
+        text-align: center;
         height: 240px;
         width: 250px;
         margin-top: 35px;
         margin: 20px auto;
     }
-    .appetizers img{
+
+    .appetizers img {
         width: 150px;
         height: 100px;
     }
-    .appetizers h1{
+
+    .appetizers h1 {
         font-size: 26px;
         text-align: center;
         padding-top: 20px;
     }
-    .appetizers p{
+
+    .appetizers p {
         width: 200px;
         text-align: center;
     }
-    .group{
+
+    .group {
         display: flex;
     }
-   
+
     /* end partie 3 */
 
     /*  partie7 footer */
-    .footer{
+    .footer {
         background-color: #141414;
         text-align: center;
     }
-    .footer img{
+
+    .footer img {
         width: 200px;
         margin-right: 15px;
     }
-    .re{
+
+    .re {
         height: 2px;
         background-color: white;
         transform: rotate(90deg);
-        margin-top: 10px;       
-         width: 20px;
+        margin-top: 10px;
+        width: 15px;
 
     }
-    .footer section{
+
+    .footer section {
         display: flex;
         justify-content: space-evenly;
-        margin: 0 auto;        
-        width: 100px;
+        margin: 0 auto;
+        width: 60px;
     }
-    .footer .fab{
+
+    .footer .fab {
         color: white;
     }
-/*  end partie7 footer */
+
+    /*  end partie7 footer */
 }
+
 /*  1 */
-@media  screen and (min-width:450px)and (max-width:599px) {
+@media screen and (min-width:450px)and (max-width:599px) {
     /* loader */
 
-.loader {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    z-index: 50000;
-}
-.lettre {
-    color: #484848;
-    font-size: 40px;
-    letter-spacing: 15px;
-    margin-bottom: 150px;
-    animation: flash 1.2s linear infinite;
-}
-@keyframes flash {
-    0% {
-        color: #e28739;
-        text-shadow: 0 0 7px #e28739;
+    .loader {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 50000;
     }
-    90% {
+
+    .lettre {
         color: #484848;
-        text-shadow: none;
+        font-size: 40px;
+        letter-spacing: 15px;
+        margin-bottom: 150px;
+        animation: flash 1.2s linear infinite;
     }
-    100% {
-        color: #e28739;
-        text-shadow: 0 0 7px #e28739;
+
+    @keyframes flash {
+        0% {
+            color: #e28739;
+            text-shadow: 0 0 7px #e28739;
+        }
+
+        90% {
+            color: #484848;
+            text-shadow: none;
+        }
+
+        100% {
+            color: #e28739;
+            text-shadow: 0 0 7px #e28739;
+        }
     }
-}
 
-.lettre:nth-child(1){
-    animation-delay: 0.1s;
-}
-.lettre:nth-child(2){
-    animation-delay: 0.2s;
-}
-.lettre:nth-child(3){
-    animation-delay: 0.3s;
-}
-.lettre:nth-child(4){
-    animation-delay: 0.4s;
-}
-.lettre:nth-child(5){
-    animation-delay: 0.5s;
-}
-.lettre:nth-child(6){
-    animation-delay: 0.6s;
-}
-.lettre:nth-child(7){
-    animation-delay: 0.7s;
-}
+    .lettre:nth-child(1) {
+        animation-delay: 0.1s;
+    }
+
+    .lettre:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+
+    .lettre:nth-child(3) {
+        animation-delay: 0.3s;
+    }
+
+    .lettre:nth-child(4) {
+        animation-delay: 0.4s;
+    }
+
+    .lettre:nth-child(5) {
+        animation-delay: 0.5s;
+    }
+
+    .lettre:nth-child(6) {
+        animation-delay: 0.6s;
+    }
+
+    .lettre:nth-child(7) {
+        animation-delay: 0.7s;
+    }
 
 
-.fondu-out {
-    opacity: 0;
-    transition: opacity 0.4s ease-out;
-}
-/* end load*/
-    *{
+    .fondu-out {
+        opacity: 0;
+        transition: opacity 0.4s ease-out;
+    }
+
+    /* end load*/
+    * {
         margin: 0;
         padding: 0;
     }
+
     /* NAV */
-    .nav{
-        background-color:#141414 ;
+    .nav {
+        background-color: #141414;
         position: fixed;
         z-index: 1000;
-        height:100px;
+        height: 100px;
         display: flex;
         justify-content: space-around;
         text-align: center;
         width: 100%;
     }
-    .nav img{
+
+    .nav img {
         width: 180px;
         position: absolute;
         top: 0;
         left: -60px;
     }
-    .button{
+
+    .button {
         height: 30px;
         position: absolute;
         right: 10px;
         top: 30px;
     }
-    .btn{
+
+    .btn {
         height: 6px;
-        width: 25px;   
+        width: 25px;
         background-color: #e28739;
         margin-bottom: 7px;
     }
-    .lien{
+
+    .lien {
         margin-top: 100px;
         height: 170px;
-        background-color: #141414 ;
+        background-color: #141414;
         width: 100%;
         display: none;
     }
-    .list{
+
+    .list {
         list-style: none;
         margin-top: 10px;
     }
+
     .list li a {
         text-decoration: none;
         color: #e28739;
-        
+
     }
-    .list li{
+
+    .list li {
         margin-bottom: 15px;
     }
+
     /* end NAV */
+    .mobile {
+        background-color: #141414;
+        height: 0px;
+        padding-top: 100px;
+        text-align: center;
+        display: block;
+        transition: .7s ease;
+        overflow: hidden;
+    }
 
-        /* partie 1 */
+    .mobile a {
+        color: #e28739;
+        display: inline-block;
+        text-decoration: none;
+        margin-top: 15px;
+    }
 
-        .partie1 img{
-            width: 100%;
-            margin-top: 100px;
-        }
-        /* end partie 1 */
-    
-        /* partie 2 */
-        .discription{
-            height: 130px;
-            color: white;
-            background-color: #141414;
-            margin-top: -4px;
-            padding-top:30px ;
-        }
-        .discription h1{
-            margin-bottom: 10px;
-            color: #e28739;
-            text-align: center;
-        }
-        .discription p{
-            text-align: center;        }
-        /* end partie 2 */
-    
-        /*  partie 3 */
-    
-        .food{
-            background-color:#f6f6f6;
-            height: 7500px;
-        }
-        .nos{
-            font-size:25px ;
-            padding-top: 20px;
-            text-align: center;
-        }
-        .food section h1{
-            color:#e28739;
-        }
-        .gratine{
-            text-align: center;
-        }
-        .gratine section{
-            text-align: center;   
-            height: 270px;
-            background-color: white;
-            width: 300px;
-            margin-top: 35px;
-            margin: 30px auto;
-        }
-        .gratine img{
-            width: 150px;
-            height: 90px;
-            margin: 5px;
-        }
-        .gratine h1{
-            font-size: 26px;
-            text-align: center;
-            padding-top: 20px;
-        }
-        .gratine p{            
-            text-align: center;
-            width: 280px;
-            margin-left: 10px;
-        }
-        
-        .speciaux{
-            text-align: center;
-        }
-        .speciaux section{
-            text-align: center;   
-            height: 270px;
-            background-color: white;
-            width: 300px;
-            margin-top: 35px;
-            margin: 30px auto;
-        }
-        .speciaux img{
-            width: 150px;
-            height: 100px;
-        }
-        .speciaux h1{
-            font-size: 26px;
-            text-align: center;
-            padding-top: 20px;
-        }
-        .speciaux p{
-            text-align: center;
-            width: 280px;
-            margin-left: 10px;
-        }
-    
-        .clasique{
-            text-align: center;
-        }
-        .clasique section{
-            text-align: center;   
-            height: 230px;
-            background-color: white;
-            width: 300px;
-            margin-top: 35px;
-            margin: 30px auto;
-        }
-        .clasique img{
-            width: 150px;
-            height: 100px;
-        }
-        .clasique h1{
-            font-size: 26px;
-            text-align: center;
-            padding-top: 20px;
-        }
-        .clasique p{
-            width: 200px;
-            text-align: center;
-            margin-left: 45px;
-        }
-    
-        .burger{
-            text-align: center;
-        }
-        .burger section{
-            text-align: center;   
-            height: 250px;
-            background-color: white;
-            width: 300px;
-            margin-top: 35px;
-            margin: 30px auto;
-        }
-        .burger img{
-            width: 150px;
-            height: 100px;
-        }
-        .burger h1{
-            font-size: 26px;
-            text-align: center;
-            padding-top: 20px;
-        }
-        .burger p{
-            text-align: center;
-            width: 280px;
-            margin-left: 10px;
-        }
-    
-        .glace{
-            text-align: center;
-        }
-        .glace section{
-            text-align: center;   
-            height: 220px;
-            background-color: white;
-            width: 300px;
-            margin-top: 35px;
-            margin: 30px auto;
-        }
-        .glace img{
-            width: 150px;
-            height: 100px;
-        }
-        .glace h1{
-            font-size: 26px;
-            text-align: center;
-            padding-top: 20px;
-        }
-        .glace p{
-            text-align: center;
-            width: 280px;
-            margin-left: 10px;
-        }
-    
-        .appetizers{
-            text-align: center;
-            background-color:#f6f6f6;
-        }
-        .appetizers .gg{
-            text-align: center;   
-            height: 230px;
-            width: 300px;
-            margin-top: 35px;
-            margin: 30px auto;
-        }
-        .appetizers img{
-            width: 150px;
-            height: 100px;
-        }
-        .appetizers h1{
-            font-size: 26px;
-            text-align: center;
-            padding-top: 20px;
-        }
-        .appetizers p{
-            width: 200px;
-            text-align: center;
-        }
-        .group{
-            display: flex;
-        }
-       
-        /* end partie 3 */
+    .listm {
+        color: black;
+        list-style: none;
+    }
+
+    /* partie 1 */
+
+    .partie1 img {
+        width: 100%;
+    }
+
+    /* end partie 1 */
+
+    /* partie 2 */
+    .discription {
+        height: 130px;
+        color: white;
+        background-color: #141414;
+        margin-top: -4px;
+        padding-top: 30px;
+    }
+
+    .discription h1 {
+        margin-bottom: 10px;
+        color: #e28739;
+        text-align: center;
+    }
+
+    .discription p {
+        text-align: center;
+    }
+
+    /* end partie 2 */
+
+    /*  partie 3 */
+
+    .food {
+        background-color: #f6f6f6;
+        height: 7500px;
+    }
+
+    .nos {
+        font-size: 25px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .food section h1 {
+        color: #e28739;
+    }
+
+    .gratine {
+        text-align: center;
+    }
+
+    .gratine section {
+        text-align: center;
+        height: 270px;
+        background-color: white;
+        width: 300px;
+        margin-top: 35px;
+        margin: 30px auto;
+    }
+
+    .gratine img {
+        width: 150px;
+        height: 90px;
+        margin: 5px;
+    }
+
+    .gratine h1 {
+        font-size: 26px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .gratine p {
+        text-align: center;
+        width: 280px;
+        margin-left: 10px;
+    }
+
+    .speciaux {
+        text-align: center;
+    }
+
+    .speciaux section {
+        text-align: center;
+        height: 270px;
+        background-color: white;
+        width: 300px;
+        margin-top: 35px;
+        margin: 30px auto;
+    }
+
+    .speciaux img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .speciaux h1 {
+        font-size: 26px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .speciaux p {
+        text-align: center;
+        width: 280px;
+        margin-left: 10px;
+    }
+
+    .clasique {
+        text-align: center;
+    }
+
+    .clasique section {
+        text-align: center;
+        height: 230px;
+        background-color: white;
+        width: 300px;
+        margin-top: 35px;
+        margin: 30px auto;
+    }
+
+    .clasique img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .clasique h1 {
+        font-size: 26px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .clasique p {
+        width: 200px;
+        text-align: center;
+        margin-left: 45px;
+    }
+
+    .burger {
+        text-align: center;
+    }
+
+    .burger section {
+        text-align: center;
+        height: 250px;
+        background-color: white;
+        width: 300px;
+        margin-top: 35px;
+        margin: 30px auto;
+    }
+
+    .burger img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .burger h1 {
+        font-size: 26px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .burger p {
+        text-align: center;
+        width: 280px;
+        margin-left: 10px;
+    }
+
+    .glace {
+        text-align: center;
+    }
+
+    .glace section {
+        text-align: center;
+        height: 220px;
+        background-color: white;
+        width: 300px;
+        margin-top: 35px;
+        margin: 30px auto;
+    }
+
+    .glace img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .glace h1 {
+        font-size: 26px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .glace p {
+        text-align: center;
+        width: 280px;
+        margin-left: 10px;
+    }
+
+    .appetizers {
+        text-align: center;
+        background-color: #f6f6f6;
+    }
+
+    .appetizers .gg {
+        text-align: center;
+        height: 230px;
+        width: 300px;
+        margin-top: 35px;
+        margin: 30px auto;
+    }
+
+    .appetizers img {
+        width: 150px;
+        height: 100px;
+    }
+
+    .appetizers h1 {
+        font-size: 26px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .appetizers p {
+        width: 200px;
+        text-align: center;
+    }
+
+    .group {
+        display: flex;
+    }
+
+    /* end partie 3 */
 
     /*  partie7 footer */
-    .footer{
+    .footer {
         background-color: #141414;
         text-align: center;
     }
-    .footer img{
+
+    .footer img {
         width: 200px;
         margin-right: 15px;
     }
-    .re{
-        height: 2px;
-        margin-top: 10px;       
-        width: 20px;       
-         background-color: white;
-        transform: rotate(90deg);
 
+    .re {
+        height: 2px;
+        margin-top: 10px;
+        width: 10px;
+        background-color: white;
+        transform: rotate(90deg);
     }
-    .footer section{
+
+    .footer section {
         display: flex;
         justify-content: space-evenly;
-        margin: 0 auto;        
-        width: 100px;
+        margin: 0 auto;
+        width: 70px;
     }
-    .footer .fab{
+
+    .footer .fab {
         color: white;
     }
-/*  end partie7 footer */
+
+    /*  end partie7 footer */
+
 }
+
 /* 2 */
 
-@media  screen and (min-width:600px)and (max-width:769px) {
+@media screen and (min-width:600px)and (max-width:769px) {
     /* loader */
 
-.loader {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    z-index: 50000;
-}
-.lettre {
-    color: #484848;
-    font-size: 50px;
-    letter-spacing: 15px;
-    margin-bottom: 150px;
-    animation: flash 1.2s linear infinite;
-}
-@keyframes flash {
-    0% {
-        color: #e28739;
-        text-shadow: 0 0 7px #e28739;
+    .loader {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 50000;
     }
-    90% {
+
+    .lettre {
         color: #484848;
-        text-shadow: none;
+        font-size: 50px;
+        letter-spacing: 15px;
+        margin-bottom: 150px;
+        animation: flash 1.2s linear infinite;
     }
-    100% {
-        color: #e28739;
-        text-shadow: 0 0 7px #e28739;
+
+    @keyframes flash {
+        0% {
+            color: #e28739;
+            text-shadow: 0 0 7px #e28739;
+        }
+
+        90% {
+            color: #484848;
+            text-shadow: none;
+        }
+
+        100% {
+            color: #e28739;
+            text-shadow: 0 0 7px #e28739;
+        }
     }
-}
 
-.lettre:nth-child(1){
-    animation-delay: 0.1s;
-}
-.lettre:nth-child(2){
-    animation-delay: 0.2s;
-}
-.lettre:nth-child(3){
-    animation-delay: 0.3s;
-}
-.lettre:nth-child(4){
-    animation-delay: 0.4s;
-}
-.lettre:nth-child(5){
-    animation-delay: 0.5s;
-}
-.lettre:nth-child(6){
-    animation-delay: 0.6s;
-}
-.lettre:nth-child(7){
-    animation-delay: 0.7s;
-}
+    .lettre:nth-child(1) {
+        animation-delay: 0.1s;
+    }
+
+    .lettre:nth-child(2) {
+        animation-delay: 0.2s;
+    }
+
+    .lettre:nth-child(3) {
+        animation-delay: 0.3s;
+    }
+
+    .lettre:nth-child(4) {
+        animation-delay: 0.4s;
+    }
+
+    .lettre:nth-child(5) {
+        animation-delay: 0.5s;
+    }
+
+    .lettre:nth-child(6) {
+        animation-delay: 0.6s;
+    }
+
+    .lettre:nth-child(7) {
+        animation-delay: 0.7s;
+    }
 
 
-.fondu-out {
-    opacity: 0;
-    transition: opacity 0.4s ease-out;
-}
-/* end load*/
-    *{
+    .fondu-out {
+        opacity: 0;
+        transition: opacity 0.4s ease-out;
+    }
+
+    /* end load*/
+    * {
         margin: 0;
         padding: 0;
     }
+
     /* NAV */
-    .nav{
-        background-color:#141414 ;
+    .nav {
+        background-color: #141414;
         position: fixed;
-        z-index: 1000;        
-        height:100px;
+        z-index: 1000;
+        height: 100px;
         display: flex;
         justify-content: space-around;
         text-align: center;
         width: 100%;
     }
-    .nav img{
+
+    .nav img {
         width: 180px;
         position: absolute;
         top: 0;
         left: -60px;
     }
-    .button{
+
+    .button {
         height: 30px;
         position: absolute;
         right: 10px;
         top: 30px;
     }
-    .btn{
+
+    .btn {
         height: 6px;
-        width: 25px;   
+        width: 25px;
         background-color: #e28739;
         margin-bottom: 7px;
     }
-    .lien{
+
+    .lien {
         margin-top: 100px;
         height: 170px;
-        background-color: #141414 ;
+        background-color: #141414;
         width: 100%;
         display: none;
     }
-    .list{
+
+    .list {
         list-style: none;
         margin-top: 10px;
     }
+
     .list li a {
         text-decoration: none;
         color: #e28739;
-        
+
     }
-    .list li{
+
+    .list li {
         margin-bottom: 15px;
     }
+
     /* end NAV */
+    .mobile {
+        background-color: #141414;
+        height: 0px;
+        padding-top: 100px;
+        text-align: center;
+        display: block;
+        transition: .7s ease;
+        overflow: hidden;
+    }
 
- /* partie 1 */
+    .mobile a {
+        color: #e28739;
+        display: inline-block;
+        text-decoration: none;
+        margin-top: 15px;
+    }
 
- .partie1 img{
-    width: 100%;
-    margin-top: 100px;
-}
-/* end partie 1 */
+    .listm {
+        color: black;
+        list-style: none;
+    }
 
-/* partie 2 */
-.discription{
-    height: 130px;
-    color: white;
-    background-color: #141414;
-    margin-top: -4px;
-    padding-top:30px ;
-}
-.discription h1{
-    margin-bottom: 10px;
-    color: #e28739;
-    text-align: center;
-}
-.discription p{
-    text-align: center;        }
-/* end partie 2 */
+    /* partie 1 */
 
-/*  partie 3 */
+    .partie1 img {
+        width: 100%;
+    }
 
-.food{
-    background-color:#f6f6f6;
-    height: 8000px;
-}
-.nos{
-    font-size:25px ;
-    padding-top: 20px;
-    text-align: center;
-}
-.food section h1{
-    color:#e28739;
-}
-.gratine{
-    text-align: center;
-}
-.gratine section{
-    text-align: center;   
-    height: 300px;
-    background-color: white;
-    width: 350px;
-    margin-top: 35px;
-    margin: 30px auto;
-}
-.gratine img{
-    width: 170px;
-    height: 110px;
-    margin: 5px;
-}
-.gratine h1{
-    font-size: 26px;
-    text-align: center;
-    padding-top: 20px;
-}
-.gratine p{
-    text-align: center;
-    width: 300px;
-    margin-left: 20px;
-}
+    /* end partie 1 */
 
-.speciaux{
-    text-align: center;
-}
-.speciaux section{
-    text-align: center;   
-    height: 290px;
-    background-color: white;
-    width: 350px;
-    margin-top: 35px;
-    margin: 30px auto;
-}
-.speciaux img{
-    width: 170px;
-    height: 120px;
-}
-.speciaux h1{
-    font-size: 26px;
-    text-align: center;
-    padding-top: 20px;
-}
-.speciaux p{
-    text-align: center;
-    width: 300px;
-    margin-left: 20px;
-}
+    /* partie 2 */
+    .discription {
+        height: 130px;
+        color: white;
+        background-color: #141414;
+        margin-top: -4px;
+        padding-top: 30px;
+    }
 
-.clasique{
-    text-align: center;
-}
-.clasique section{
-    text-align: center;   
-    height: 250px;
-    background-color: white;
-    width: 350px;
-    margin-top: 35px;
-    margin: 30px auto;
-}
-.clasique img{
-    width: 170px;
-    height: 120px;
-}
-.clasique h1{
-    font-size: 26px;
-    text-align: center;
-    padding-top: 20px;
-}
-.clasique p{
-    text-align: center;
-    width: 300px;
-    margin-left: 20px;
-}
+    .discription h1 {
+        margin-bottom: 10px;
+        color: #e28739;
+        text-align: center;
+    }
 
-.burger{
-    text-align: center;
-}
-.burger section{
-    text-align: center;   
-    height: 280px;
-    background-color: white;
-    width: 350px;
-    margin-top: 35px;
-    margin: 30px auto;
-}
-.burger img{
-    width: 170px;
-    height: 120px;
-}
-.burger h1{
-    font-size: 26px;
-    text-align: center;
-    padding-top: 20px;
-}
-.burger p{
-    text-align: center;
-    width: 300px;
-    margin-left: 20px;
-}
+    .discription p {
+        text-align: center;
+    }
 
-.glace{
-    text-align: center;
-}
-.glace section{
-    text-align: center;   
-    height: 230px;
-    background-color: white;
-    width: 350px;
-    margin-top: 35px;
-    margin: 30px auto;
-}
-.glace img{
-    width: 170px;
-    height: 120px;
-}
-.glace h1{
-    font-size: 26px;
-    text-align: center;
-    padding-top: 20px;
-}
-.glace p{
-    text-align: center;
-    width: 300px;
-    margin-left: 20px;
-}
+    /* end partie 2 */
 
-.appetizers{
-    text-align: center;
-    background-color:#f6f6f6;
-}
-.appetizers .gg{
-    text-align: center;   
-    width: 360px;
-    margin-top: 35px;
-    margin: 30px auto;
-    height: 240px;
-}
-.appetizers img{
-    width: 170px;
-    height: 120px;}
-.appetizers h1{
-    font-size: 26px;
-    text-align: center;
-    padding-top: 20px;
-}
-.appetizers p{
-    width: 200px;
-    text-align: center;
-}
-.group{
-    display: flex;
-}
+    /*  partie 3 */
 
-/* end partie 3 */
+    .food {
+        background-color: #f6f6f6;
+        height: 8000px;
+    }
+
+    .nos {
+        font-size: 25px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .food section h1 {
+        color: #e28739;
+    }
+
+    .gratine {
+        text-align: center;
+    }
+
+    .gratine section {
+        text-align: center;
+        height: 300px;
+        background-color: white;
+        width: 350px;
+        margin-top: 35px;
+        margin: 30px auto;
+    }
+
+    .gratine img {
+        width: 170px;
+        height: 110px;
+        margin: 5px;
+    }
+
+    .gratine h1 {
+        font-size: 26px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .gratine p {
+        text-align: center;
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .speciaux {
+        text-align: center;
+    }
+
+    .speciaux section {
+        text-align: center;
+        height: 290px;
+        background-color: white;
+        width: 350px;
+        margin-top: 35px;
+        margin: 30px auto;
+    }
+
+    .speciaux img {
+        width: 170px;
+        height: 120px;
+    }
+
+    .speciaux h1 {
+        font-size: 26px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .speciaux p {
+        text-align: center;
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .clasique {
+        text-align: center;
+    }
+
+    .clasique section {
+        text-align: center;
+        height: 250px;
+        background-color: white;
+        width: 350px;
+        margin-top: 35px;
+        margin: 30px auto;
+    }
+
+    .clasique img {
+        width: 170px;
+        height: 120px;
+    }
+
+    .clasique h1 {
+        font-size: 26px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .clasique p {
+        text-align: center;
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .burger {
+        text-align: center;
+    }
+
+    .burger section {
+        text-align: center;
+        height: 280px;
+        background-color: white;
+        width: 350px;
+        margin-top: 35px;
+        margin: 30px auto;
+    }
+
+    .burger img {
+        width: 170px;
+        height: 120px;
+    }
+
+    .burger h1 {
+        font-size: 26px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .burger p {
+        text-align: center;
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .glace {
+        text-align: center;
+    }
+
+    .glace section {
+        text-align: center;
+        height: 230px;
+        background-color: white;
+        width: 350px;
+        margin-top: 35px;
+        margin: 30px auto;
+    }
+
+    .glace img {
+        width: 170px;
+        height: 120px;
+    }
+
+    .glace h1 {
+        font-size: 26px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .glace p {
+        text-align: center;
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .appetizers {
+        text-align: center;
+        background-color: #f6f6f6;
+    }
+
+    .appetizers .gg {
+        text-align: center;
+        width: 360px;
+        margin-top: 35px;
+        margin: 30px auto;
+        height: 240px;
+    }
+
+    .appetizers img {
+        width: 170px;
+        height: 120px;
+    }
+
+    .appetizers h1 {
+        font-size: 26px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .appetizers p {
+        width: 200px;
+        text-align: center;
+    }
+
+    .group {
+        display: flex;
+    }
+
+    /* end partie 3 */
 
     /*  partie7 footer */
-    .footer{
+    .footer {
         background-color: #141414;
         text-align: center;
-        height: 150px;
     }
-    .footer img{
+
+    .footer img {
         width: 200px;
         margin-right: 15px;
     }
-    .re{
+
+    .re {
         height: 2px;
-        margin-top: 10px;       
-        width: 20px;        
+        margin-top: 10px;
+        width: 15px;
         background-color: white;
         transform: rotate(90deg);
 
     }
-    .footer section{
+
+    .footer section {
         display: flex;
         justify-content: space-evenly;
-        margin: 0 auto;        
-        width: 100px;
+        margin: 0 auto;
+        width: 80px;
     }
-    .footer .fab{
+
+    .footer .fab {
         color: white;
     }
-/*  end partie7 footer */
+
+    /*  end partie7 footer */
 
 }
+
 /* 3 */
-@media  screen and (min-width:770px)and (max-width:1024px) {
-    *{
+@media screen and (min-width:770px)and (max-width:1024px) {
+    * {
         margin: 0;
         padding: 0;
     }
+
     /* NAV */
-  
-    .nav{
-        background-color:#141414 ;
+
+    .nav {
+        background-color: #141414;
         position: fixed;
-        z-index: 1000;        
-        height:100px;
+        z-index: 1000;
+        height: 100px;
         display: flex;
         justify-content: space-around;
         text-align: center;
         width: 100%;
     }
-    .nav img{
+
+    .nav img {
         width: 180px;
         position: absolute;
         top: 0;
         left: -60px;
     }
-    .button{
+
+    .button {
         height: 30px;
         position: absolute;
         right: 10px;
         top: 30px;
     }
-    .btn{
+
+    .btn {
         height: 6px;
-        width: 25px;   
+        width: 25px;
         background-color: #e28739;
         margin-bottom: 7px;
     }
-    .lien{
+
+    .lien {
         margin-top: 100px;
         height: 170px;
-        background-color: #141414 ;
+        background-color: #141414;
         width: 100%;
         display: none;
     }
-    .list{
+
+    .list {
         list-style: none;
         margin-top: 10px;
     }
+
     .list li a {
         text-decoration: none;
         color: #e28739;
-        
+
     }
-    .list li{
+
+    .list li {
         margin-bottom: 15px;
     }
+
     /* end NAV */
+    .mobile {
+        background-color: #141414;
+        height: 0px;
+        padding-top: 100px;
+        text-align: center;
+        display: block;
+        transition: .7s ease;
+        overflow: hidden;
+    }
 
-/* partie 1 */
+    .mobile a {
+        color: #e28739;
+        display: inline-block;
+        text-decoration: none;
+        margin-top: 15px;
+    }
 
-.partie1 img{
-    width: 100%;
-    margin-top: 100px;
-}
-/* end partie 1 */
+    .listm {
+        color: black;
+        list-style: none;
+    }
 
-/* partie 2 */
-.discription{
-    height: 130px;
-    color: white;
-    background-color: #141414;
-    margin-top: -4px;
-    padding-top:30px ;
-}
-.discription h1{
-    margin-bottom: 10px;
-    color: #e28739;
-    text-align: center;
-}
-.discription p{
-    text-align: center;     
-}
-/* end partie 2 */
+    /* partie 1 */
 
-/*  partie 3 */
+    .partie1 img {
+        width: 100%;
+    }
 
-.food{
-    background-color:#f6f6f6;
-    height: 8100px;
-}
-.nos{
-    font-size:25px ;
-    padding-top: 15px;
-    text-align: center;
-}
-.food section h1{
-    color:#e28739;
-}
-.gratine{
-    text-align: center;
-}
-.gratine section{
-    text-align: center;   
-    height: 300px;
-    background-color: white;
-    width: 350px;
-    margin-top: 35px;
-    margin: 30px auto;
-}
-.gratine img{
-    width: 180px;
-    height: 120px;
-}
-.gratine h1{
-    font-size: 26px;
-    text-align: center;
-    padding-top: 20px;
-}
-.gratine p{
-    text-align: center;
-    width: 300px;
-    margin-left: 20px;
-}
+    /* end partie 1 */
 
-.speciaux{
-    text-align: center;
-}
-.speciaux section{
-    text-align: center;   
-    height: 300px;
-    background-color: white;
-    width: 350px;
-    margin-top: 35px;
-    margin: 30px auto;
-}
-.speciaux img{
-    width: 180px;
-    height: 130px;
-}
-.speciaux h1{
-    font-size: 26px;
-    text-align: center;
-    padding-top: 20px;
-}
-.speciaux p{
-    text-align: center;
-    width: 300px;
-    margin-left: 20px;
-}
+    /* partie 2 */
+    .discription {
+        height: 130px;
+        color: white;
+        background-color: #141414;
+        margin-top: -4px;
+        padding-top: 30px;
+    }
 
-.clasique{
-    text-align: center;
-}
-.clasique section{
-    text-align: center;   
-    height: 250px;
-    background-color: white;
-    width: 350px;
-    margin-top: 35px;
-    margin: 30px auto;
-}
-.clasique img{
-    width: 180px;
-    height: 130px;
-}
-.clasique h1{
-    font-size: 26px;
-    text-align: center;
-    padding-top: 20px;
-}
-.clasique p{
-    text-align: center;
-    width: 300px;
-    margin-left: 20px;
-}
+    .discription h1 {
+        margin-bottom: 10px;
+        color: #e28739;
+        text-align: center;
+    }
 
-.burger{
-    text-align: center;
-}
-.burger section{
-    text-align: center;   
-    height: 290px;
-    background-color: white;
-    width: 350px;
-    margin-top: 35px;
-    margin: 30px auto;
-}
-.burger img{
-    width: 180px;
-    height: 130px;
-}
-.burger h1{
-    font-size: 26px;
-    text-align: center;
-    padding-top: 20px;
-}
-.burger p{
-    text-align: center;
-    width: 300px;
-    margin-left: 20px;
-}
+    .discription p {
+        text-align: center;
+    }
 
-.glace{
-    text-align: center;
-}
-.glace section{
-    text-align: center;   
-    height: 250px;
-    background-color: white;
-    width: 350px;
-    margin-top: 35px;
-    margin: 30px auto;
-}
-.glace img{
-    width: 180px;
-    height: 130px;
-}
-.glace h1{
-    font-size: 26px;
-    text-align: center;
-    padding-top: 20px;
-}
-.glace p{
-    text-align: center;
-    width: 300px;
-    margin-left: 20px;
-}
+    /* end partie 2 */
 
-.appetizers{
-    text-align: center;
-    background-color:#f6f6f6;
-}
-.appetizers .gg{
-    text-align: center;   
-    height: 250px;
-    width: 350px;
-    margin-top: 35px;
-    margin: 30px auto;
-}
-.appetizers img{
-    width: 180px;
-    height: 130px;
-}
-.appetizers h1{
-    font-size: 26px;
-    text-align: center;
-    padding-top: 20px;
-}
-.appetizers p{
-    width: 200px;
-    text-align: center;
-}
-.group{
-    display: flex;
-}
+    /*  partie 3 */
 
-/* end partie 3 */
+    .food {
+        background-color: #f6f6f6;
+        height: 8100px;
+    }
+
+    .nos {
+        font-size: 25px;
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    .food section h1 {
+        color: #e28739;
+    }
+
+    .gratine {
+        text-align: center;
+    }
+
+    .gratine section {
+        text-align: center;
+        height: 300px;
+        background-color: white;
+        width: 350px;
+        margin-top: 35px;
+        margin: 30px auto;
+    }
+
+    .gratine img {
+        width: 180px;
+        height: 120px;
+    }
+
+    .gratine h1 {
+        font-size: 26px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .gratine p {
+        text-align: center;
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .speciaux {
+        text-align: center;
+    }
+
+    .speciaux section {
+        text-align: center;
+        height: 300px;
+        background-color: white;
+        width: 350px;
+        margin-top: 35px;
+        margin: 30px auto;
+    }
+
+    .speciaux img {
+        width: 180px;
+        height: 130px;
+    }
+
+    .speciaux h1 {
+        font-size: 26px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .speciaux p {
+        text-align: center;
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .clasique {
+        text-align: center;
+    }
+
+    .clasique section {
+        text-align: center;
+        height: 250px;
+        background-color: white;
+        width: 350px;
+        margin-top: 35px;
+        margin: 30px auto;
+    }
+
+    .clasique img {
+        width: 180px;
+        height: 130px;
+    }
+
+    .clasique h1 {
+        font-size: 26px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .clasique p {
+        text-align: center;
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .burger {
+        text-align: center;
+    }
+
+    .burger section {
+        text-align: center;
+        height: 290px;
+        background-color: white;
+        width: 350px;
+        margin-top: 35px;
+        margin: 30px auto;
+    }
+
+    .burger img {
+        width: 180px;
+        height: 130px;
+    }
+
+    .burger h1 {
+        font-size: 26px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .burger p {
+        text-align: center;
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .glace {
+        text-align: center;
+    }
+
+    .glace section {
+        text-align: center;
+        height: 250px;
+        background-color: white;
+        width: 350px;
+        margin-top: 35px;
+        margin: 30px auto;
+    }
+
+    .glace img {
+        width: 180px;
+        height: 130px;
+    }
+
+    .glace h1 {
+        font-size: 26px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .glace p {
+        text-align: center;
+        width: 300px;
+        margin-left: 20px;
+    }
+
+    .appetizers {
+        text-align: center;
+        background-color: #f6f6f6;
+    }
+
+    .appetizers .gg {
+        text-align: center;
+        height: 250px;
+        width: 350px;
+        margin-top: 35px;
+        margin: 30px auto;
+    }
+
+    .appetizers img {
+        width: 180px;
+        height: 130px;
+    }
+
+    .appetizers h1 {
+        font-size: 26px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .appetizers p {
+        width: 200px;
+        text-align: center;
+    }
+
+    .group {
+        display: flex;
+    }
+
+    /* end partie 3 */
 
 
-    /*  partie7 footer */
-       .footer{
+     /*  partie7 footer */
+     .footer {
         background-color: #141414;
         text-align: center;
     }
-    .footer img{
+
+    .footer img {
         width: 200px;
         margin-right: 15px;
     }
-    .re{
+
+    .re {
+        height: 2px;
+        margin-top: 10px;
+        width: 15px;
+        background-color: white;
+        transform: rotate(90deg);
+
+    }
+
+    .footer section {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        width: 80px;
+    }
+
+    .footer .fab {
+        color: white;
+    }
+
+    /*  end partie7 footer */
+
+}
+
+/* 4 */
+
+@media screen and (min-width:1025px)and (max-width:1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* NAV */
+    .nav {
+        background-color: #141414;
+        position: fixed;
+        z-index: 100;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav img {
+        width: 180px;
+        position: absolute;
+        top: 0;
+        left: -40px;
+    }
+
+    .button {
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        display: none;
+    }
+
+    .btn {
+        height: 6px;
+        width: 25px;
+        background-color: #e28739;
+        margin-bottom: 7px;
+    }
+
+    .lien {
+        width: 100%;
+        display: flex;
+    }
+
+    .list {
+        list-style: none;
+        display: flex;
+        position: absolute;
+        right: 260px;
+        top: 40px;
+    }
+
+    .list li a {
+        text-decoration: none;
+        color: #e28739;
+        margin-left: 50px;
+    }
+
+    .list li a {
+        text-decoration: none;
+        margin-left: 30px;
+        position: relative;
+        color: white;
+    }
+
+    .list li a:after {
+        content: "";
+        position: absolute;
+        background-color: #e28739;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.2s;
+    }
+
+    .list li a:hover:after {
+        width: 100%;
+    }
+
+    /* end NAV */
+
+
+    /* partie 1 */
+
+    .partie1 img {
+        width: 100%;
+    }
+
+    /* end partie 1 */
+
+    /* partie 2 */
+    .discription {
+        color: white;
+        background-color: #141414;
+        margin-top: -4px;
+        padding-top: 30px;
+        height: 130px;
+
+    }
+
+    .discription h1 {
+        margin-bottom: 10px;
+        color: #e28739;
+        text-align: center;
+    }
+
+    .discription p {
+        text-align: center;
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    /* end partie 2 */
+
+    /*  partie 3 food */
+    .food {
+        text-align: center;
+        background-color: #f6f6f6;
+    }
+
+    .nos {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+
+    .gratine section h1 {
+        padding-top: 20px;
+    }
+
+    .gratine {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .gratine section:hover,
+    .speciaux section:hover,
+    .clasique section:hover,
+    .burger section:hover,
+    .appetizers .gg:hover,
+    .glace section:hover {
+        transform: scale(1.1);
+    }
+
+    .gratine section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        height: 240px;
+        transition: .7s ease;
+    }
+
+    .gratine section img {
+        width: 130px;
+        margin: 5px;
+    }
+
+    .gratine section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+
+    .speciaux {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .speciaux section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+    }
+
+    .speciaux section h1 {
+        padding-top: 20px;
+    }
+
+    .speciaux section img {
+        width: 130px;
+    }
+
+    .speciaux section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .clasique .p1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .clasique .p1 section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+    }
+
+    .clasique .p1 section img {
+        width: 130px;
+    }
+
+    .clasique .p1 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 55px;
+    }
+
+    .clasique section h1 {
+        padding-top: 20px;
+    }
+
+    .clasique .p2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .clasique .p2 section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+    }
+
+    .clasique .p2 section img {
+        width: 130px;
+    }
+
+    .clasique .p2 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 55px;
+    }
+
+    .clasique .p3 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .clasique .p3 section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+    }
+
+    .clasique .p3 section img {
+        width: 130px;
+    }
+
+    .clasique .p3 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 55px;
+    }
+
+    .burger div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .burger section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+    }
+
+    .burger section h1 {
+        padding-top: 20px;
+    }
+
+    .burger section img {
+        width: 130px;
+    }
+
+    .burger section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .glace {
+        height: 250px;
+    }
+
+    .glace div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .glace section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        margin-left: 20px;
+        transition: .7s ease;
+    }
+
+    .glace section h1 {
+        padding-top: 20px;
+    }
+
+    .glace section img {
+        width: 130px;
+    }
+
+    .glace section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+
+    .appetizers {
+        height: 400px;
+    }
+
+    .appetizers .n1 {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .appetizers section h1 {
+        padding-top: 20px;
+    }
+
+    .appetizers .n1 section {
+        width: 300px;
+        background-color: white;
+        transition: .7s ease;
+
+    }
+
+    .appetizers .n1 section img {
+        width: 130px;
+    }
+
+    .appetizers .n1 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 80px;
+    }
+
+    .appetizers .n2 {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 25px;
+
+    }
+
+    .appetizers .n2 section {
+        width: 300px;
+        background-color: white;
+        transition: .7s ease;
+    }
+
+    .appetizers .n2 section img {
+        width: 130px;
+    }
+
+    .appetizers .n2 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 80px;
+    }
+
+    .group {
+        display: flex;
+        height: 60px;
+        padding-top: -50px;
+    }
+
+    /* end partie 3 food */
+
+    /*  partie7 footer */
+    .footer {
+        background-color: #141414;
+        text-align: center;
+    }
+
+    .footer img {
+        width: 200px;
+        margin-right: 15px;
+    }
+
+    .re {
         height: 2px;
         width: 15px;
         background-color: white;
         transform: rotate(90deg);
-        margin-top: 5px;
+        margin-top: 10px;
     }
-    .footer section{
+
+    .footer section {
         display: flex;
-        justify-content: space-evenly;
-        margin: 0 auto;        
-        width: 100px;
+        justify-content: center;
+        margin: 0 auto;
     }
-    .footer .fab{
+
+    .footer .fab {
         color: white;
     }
-/*  end partie7 footer */
-}
-/* 4 */
 
-@media  screen and (min-width:1025px)and (max-width:1200px){
-    *{
+    /*  end partie7 footer */
+}
+
+/* 5 */
+@media screen and (min-width:1201px)and (max-width:1300px) {
+    * {
         margin: 0;
         padding: 0;
     }
-  
+
     /* NAV */
-    .nav{
-        background-color:#141414 ;
+    .nav {
+        background-color: #141414;
         position: fixed;
-        z-index: 100;        
-        height:100px;
+        z-index: 100;
+        position: fixed;
+        z-index: 100;
+        height: 100px;
         display: flex;
         justify-content: space-around;
         text-align: center;
         width: 100%;
     }
-    .nav img{
+
+    .nav img {
         width: 180px;
         position: absolute;
         top: 0;
         left: -40px;
     }
-    .button{
+
+    .button {
         height: 30px;
         position: absolute;
         right: 10px;
         top: 30px;
         display: none;
     }
-    .btn{
+
+    .btn {
         height: 6px;
-        width: 25px;   
+        width: 25px;
         background-color: #e28739;
         margin-bottom: 7px;
     }
-    .lien{
+
+    .lien {
         width: 100%;
         display: flex;
     }
-    .list{
+
+    .list {
         list-style: none;
         display: flex;
         position: absolute;
         right: 260px;
         top: 40px;
     }
+
     .list li a {
         text-decoration: none;
         color: #e28739;
         margin-left: 50px;
     }
-    .list li a{
+
+    .list li a {
         text-decoration: none;
         margin-left: 30px;
         position: relative;
         color: white;
     }
-    .list li a:after{
+
+    .list li a:after {
         content: "";
-        position:absolute;
+        position: absolute;
         background-color: #e28739;
         height: 3px;
-        width:0;
+        width: 0;
         left: 0;
         bottom: -10px;
         transition: 0.2s;
     }
-    .list li a:hover:after{
-        width:100%;
+
+    .list li a:hover:after {
+        width: 100%;
     }
-  
+
     /* end NAV */
 
+    /* partie 1 */
 
- /* partie 1 */
+    .partie1 img {
+        width: 100%;
+    }
 
- .partie1 img{
-    width: 100%;
-    margin-top: 100px;
-}
-/* end partie 1 */
+    /* end partie 1 */
 
-/* partie 2 */
-.discription{
-    color: white;
-    background-color: #141414;
-    margin-top: -4px;
-    padding-top:30px ;    
-    height: 130px;
+    /* partie 2 */
+    .discription {
+        padding-top: 30px;
+        height: 130px;
+        color: white;
+        background-color: #141414;
+        margin-top: -4px;
+    }
 
-}
-.discription h1{
-    margin-bottom: 10px;
-    color: #e28739;
-    text-align: center;
-}
-.discription p{
-    text-align: center;
-    width: 800px;
-    margin: 0 auto;        
-}
-/* end partie 2 */
+    .discription h1 {
+        margin-bottom: 10px;
+        color: #e28739;
+        text-align: center;
+    }
 
-/*  partie 3 food */ 
-.food{
-    text-align: center;
-    background-color:#f6f6f6;
-}
-.nos{
-    font-size:25px ;
-    padding-top: 20px;
-}
-.gratine section h1{
-    padding-top: 20px;
-}
-.gratine {
-    display: flex;
-    justify-content:space-around;
-}
-.gratine section:hover,.speciaux section:hover,.clasique section:hover,.burger section:hover,.appetizers .gg:hover,.glace section:hover{
-    transform: scale(1.1);
-}
-.gratine section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    height: 240px;
-    transition: .7s ease;
-}
-.gratine section img{
-    width: 130px;
-    margin: 5px;
-}
-.gratine section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-}
-.speciaux {
-    display: flex;
-    justify-content:space-around;
-}
-.speciaux section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-}
-.speciaux section h1{
-    padding-top: 20px;
-}
-.speciaux section img{
-    width: 130px;
-}
-.speciaux section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    margin-bottom: 20px;
-}
-.clasique .p1{
-    display: flex;
-    justify-content:space-around;
-}
-.clasique .p1 section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-}
-.clasique .p1  section img{
-    width: 130px;
-}
-.clasique .p1  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 55px;
-}
+    .discription p {
+        text-align: center;
+        width: 800px;
+        margin: 0 auto;
+    }
 
-.clasique section h1{
-    padding-top: 20px;
-}
-.clasique .p2{
-    display: flex;
-    justify-content:space-around;
-}
-.clasique .p2 section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-}
-.clasique .p2  section img{
-    width: 130px;
-}
-.clasique .p2  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 55px;
-}
-.clasique .p3{
-    display: flex;
-    justify-content:space-evenly;
-}
-.clasique .p3 section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-}
-.clasique .p3  section img{
-    width: 130px;
-}
-.clasique .p3  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 55px;
-}
+    /* end partie 2 */
 
-.burger div {
-    display: flex;
-    justify-content:space-around;
-}
-.burger section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-}
-.burger section h1{
-    padding-top: 20px;
-}
-.burger section img{
-    width: 130px;
-}
-.burger section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    margin-bottom: 15px;
-}
+    /*  partie 3 food */
+    .food {
+        text-align: center;
+        background-color: #f6f6f6;
+    }
 
-.glace{
-    height: 250px;
-}
-.glace div {
-    display: flex;
-    justify-content:space-around;
-}
-.glace section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    margin-left: 20px;
-    transition: .7s ease;
-}
-.glace section h1{
-    padding-top: 20px;
-}
-.glace section img{
-    width: 130px;
-}
-.glace section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-}
+    .nos {
+        font-size: 25px;
+        padding-top: 20px;
+    }
 
-.appetizers{
-height: 400px;
-}
-.appetizers .n1{
-    display: flex;
-    justify-content:space-around;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-.appetizers section h1{
-    padding-top: 20px;
-}
-.appetizers .n1 section{
-    width: 300px;
-    background-color: white;
-    transition: .7s ease;
+    .gratine section h1 {
+        padding-top: 20px;
+    }
 
-}
-.appetizers .n1  section img{
-    width: 130px;
-}
-.appetizers .n1  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 80px;
-}
+    .gratine {
+        display: flex;
+        justify-content: space-around;
+    }
 
-.appetizers .n2{
-    display: flex;
-    justify-content:space-around;
-    margin-bottom: 25px;
+    .gratine section:hover,
+    .speciaux section:hover,
+    .clasique section:hover,
+    .burger section:hover,
+    .appetizers .gg:hover,
+    .glace section:hover {
+        transform: scale(1.1);
+    }
 
-}
-.appetizers .n2 section{
-    width: 300px;
-    background-color: white;
-    transition: .7s ease;
-}
-.appetizers .n2  section img{
-    width: 130px;
-}
-.appetizers .n2  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 80px;
-}
-.group{
-    display: flex;
-    height: 60px;
-    padding-top: -50px;
-}
-/* end partie 3 food */
+    .gratine section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        height: 240px;
+        transition: .7s ease;
+    }
+
+    .gratine section img {
+        width: 130px;
+        margin: 5px;
+
+    }
+
+    .gratine section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+
+    .speciaux {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .speciaux section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+    }
+
+    .speciaux section h1 {
+        padding-top: 20px;
+    }
+
+    .speciaux section img {
+        width: 130px;
+    }
+
+    .speciaux section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        margin-bottom: 20px;
+
+    }
+
+    .clasique .p1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .clasique .p1 section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+
+    }
+
+    .clasique .p1 section img {
+        width: 130px;
+    }
+
+    .clasique .p1 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 55px;
+    }
+
+    .clasique section h1 {
+        padding-top: 20px;
+    }
+
+    .clasique .p2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .clasique .p2 section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+
+    }
+
+    .clasique .p2 section img {
+        width: 130px;
+    }
+
+    .clasique .p2 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 55px;
+    }
+
+    .clasique .p3 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .clasique .p3 section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+
+    }
+
+    .clasique .p3 section img {
+        width: 130px;
+    }
+
+    .clasique .p3 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 55px;
+    }
+
+    .burger div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .burger section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+
+    }
+
+    .burger section h1 {
+        padding-top: 20px;
+    }
+
+    .burger section img {
+        width: 130px;
+    }
+
+    .burger section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .glace {
+        height: 250px;
+    }
+
+    .glace div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .glace section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        margin-left: 20px;
+        transition: .7s ease;
+
+    }
+
+    .glace section h1 {
+        padding-top: 20px;
+    }
+
+    .glace section img {
+        width: 130px;
+    }
+
+    .glace section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+
+    .appetizers {
+        height: 400px;
+    }
+
+    .appetizers .n1 {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 25px;
+        margin-bottom: 25px;
+
+    }
+
+    .appetizers section h1 {
+        padding-top: 20px;
+    }
+
+    .appetizers .n1 section {
+        width: 300px;
+        background-color: white;
+        transition: .7s ease;
+
+    }
+
+    .appetizers .n1 section img {
+        width: 130px;
+    }
+
+    .appetizers .n1 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 80px;
+    }
+
+    .appetizers .n2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .appetizers .n2 section {
+        width: 300px;
+        background-color: white;
+        transition: .7s ease;
+
+    }
+
+    .appetizers .n2 section img {
+        width: 130px;
+    }
+
+    .appetizers .n2 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 80px;
+    }
+
+    .group {
+        display: flex;
+        height: 60px;
+        padding-top: -50px;
+    }
+
+    /* end partie 3 food */
+
 
     /*  partie7 footer */
-    .footer{
+    .footer {
         background-color: #141414;
         text-align: center;
-        height: 190px;
     }
-    .footer img{
+
+    .footer img {
         width: 200px;
         margin-right: 15px;
     }
-    .re{
+
+    .re {
         height: 2px;
         width: 20px;
         background-color: white;
         transform: rotate(90deg);
-        margin-top: 8px;
+        margin-top: 10px;
     }
-    .footer section{
+
+    .footer section {
         display: flex;
-        justify-content:center;
-        margin: 0 auto;        
+        justify-content: center;
+        margin: 0 auto;
         width: 100px;
     }
-    .footer .fab{
+
+    .footer .fab {
         color: white;
     }
-/*  end partie7 footer */
+
+    /*  end partie7 footer */
 }
-/* 5 */
-@media  screen and (min-width:1201px)and (max-width:1300px){
-    *{
+
+/* 6 */
+@media screen and (min-width:1301px)and (max-width:1400px) {
+    * {
         margin: 0;
         padding: 0;
     }
-  
+
     /* NAV */
-    .nav{
-        background-color:#141414 ;
+    .nav {
+        background-color: #141414;
         position: fixed;
-        z-index: 100;        
-        position: fixed;
-        z-index: 100;height:100px;
+        z-index: 100;
+        height: 100px;
         display: flex;
         justify-content: space-around;
         text-align: center;
         width: 100%;
     }
-    .nav img{
+
+    .nav img {
         width: 180px;
         position: absolute;
         top: 0;
         left: -40px;
     }
-    .button{
+
+    .button {
         height: 30px;
         position: absolute;
         right: 10px;
         top: 30px;
         display: none;
     }
-    .btn{
+
+    .btn {
         height: 6px;
-        width: 25px;   
+        width: 25px;
         background-color: #e28739;
         margin-bottom: 7px;
     }
-    .lien{
+
+    .lien {
         width: 100%;
         display: flex;
     }
-    .list{
+
+    .list {
         list-style: none;
         display: flex;
         position: absolute;
         right: 260px;
         top: 40px;
     }
+
     .list li a {
         text-decoration: none;
         color: #e28739;
         margin-left: 50px;
     }
-    .list li a{
+
+    .list li a {
         text-decoration: none;
         margin-left: 30px;
         position: relative;
         color: white;
     }
-    .list li a:after{
+
+    .list li a:after {
         content: "";
-        position:absolute;
+        position: absolute;
         background-color: #e28739;
         height: 3px;
-        width:0;
+        width: 0;
         left: 0;
         bottom: -10px;
         transition: 0.2s;
     }
-    .list li a:hover:after{
-        width:100%;
+
+    .list li a:hover:after {
+        width: 100%;
     }
+
     /* end NAV */
 
-     /* partie 1 */
+    /* partie 1 */
 
- .partie1 img{
-    width: 100%;
-    margin-top: 100px;
+    .partie1 img {
+        width: 100%;
+    }
 
-}
-/* end partie 1 */
+    /* end partie 1 */
 
-/* partie 2 */
-.discription{
-    padding-top:30px ;    
-    height: 130px;
-    color: white;
+    /* partie 2 */
+    .discription {
+        padding-top: 30px;
+        height: 130px;
+        color: white;
+        background-color: #141414;
+        margin-top: -4px;
+    }
+
+    .discription h1 {
+        margin-bottom: 10px;
+        color: #e28739;
+        text-align: center;
+    }
+
+    .discription p {
+        text-align: center;
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    /* end partie 2 */
+
+    /*  partie 3 food */
+    .food {
+        text-align: center;
+        background-color: #f6f6f6;
+    }
+
+    .nos {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+
+    .gratine section h1 {
+        padding-top: 20px;
+    }
+
+    .gratine {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .gratine section:hover,
+    .speciaux section:hover,
+    .clasique section:hover,
+    .burger section:hover,
+    .appetizers .gg:hover,
+    .glace section:hover {
+        transform: scale(1.1);
+    }
+
+    .gratine section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        height: 240px;
+        transition: .7s ease;
+
+    }
+
+    .gratine section img {
+        width: 130px;
+        margin: 5px;
+
+    }
+
+    .gratine section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+
+    .speciaux {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .speciaux section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+    }
+
+    .speciaux section h1 {
+        padding-top: 20px;
+    }
+
+    .speciaux section img {
+        width: 130px;
+    }
+
+    .speciaux section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .clasique .p1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .clasique .p1 section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+    }
+
+    .clasique .p1 section img {
+        width: 130px;
+    }
+
+    .clasique .p1 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 55px;
+    }
+
+    .clasique section h1 {
+        padding-top: 20px;
+    }
+
+    .clasique .p2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .clasique .p2 section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+    }
+
+    .clasique .p2 section img {
+        width: 130px;
+    }
+
+    .clasique .p2 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 55px;
+    }
+
+    .clasique .p3 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .clasique .p3 section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+    }
+
+    .clasique .p3 section img {
+        width: 130px;
+    }
+
+    .clasique .p3 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 55px;
+    }
+
+    .burger div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .burger section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+    }
+
+    .burger section h1 {
+        padding-top: 20px;
+    }
+
+    .burger section img {
+        width: 130px;
+    }
+
+    .burger section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        margin-bottom: 15px;
+
+    }
+
+    .glace {
+        height: 250px;
+    }
+
+    .glace div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .glace section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        margin-left: 20px;
+        transition: .7s ease;
+    }
+
+    .glace section h1 {
+        padding-top: 20px;
+    }
+
+    .glace section img {
+        width: 130px;
+    }
+
+    .glace section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+
+    .appetizers {
+        height: 400px;
+    }
+
+    .appetizers .n1 {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 25px;
+        margin-top: 20px;
+
+    }
+
+    .appetizers section h1 {
+        padding-top: 20px;
+    }
+
+    .appetizers .n1 section {
+        width: 300px;
+        background-color: white;
+        transition: .7s ease;
+
+    }
+
+    .appetizers .n1 section img {
+        width: 130px;
+    }
+
+    .appetizers .n1 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 80px;
+    }
+
+    .appetizers .n2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .appetizers .n2 section {
+        width: 300px;
+        background-color: white;
+        transition: .7s ease;
+    }
+
+    .appetizers .n2 section img {
+        width: 130px;
+    }
+
+    .appetizers .n2 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 80px;
+    }
+
+    .group {
+        display: flex;
+        height: 60px;
+        padding-top: -50px;
+    }
+
+    /* end partie 3 food */
+
+
+ /*  partie7 footer */
+ .footer {
     background-color: #141414;
-    margin-top: -4px;
-}
-.discription h1{
-    margin-bottom: 10px;
-    color: #e28739;
     text-align: center;
 }
-.discription p{
-    text-align: center;
-    width: 800px;
-    margin: 0 auto;        
-}
-/* end partie 2 */
 
-/*  partie 3 food */ 
-.food{
-    text-align: center;
-    background-color:#f6f6f6;
-}
-.nos{
-    font-size:25px ;
-    padding-top: 20px;
-}
-.gratine section h1{
-    padding-top: 20px;
-}
-.gratine {
-    display: flex;
-    justify-content:space-around;
-}
-.gratine section:hover,.speciaux section:hover,.clasique section:hover,.burger section:hover,.appetizers .gg:hover,.glace section:hover{
-    transform: scale(1.1);
-}
-.gratine section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    height: 240px;
-    transition: .7s ease;
-}
-.gratine section img{
-    width: 130px;
-    margin: 5px;
-
-}
-.gratine section p{
+.footer img {
     width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
+    margin-right: 15px;
 }
-.speciaux {
-    display: flex;
-    justify-content:space-around;
-}
-.speciaux section{
-    width: 300px;
+
+.re {
+    height: 2px;
+    width: 15px;
     background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
+    transform: rotate(90deg);
+    margin-top: 10px;
 }
-.speciaux section h1{
-    padding-top: 20px;
-}
-.speciaux section img{
-    width: 130px;
-}
-.speciaux section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    margin-bottom: 20px;
 
-}
-.clasique .p1{
+.footer section {
     display: flex;
-    justify-content:space-around;
-}
-.clasique .p1 section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-
-}
-.clasique .p1  section img{
-    width: 130px;
-}
-.clasique .p1  section p{
-    width: 200px;
+    justify-content: center;
     margin: 0 auto;
-    font-size: 13px;
-    height: 55px;
-}
-.clasique section h1{
-    padding-top: 20px;
-}
-.clasique .p2{
-    display: flex;
-    justify-content:space-around;
-}
-.clasique .p2 section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-
-}
-.clasique .p2  section img{
-    width: 130px;
-}
-.clasique .p2  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 55px;
-}
-.clasique .p3{
-    display: flex;
-    justify-content:space-evenly;
-}
-.clasique .p3 section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-
-}
-.clasique .p3  section img{
-    width: 130px;
-}
-.clasique .p3  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 55px;
+    width: 100px;
 }
 
-.burger div {
-    display: flex;
-    justify-content:space-around;
-}
-.burger section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-
-}
-.burger section h1{
-    padding-top: 20px;
-}
-.burger section img{
-    width: 130px;
-}
-.burger section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    margin-bottom: 15px;
-}
-.glace{
-    height: 250px;
-}
-.glace div {
-    display: flex;
-    justify-content:space-around;
-}
-.glace section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    margin-left: 20px;
-    transition: .7s ease;
-
-}
-.glace section h1{
-    padding-top: 20px;
-}
-.glace section img{
-    width: 130px;
-}
-.glace section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
+.footer .fab {
+    color: white;
 }
 
-.appetizers{
-    height: 400px;
-}
-.appetizers .n1{
-    display: flex;
-    justify-content:space-around;
-    margin-top: 25px;
-    margin-bottom: 25px;
+/*  end partie7 footer */}
 
-}
-.appetizers section h1{
-    padding-top: 20px;
-}
-.appetizers .n1 section{
-    width: 300px;
-    background-color: white;
-    transition: .7s ease;
+/* 7 */
+@media screen and (min-width:1401px)and (max-width:1600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
 
-}
-.appetizers .n1  section img{
-    width: 130px;
-}
-.appetizers .n1  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 80px;
-}
+    /* NAV */
+    .nav {
+        background-color: #141414;
+        position: fixed;
+        z-index: 100;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+    }
 
-.appetizers .n2{
-    display: flex;
-    justify-content:space-around;
-}
-.appetizers .n2 section{
-    width: 300px;
-    background-color: white;
-    transition: .7s ease;
+    .nav img {
+        width: 180px;
+        position: absolute;
+        top: 0;
+        left: -40px;
+    }
 
-}
-.appetizers .n2  section img{
-    width: 130px;
-}
-.appetizers .n2  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 80px;
-}
-.group{
-    display: flex;
-    height: 60px;
-    padding-top: -50px;
-}
-/* end partie 3 food */
+    .button {
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        display: none;
+    }
+
+    .btn {
+        height: 6px;
+        width: 25px;
+        background-color: #e28739;
+        margin-bottom: 7px;
+    }
+
+    .lien {
+        width: 100%;
+        display: flex;
+    }
+
+    .list {
+        list-style: none;
+        display: flex;
+        position: absolute;
+        right: 260px;
+        top: 40px;
+    }
+
+    .list li a {
+        text-decoration: none;
+        color: #e28739;
+        margin-left: 50px;
+    }
+
+    .list li a {
+        text-decoration: none;
+        margin-left: 30px;
+        position: relative;
+        color: white;
+    }
+
+    .list li a:after {
+        content: "";
+        position: absolute;
+        background-color: #e28739;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.2s;
+    }
+
+    .list li a:hover:after {
+        width: 100%;
+    }
+
+    /* end NAV */
+
+    /* partie 1 */
+
+    .partie1 img {
+        width: 100%;
+    }
+
+    /* end partie 1 */
+
+    /* partie 2 */
+    .discription {
+        padding-top: 30px;
+        height: 130px;
+        color: white;
+        background-color: #141414;
+        margin-top: -4px;
+    }
+
+    .discription h1 {
+        margin-bottom: 10px;
+        color: #e28739;
+        text-align: center;
+    }
+
+    .discription p {
+        text-align: center;
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    /* end partie 2 */
+
+    /*  partie 3 food */
+    .food {
+        text-align: center;
+        background-color: #f6f6f6;
+    }
+
+    .nos {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+
+    .gratine section h1 {
+        padding-top: 20px;
+    }
+
+    .gratine {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .gratine section:hover,
+    .speciaux section:hover,
+    .clasique section:hover,
+    .burger section:hover,
+    .appetizers .gg:hover,
+    .glace section:hover {
+        transform: scale(1.1);
+    }
+
+    .gratine section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        height: 240px;
+        transition: .7s ease;
+
+    }
+
+    .gratine section img {
+        width: 130px;
+        margin: 5px;
+    }
+
+    .gratine section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+
+    .speciaux {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .speciaux section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+    }
+
+    .speciaux section h1 {
+        padding-top: 20px;
+    }
+
+    .speciaux section img {
+        width: 130px;
+    }
+
+    .speciaux section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        margin-bottom: 20px;
+
+    }
+
+    .clasique .p1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .clasique .p1 section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+
+    }
+
+    .clasique .p1 section img {
+        width: 130px;
+    }
+
+    .clasique .p1 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 55px;
+    }
+
+    .clasique section h1 {
+        padding-top: 20px;
+    }
+
+    .clasique .p2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .clasique .p2 section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+
+    }
+
+    .clasique .p2 section img {
+        width: 130px;
+    }
+
+    .clasique .p2 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 55px;
+    }
+
+    .clasique .p3 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .clasique .p3 section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+
+    }
+
+    .clasique .p3 section img {
+        width: 130px;
+    }
+
+    .clasique .p3 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 55px;
+    }
+
+    .burger div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .burger section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+
+    }
+
+    .burger section h1 {
+        padding-top: 20px;
+    }
+
+    .burger section img {
+        width: 130px;
+    }
+
+    .burger section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .glace {
+        height: 250px;
+    }
+
+    .glace div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .glace section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        margin-left: 20px;
+        transition: .7s ease;
+
+    }
+
+    .glace section h1 {
+        padding-top: 20px;
+    }
+
+    .glace section img {
+        width: 130px;
+    }
+
+    .glace section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+
+    .appetizers {
+        height: 400px;
+    }
+
+    .appetizers .n1 {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .appetizers section h1 {
+        padding-top: 20px;
+    }
+
+    .appetizers .n1 section {
+        width: 300px;
+        background-color: white;
+        transition: .7s ease;
+
+    }
+
+    .appetizers .n1 section img {
+        width: 130px;
+    }
+
+    .appetizers .n1 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 80px;
+    }
+
+    .appetizers .n2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .appetizers .n2 section {
+        width: 300px;
+        background-color: white;
+        transition: .7s ease;
+
+    }
+
+    .appetizers .n2 section img {
+        width: 130px;
+    }
+
+    .appetizers .n2 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 80px;
+    }
+
+    .group {
+        display: flex;
+        height: 60px;
+        padding-top: -50px;
+    }
+
+    /* end partie 3 food */
 
 
     /*  partie7 footer */
-    .footer{
+    .footer {
         background-color: #141414;
         text-align: center;
-        height: 190px;
     }
-    .footer img{
+
+    .footer img {
         width: 200px;
         margin-right: 15px;
     }
-    .re{
+
+    .re {
+        height: 2px;
+        width: 15px;
+        background-color: white;
+        transform: rotate(90deg);
+        margin-top: 10px;
+    }
+
+    .footer section {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100px;
+    }
+
+    .footer .fab {
+        color: white;
+    }
+
+    /*  end partie7 footer */
+}
+
+/* 8 */
+@media screen and (min-width:1601px)and (max-width:1800px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* NAV */
+    .nav {
+        background-color: #141414;
+        position: fixed;
+        z-index: 100;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav img {
+        width: 180px;
+        position: absolute;
+        top: 0;
+        left: -40px;
+    }
+
+    .button {
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        display: none;
+    }
+
+    .btn {
+        height: 6px;
+        width: 25px;
+        background-color: #e28739;
+        margin-bottom: 7px;
+    }
+
+    .lien {
+        width: 100%;
+        display: flex;
+    }
+
+    .list {
+        list-style: none;
+        display: flex;
+        position: absolute;
+        right: 360px;
+        top: 40px;
+    }
+
+    .list li a {
+        text-decoration: none;
+        color: #e28739;
+        margin-left: 50px;
+    }
+
+    .list li a {
+        text-decoration: none;
+        margin-left: 30px;
+        position: relative;
+        color: white;
+    }
+
+    .list li a:after {
+        content: "";
+        position: absolute;
+        background-color: #e28739;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.2s;
+    }
+
+    .list li a:hover:after {
+        width: 100%;
+    }
+
+    /* end NAV */
+
+    /* partie 1 */
+
+    .partie1 img {
+        width: 100%;
+    }
+
+    /* end partie 1 */
+
+    /* partie 2 */
+    .discription {
+        padding-top: 30px;
+        height: 130px;
+        color: white;
+        background-color: #141414;
+        margin-top: -4px;
+    }
+
+    .discription h1 {
+        margin-bottom: 10px;
+        color: #e28739;
+        text-align: center;
+    }
+
+    .discription p {
+        text-align: center;
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    /* end partie 2 */
+
+    /*  partie 3 food */
+    .food {
+        text-align: center;
+        background-color: #f6f6f6;
+    }
+
+    .nos {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+
+    .gratine section h1 {
+        padding-top: 20px;
+    }
+
+    .gratine {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .gratine section:hover,
+    .speciaux section:hover,
+    .clasique section:hover,
+    .burger section:hover,
+    .appetizers .gg:hover,
+    .glace section:hover {
+        transform: scale(1.1);
+    }
+
+    .gratine section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        height: 240px;
+        transition: .7s ease;
+    }
+
+    .gratine section img {
+        width: 130px;
+        margin: 5px;
+    }
+
+    .gratine section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+
+    .speciaux {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .speciaux section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+    }
+
+    .speciaux section h1 {
+        padding-top: 20px;
+    }
+
+    .speciaux section img {
+        width: 130px;
+    }
+
+    .speciaux section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        margin-bottom: 20px;
+
+    }
+
+    .clasique .p1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .clasique .p1 section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+
+    }
+
+    .clasique .p1 section img {
+        width: 130px;
+    }
+
+    .clasique .p1 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 55px;
+    }
+
+    .clasique section h1 {
+        padding-top: 20px;
+    }
+
+    .clasique .p2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .clasique .p2 section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+    }
+
+    .clasique .p2 section img {
+        width: 130px;
+    }
+
+    .clasique .p2 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 55px;
+    }
+
+    .clasique .p3 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .clasique .p3 section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+
+    }
+
+    .clasique .p3 section img {
+        width: 130px;
+    }
+
+    .clasique .p3 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 55px;
+    }
+
+    .burger div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .burger section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+
+    }
+
+    .burger section h1 {
+        padding-top: 20px;
+    }
+
+    .burger section img {
+        width: 130px;
+    }
+
+    .burger section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        margin-bottom: 15px;
+
+    }
+
+    .glace {
+        height: 250px;
+    }
+
+    .glace div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .glace section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        margin-left: 20px;
+        transition: .7s ease;
+
+    }
+
+    .glace section h1 {
+        padding-top: 20px;
+    }
+
+    .glace section img {
+        width: 130px;
+    }
+
+    .glace section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+
+    .appetizers {
+        height: 400px;
+    }
+
+    .appetizers .n1 {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 25px;
+        margin-top: 25px;
+
+    }
+
+    .appetizers section h1 {
+        padding-top: 20px;
+    }
+
+    .appetizers .n1 section {
+        width: 300px;
+        background-color: white;
+        transition: .7s ease;
+
+    }
+
+    .appetizers .n1 section img {
+        width: 130px;
+    }
+
+    .appetizers .n1 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 80px;
+    }
+
+    .appetizers .n2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .appetizers .n2 section {
+        width: 300px;
+        background-color: white;
+        transition: .7s ease;
+
+    }
+
+    .appetizers .n2 section img {
+        width: 130px;
+    }
+
+    .appetizers .n2 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 80px;
+    }
+
+    .group {
+        display: flex;
+        height: 60px;
+        padding-top: -50px;
+    }
+
+    /* end partie 3 food */
+
+
+    /*  partie7 footer */
+    .footer {
+        background-color: #141414;
+        text-align: center;
+        height: 160px;
+    }
+
+    .footer img {
+        width: 200px;
+        margin-right: 15px;
+    }
+
+    .re {
+        height: 2px;
+        width: 15px;
+        background-color: white;
+        transform: rotate(90deg);
+        margin-top: 10px;
+    }
+
+    .footer section {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100px;
+    }
+
+    .footer .fab {
+        color: white;
+    }
+
+    /*  end partie7 footer */
+}
+
+/* 9 */
+@media screen and (min-width:1801px)and (max-width:2000px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* NAV */
+    .nav {
+        background-color: #141414;
+        position: fixed;
+        z-index: 100;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav img {
+        width: 180px;
+        position: absolute;
+        top: 0;
+        left: -40px;
+    }
+
+    .button {
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        display: none;
+    }
+
+    .btn {
+        height: 6px;
+        width: 25px;
+        background-color: #e28739;
+        margin-bottom: 7px;
+    }
+
+    .lien {
+        width: 100%;
+        display: flex;
+    }
+
+    .list {
+        list-style: none;
+        display: flex;
+        position: absolute;
+        right: 360px;
+        top: 40px;
+    }
+
+    .list li a {
+        text-decoration: none;
+        color: #e28739;
+        margin-left: 50px;
+    }
+
+    .list li a {
+        text-decoration: none;
+        margin-left: 30px;
+        position: relative;
+        color: white;
+    }
+
+    .list li a:after {
+        content: "";
+        position: absolute;
+        background-color: #e28739;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.2s;
+    }
+
+    .list li a:hover:after {
+        width: 100%;
+    }
+
+    /* end NAV */
+
+    /* partie 1 */
+
+    .partie1 img {
+        width: 100%;
+    }
+
+    /* end partie 1 */
+
+    /* partie 2 */
+    .discription {
+        padding-top: 30px;
+        height: 130px;
+        color: white;
+        background-color: #141414;
+        margin-top: -4px;
+    }
+
+    .discription h1 {
+        margin-bottom: 10px;
+        color: #e28739;
+        text-align: center;
+    }
+
+    .discription p {
+        text-align: center;
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    /* end partie 2 */
+
+    /*  partie 3 food */
+    .food {
+        text-align: center;
+        background-color: #f6f6f6;
+    }
+
+    .nos {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+
+    .gratine section h1 {
+        padding-top: 20px;
+    }
+
+    .gratine {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .gratine section:hover,
+    .speciaux section:hover,
+    .clasique section:hover,
+    .burger section:hover,
+    .appetizers .gg:hover,
+    .glace section:hover {
+        transform: scale(1.1);
+    }
+
+    .gratine section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        height: 240px;
+        transition: .7s ease;
+
+    }
+
+    .gratine section img {
+        width: 130px;
+        margin: 5px;
+    }
+
+    .gratine section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+
+    .speciaux {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .speciaux section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+
+    }
+
+    .speciaux section h1 {
+        padding-top: 20px;
+    }
+
+    .speciaux section img {
+        width: 130px;
+    }
+
+    .speciaux section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        margin-bottom: 20px;
+
+    }
+
+    .clasique .p1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .clasique .p1 section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+
+    }
+
+    .clasique .p1 section img {
+        width: 130px;
+    }
+
+    .clasique .p1 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 55px;
+    }
+
+    .clasique section h1 {
+        padding-top: 20px;
+    }
+
+    .clasique .p2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .clasique .p2 section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+
+    }
+
+    .clasique .p2 section img {
+        width: 130px;
+    }
+
+    .clasique .p2 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 55px;
+    }
+
+    .clasique .p3 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .clasique .p3 section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+
+    }
+
+    .clasique .p3 section img {
+        width: 130px;
+    }
+
+    .clasique .p3 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 55px;
+    }
+
+    .burger div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .burger section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+
+    }
+
+    .burger section h1 {
+        padding-top: 20px;
+    }
+
+    .burger section img {
+        width: 130px;
+    }
+
+    .burger section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        margin-bottom: 15px;
+
+    }
+
+    .glace {
+        height: 250px;
+    }
+
+    .glace div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .glace section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        margin-left: 20px;
+        transition: .7s ease;
+
+    }
+
+    .glace section h1 {
+        padding-top: 20px;
+    }
+
+    .glace section img {
+        width: 130px;
+    }
+
+    .glace section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+
+    .appetizers {
+        height: 380px;
+    }
+
+    .appetizers .n1 {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+    }
+
+    .appetizers section h1 {
+        padding-top: 20px;
+    }
+
+    .appetizers .n1 section {
+        width: 300px;
+        background-color: white;
+        transition: .7s ease;
+
+    }
+
+    .appetizers .n1 section img {
+        width: 130px;
+    }
+
+    .appetizers .n1 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 80px;
+    }
+
+    .appetizers .n2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .appetizers .n2 section {
+        width: 300px;
+        background-color: white;
+        transition: .7s ease;
+
+    }
+
+    .appetizers .n2 section img {
+        width: 130px;
+    }
+
+    .appetizers .n2 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 80px;
+    }
+
+    .group {
+        display: flex;
+        height: 60px;
+        padding-top: -50px;
+    }
+
+    /* end partie 3 food */
+
+
+    /*  partie7 footer */
+    .footer {
+        background-color: #141414;
+        text-align: center;
+        height: 160px;
+    }
+
+    .footer img {
+        width: 200px;
+        margin-right: 15px;
+    }
+
+    .re {
+        height: 2px;
+        width: 15px;
+        background-color: white;
+        transform: rotate(90deg);
+        margin-top: 10px;
+    }
+
+    .footer section {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100px;
+    }
+
+    .footer .fab {
+        color: white;
+    }
+
+    /*  end partie7 footer */
+}
+
+/* 10 */
+@media screen and (min-width:2001px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* NAV */
+    .nav {
+        background-color: #141414;
+        position: fixed;
+        z-index: 100;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav img {
+        width: 180px;
+        position: absolute;
+        top: 0;
+        left: -40px;
+    }
+
+    .button {
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+        display: none;
+    }
+
+    .btn {
+        height: 6px;
+        width: 25px;
+        background-color: #e28739;
+        margin-bottom: 7px;
+    }
+
+    .lien {
+        width: 100%;
+        display: flex;
+    }
+
+    .list {
+        list-style: none;
+        display: flex;
+        position: absolute;
+        right: 360px;
+        top: 40px;
+    }
+
+    .list li a {
+        text-decoration: none;
+        color: #e28739;
+        margin-left: 50px;
+    }
+
+    .list li a {
+        text-decoration: none;
+        margin-left: 30px;
+        position: relative;
+        color: white;
+    }
+
+    .list li a:after {
+        content: "";
+        position: absolute;
+        background-color: #e28739;
+        height: 3px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.2s;
+    }
+
+    .list li a:hover:after {
+        width: 100%;
+    }
+
+    /* end NAV */
+
+    /* partie 1 */
+
+    .partie1 img {
+        width: 100%;
+    }
+
+    /* end partie 1 */
+
+    /* partie 2 */
+    .discription {
+        padding-top: 30px;
+        height: 130px;
+        color: white;
+        background-color: #141414;
+        margin-top: -4px;
+    }
+
+    .discription h1 {
+        margin-bottom: 10px;
+        color: #e28739;
+        text-align: center;
+    }
+
+    .discription p {
+        text-align: center;
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    /* end partie 2 */
+
+    /*  partie 3 food */
+    .food {
+        text-align: center;
+        background-color: #f6f6f6;
+    }
+
+    .nos {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+
+    .gratine section h1 {
+        padding-top: 20px;
+    }
+
+    .gratine {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .gratine section:hover,
+    .speciaux section:hover,
+    .clasique section:hover,
+    .burger section:hover,
+    .appetizers .gg:hover,
+    .glace section:hover {
+        transform: scale(1.1);
+    }
+
+    .gratine section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        height: 240px;
+        transition: .7s ease;
+
+    }
+
+    .gratine section img {
+        width: 130px;
+        margin: 5px;
+    }
+
+    .gratine section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+
+    .speciaux {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .speciaux section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        height: 240px;
+        transition: .7s ease;
+
+    }
+
+    .speciaux section h1 {
+        padding-top: 20px;
+    }
+
+    .speciaux section img {
+        width: 130px;
+    }
+
+    .speciaux section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+
+    .clasique .p1 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .clasique .p1 section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+
+    }
+
+    .clasique .p1 section img {
+        width: 130px;
+    }
+
+    .clasique .p1 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 80px;
+    }
+
+    .clasique section h1 {
+        padding-top: 20px;
+    }
+
+    .clasique .p2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .clasique .p2 section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+
+    }
+
+    .clasique .p2 section img {
+        width: 130px;
+    }
+
+    .clasique .p2 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 80px;
+    }
+
+    .clasique .p3 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .clasique .p3 section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+
+    }
+
+    .clasique .p3 section img {
+        width: 130px;
+    }
+
+    .clasique .p3 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 80px;
+    }
+
+    .burger div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .burger section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        transition: .7s ease;
+
+    }
+
+    .burger section h1 {
+        padding-top: 20px;
+    }
+
+    .burger section img {
+        width: 130px;
+    }
+
+    .burger section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        margin-bottom: 15px;
+
+    }
+
+    .glace {
+        height: 250px;
+    }
+
+    .glace div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .glace section {
+        width: 300px;
+        background-color: white;
+        margin-top: 30px;
+        margin-left: 20px;
+        transition: .7s ease;
+
+    }
+
+    .glace section h1 {
+        padding-top: 20px;
+    }
+
+    .glace section img {
+        width: 130px;
+    }
+
+    .glace section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+
+    .appetizers {
+        height: 400px;
+    }
+
+    .appetizers .n1 {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .appetizers section h1 {
+        padding-top: 20px;
+    }
+
+    .appetizers .n1 section {
+        width: 300px;
+        background-color: white;
+        transition: .7s ease;
+
+    }
+
+    .appetizers .n1 section img {
+        width: 130px;
+    }
+
+    .appetizers .n1 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 80px;
+    }
+
+    .appetizers .n2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .appetizers .n2 section {
+        width: 300px;
+        background-color: white;
+        transition: .7s ease;
+    }
+
+    .appetizers .n2 section img {
+        width: 130px;
+    }
+
+    .appetizers .n2 section p {
+        width: 200px;
+        margin: 0 auto;
+        font-size: 13px;
+        height: 80px;
+    }
+
+    .group {
+        display: flex;
+        height: 60px;
+        padding-top: -50px;
+    }
+
+    /* end partie 3 food */
+
+
+    /*  partie7 footer */
+    .footer {
+        background-color: #141414;
+        text-align: center;
+        height: 170px;
+    }
+
+    .footer img {
+        width: 200px;
+        margin-right: 15px;
+    }
+
+    .re {
         height: 2px;
         width: 10px;
         background-color: white;
         transform: rotate(90deg);
-        margin-top: 7px;
-    }
-    .footer section{
-        display: flex;
-        justify-content:center;
-        margin: 0 auto;        
-        width: 100px;
-    }
-    .footer .fab{
-        color: white;
-    }
-/*  end partie7 footer */
-}
-/* 6 */
-@media  screen and (min-width:1301px)and (max-width:1400px){
-    *{
-        margin: 0;
-        padding: 0;
-    }
-  
-    /* NAV */
-    .nav{
-        background-color:#141414 ;
-        position: fixed;
-        z-index: 100;        
-        height:100px;
-        display: flex;
-        justify-content: space-around;
-        text-align: center;
-        width: 100%;
-    }
-    .nav img{
-        width: 180px;
-        position: absolute;
-        top: 0;
-        left: -40px;
-    }
-    .button{
-        height: 30px;
-        position: absolute;
-        right: 10px;
-        top: 30px;
-        display: none;
-    }
-    .btn{
-        height: 6px;
-        width: 25px;   
-        background-color: #e28739;
-        margin-bottom: 7px;
-    }
-    .lien{
-        width: 100%;
-        display: flex;
-    }
-    .list{
-        list-style: none;
-        display: flex;
-        position: absolute;
-        right: 260px;
-        top: 40px;
-    }
-    .list li a {
-        text-decoration: none;
-        color: #e28739;
-        margin-left: 50px;
-    }
-    .list li a{
-        text-decoration: none;
-        margin-left: 30px;
-        position: relative;
-        color: white;
-    }
-    .list li a:after{
-        content: "";
-        position:absolute;
-        background-color: #e28739;
-        height: 3px;
-        width:0;
-        left: 0;
-        bottom: -10px;
-        transition: 0.2s;
-    }
-    .list li a:hover:after{
-        width:100%;
-    }
-  
-    /* end NAV */
-
-     /* partie 1 */
-
- .partie1 img{
-    width: 100%;
-    margin-top: 100px;
-
-}
-/* end partie 1 */
-
-/* partie 2 */
-.discription{
-    padding-top:30px ;    
-    height: 130px;    
-    color: white;
-    background-color: #141414;
-    margin-top: -4px;
-}
-.discription h1{
-    margin-bottom: 10px;
-    color: #e28739;
-    text-align: center;
-}
-.discription p{
-    text-align: center;
-    width: 800px;
-    margin: 0 auto;        
-}
-/* end partie 2 */
-
-/*  partie 3 food */ 
-.food{
-    text-align: center;
-    background-color:#f6f6f6;
-}
-.nos{
-    font-size:25px ;
-    padding-top: 20px;
-}
-.gratine section h1{
-    padding-top: 20px;
-}
-.gratine {
-    display: flex;
-    justify-content:space-around;
-}
-.gratine section:hover,.speciaux section:hover,.clasique section:hover,.burger section:hover,.appetizers .gg:hover,.glace section:hover{
-transform: scale(1.1);
-}
-.gratine section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    height: 240px;
-    transition: .7s ease;
-
-}
-.gratine section img{
-    width: 130px;
-    margin: 5px;
-
-}
-.gratine section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-}
-.speciaux {
-    display: flex;
-    justify-content:space-around;
-}
-.speciaux section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-}
-.speciaux section h1{
-    padding-top: 20px;
-}
-.speciaux section img{
-    width: 130px;
-}
-.speciaux section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    margin-bottom: 20px;
-}
-.clasique .p1{
-    display: flex;
-    justify-content:space-around;
-}
-.clasique .p1 section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-}
-.clasique .p1  section img{
-    width: 130px;
-}
-.clasique .p1  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 55px;
-}
-.clasique section h1{
-    padding-top: 20px;
-}
-.clasique .p2{
-    display: flex;
-    justify-content:space-around;
-}
-.clasique .p2 section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-}
-.clasique .p2  section img{
-    width: 130px;
-}
-.clasique .p2  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 55px;
-}
-.clasique .p3{
-    display: flex;
-    justify-content:space-evenly;
-}
-.clasique .p3 section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-}
-.clasique .p3  section img{
-    width: 130px;
-}
-.clasique .p3  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 55px;
-}
-
-.burger div {
-    display: flex;
-    justify-content:space-around;
-}
-.burger section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-}
-.burger section h1{
-    padding-top: 20px;
-}
-.burger section img{
-    width: 130px;
-}
-.burger section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    margin-bottom: 15px;
-
-}
-
-.glace{
-    height: 250px;
-}
-.glace div {
-    display: flex;
-    justify-content:space-around;
-}
-.glace section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    margin-left: 20px;
-    transition: .7s ease;
-}
-.glace section h1{
-    padding-top: 20px;
-}
-.glace section img{
-    width: 130px;
-}
-.glace section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-}
-
-.appetizers{
-    height: 400px;
-}
-.appetizers .n1{
-    display: flex;
-    justify-content:space-around;
-    margin-bottom: 25px;
-    margin-top: 20px;
-
-}
-.appetizers section h1{
-    padding-top: 20px;
-}
-.appetizers .n1 section{
-    width: 300px;
-    background-color: white;
-    transition: .7s ease;
-
-}
-.appetizers .n1  section img{
-    width: 130px;
-}
-.appetizers .n1  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 80px;
-}
-
-.appetizers .n2{
-    display: flex;
-    justify-content:space-around;
-}
-.appetizers .n2 section{
-    width: 300px;
-    background-color: white;
-    transition: .7s ease;
-}
-.appetizers .n2  section img{
-    width: 130px;
-}
-.appetizers .n2  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 80px;
-}
-.group{
-    display: flex;
-    height: 60px;
-    padding-top: -50px;
-}
-/* end partie 3 food */
-
-
-     /*  partie7 footer */
-     .footer{
-        background-color: #141414;
-        text-align: center;
-        height: 190px;
-    }
-    .footer img{
-        width: 200px;
-        margin-right: 15px;
-    }
-    .re{
-        height: 2px;
-        width: 15px;
-        background-color: white;
-        transform: rotate(90deg);
-        margin-top: 8px;
-    }
-    .footer section{
-        display: flex;
-        justify-content:center;
-        margin: 0 auto;        
-        width: 100px;
-    }
-    .footer .fab{
-        color: white;
-    }
-/*  end partie7 footer */
-}
-/* 7 */
-@media  screen and (min-width:1401px)and (max-width:1600px){
-    *{
-        margin: 0;
-        padding: 0;
-    }
-  
-    /* NAV */
-    .nav{
-        background-color:#141414 ;
-        position: fixed;
-        z-index: 100;        
-        height:100px;
-        display: flex;
-        justify-content: space-around;
-        text-align: center;
-        width: 100%;
-    }
-    .nav img{
-        width: 180px;
-        position: absolute;
-        top: 0;
-        left: -40px;
-    }
-    .button{
-        height: 30px;
-        position: absolute;
-        right: 10px;
-        top: 30px;
-        display: none;
-    }
-    .btn{
-        height: 6px;
-        width: 25px;   
-        background-color: #e28739;
-        margin-bottom: 7px;
-    }
-    .lien{
-        width: 100%;
-        display: flex;
-    }
-    .list{
-        list-style: none;
-        display: flex;
-        position: absolute;
-        right: 260px;
-        top: 40px;
-    }
-    .list li a {
-        text-decoration: none;
-        color: #e28739;
-        margin-left: 50px;
-    }
-    .list li a{
-        text-decoration: none;
-        margin-left: 30px;
-        position: relative;
-        color: white;
-    }
-    .list li a:after{
-        content: "";
-        position:absolute;
-        background-color: #e28739;
-        height: 3px;
-        width:0;
-        left: 0;
-        bottom: -10px;
-        transition: 0.2s;
-    }
-    .list li a:hover:after{
-        width:100%;
-    }
-  
-    /* end NAV */
-
- /* partie 1 */
-
- .partie1 img{
-    width: 100%;
-    margin-top: 100px;
-
-}
-/* end partie 1 */
-
-/* partie 2 */
-.discription{
-    padding-top:30px ;    
-    height: 130px;    
-    color: white;
-    background-color: #141414;
-    margin-top: -4px;
-}
-.discription h1{
-    margin-bottom: 10px;
-    color: #e28739;
-    text-align: center;
-}
-.discription p{
-    text-align: center;
-    width: 800px;
-    margin: 0 auto;        
-}
-/* end partie 2 */
-
-/*  partie 3 food */ 
-.food{
-    text-align: center;
-    background-color:#f6f6f6;
-}
-.nos{
-    font-size:25px ;
-    padding-top: 20px;
-}
-.gratine section h1{
-    padding-top: 20px;
-}
-.gratine {
-    display: flex;
-    justify-content:space-around;
-}
-.gratine section:hover,.speciaux section:hover,.clasique section:hover,.burger section:hover,.appetizers .gg:hover,.glace section:hover{
-transform: scale(1.1);
-}
-.gratine section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    height: 240px;
-    transition: .7s ease;
-
-}
-.gratine section img{
-    width: 130px;
-    margin: 5px;
-}
-.gratine section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-}
-.speciaux {
-    display: flex;
-    justify-content:space-around;
-}
-.speciaux section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-}
-.speciaux section h1{
-    padding-top: 20px;
-}
-.speciaux section img{
-    width: 130px;
-}
-.speciaux section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    margin-bottom: 20px;
-
-}
-.clasique .p1{
-    display: flex;
-    justify-content:space-around;
-}
-.clasique .p1 section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-
-}
-.clasique .p1  section img{
-    width: 130px;
-}
-.clasique .p1  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 55px;
-}
-.clasique section h1{
-    padding-top: 20px;
-}
-.clasique .p2{
-    display: flex;
-    justify-content:space-around;
-}
-.clasique .p2 section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-
-}
-.clasique .p2  section img{
-    width: 130px;
-}
-.clasique .p2  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 55px;
-}
-.clasique .p3{
-    display: flex;
-    justify-content:space-evenly;
-}
-.clasique .p3 section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-
-}
-.clasique .p3  section img{
-    width: 130px;
-}
-.clasique .p3  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 55px;
-}
-
-.burger div {
-    display: flex;
-    justify-content:space-around;
-}
-.burger section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-
-}
-.burger section h1{
-    padding-top: 20px;
-}
-.burger section img{
-    width: 130px;
-}
-.burger section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    margin-bottom: 15px;
-}
-
-.glace{
-    height: 250px;
-}
-.glace div {
-    display: flex;
-    justify-content:space-around;
-}
-.glace section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    margin-left: 20px;
-    transition: .7s ease;
-
-}
-.glace section h1{
-    padding-top: 20px;
-}
-.glace section img{
-    width: 130px;
-}
-.glace section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-}
-
-.appetizers{
-    height: 400px;
-}
-.appetizers .n1{
-    display: flex;
-    justify-content:space-around;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-}
-.appetizers section h1{
-    padding-top: 20px;
-}
-.appetizers .n1 section{
-    width: 300px;
-    background-color: white;
-    transition: .7s ease;
-
-}
-.appetizers .n1  section img{
-    width: 130px;
-}
-.appetizers .n1  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 80px;
-}
-
-.appetizers .n2{
-    display: flex;
-    justify-content:space-around;
-}
-.appetizers .n2 section{
-    width: 300px;
-    background-color: white;
-    transition: .7s ease;
-
-}
-.appetizers .n2  section img{
-    width: 130px;
-}
-.appetizers .n2  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 80px;
-}
-.group{
-    display: flex;
-    height: 60px;
-    padding-top: -50px;
-}
-/* end partie 3 food */
-
-
-    /*  partie7 footer */
-    .footer{
-        background-color: #141414;
-        text-align: center;
-        height: 190px;
-    }
-    .footer img{
-        width: 200px;
-        margin-right: 15px;
-    }
-    .re{
-        height: 2px;
-        width: 20px;
-        background-color: white;
-        transform: rotate(90deg);
         margin-top: 10px;
     }
-    .footer section{
+
+    .footer section {
         display: flex;
-        justify-content:center;
-        margin: 0 auto;        
+        justify-content: center;
+        margin: 0 auto;
         width: 100px;
     }
-    .footer .fab{
+
+    .footer .fab {
         color: white;
     }
-/*  end partie7 footer */
-}
-/* 8 */
-@media  screen and (min-width:1601px)and (max-width:1800px){
-    *{
-        margin: 0;
-        padding: 0;
-    }
-  
-    /* NAV */
-    .nav{
-        background-color:#141414 ;
-        position: fixed;
-        z-index: 100;        
-        height:100px;
-        display: flex;
-        justify-content: space-around;
-        text-align: center;
-        width: 100%;
-    }
-    .nav img{
-        width: 180px;
-        position: absolute;
-        top: 0;
-        left: -40px;
-    }
-    .button{
-        height: 30px;
-        position: absolute;
-        right: 10px;
-        top: 30px;
-        display: none;
-    }
-    .btn{
-        height: 6px;
-        width: 25px;   
-        background-color: #e28739;
-        margin-bottom: 7px;
-    }
-    .lien{
-        width: 100%;
-        display: flex;
-    }
-    .list{
-        list-style: none;
-        display: flex;
-        position: absolute;
-        right: 360px;
-        top: 40px;
-    }
-    .list li a {
-        text-decoration: none;
-        color: #e28739;
-        margin-left: 50px;
-    }
-    .list li a{
-        text-decoration: none;
-        margin-left: 30px;
-        position: relative;
-        color: white;
-    }
-    .list li a:after{
-        content: "";
-        position:absolute;
-        background-color: #e28739;
-        height: 3px;
-        width:0;
-        left: 0;
-        bottom: -10px;
-        transition: 0.2s;
-    }
-    .list li a:hover:after{
-        width:100%;
-    }
-  
-    /* end NAV */
 
-     /* partie 1 */
-
- .partie1 img{
-    width: 100%;
-    margin-top: 100px;
-
-}
-/* end partie 1 */
-
-/* partie 2 */
-.discription{
-    padding-top:30px ;    
-    height: 130px;    
-    color: white;
-    background-color: #141414;
-    margin-top: -4px;
-}
-.discription h1{
-    margin-bottom: 10px;
-    color: #e28739;
-    text-align: center;
-}
-.discription p{
-    text-align: center;
-    width: 800px;
-    margin: 0 auto;        
-}
-/* end partie 2 */
-
-/*  partie 3 food */ 
-.food{
-    text-align: center;
-    background-color:#f6f6f6;
-}
-.nos{
-    font-size:25px ;
-    padding-top: 20px;
-}
-.gratine section h1{
-    padding-top: 20px;
-}
-.gratine {
-    display: flex;
-    justify-content:space-around;
-}
-.gratine section:hover,.speciaux section:hover,.clasique section:hover,.burger section:hover,.appetizers .gg:hover,.glace section:hover{
-transform: scale(1.1);
-}
-.gratine section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    height: 240px;
-    transition: .7s ease;
-}
-.gratine section img{
-    width: 130px;
-    margin: 5px;
-}
-.gratine section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-}
-.speciaux {
-    display: flex;
-    justify-content:space-around;
-}
-.speciaux section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-}
-.speciaux section h1{
-    padding-top: 20px;
-}
-.speciaux section img{
-    width: 130px;
-}
-.speciaux section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    margin-bottom: 20px;
-
-}
-.clasique .p1{
-    display: flex;
-    justify-content:space-around;
-}
-.clasique .p1 section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-
-}
-.clasique .p1  section img{
-    width: 130px;
-}
-.clasique .p1  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 55px;
-}
-.clasique section h1{
-    padding-top: 20px;
-}
-.clasique .p2{
-    display: flex;
-    justify-content:space-around;
-}
-.clasique .p2 section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-}
-.clasique .p2  section img{
-    width: 130px;
-}
-.clasique .p2  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 55px;
-}
-.clasique .p3{
-    display: flex;
-    justify-content:space-evenly;
-}
-.clasique .p3 section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-
-}
-.clasique .p3  section img{
-    width: 130px;
-}
-.clasique .p3  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 55px;
-}
-
-.burger div {
-    display: flex;
-    justify-content:space-around;
-}
-.burger section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-
-}
-.burger section h1{
-    padding-top: 20px;
-}
-.burger section img{
-    width: 130px;
-}
-.burger section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    margin-bottom: 15px;
-
-}
-
-.glace{
-    height: 250px;
-}
-.glace div {
-    display: flex;
-    justify-content:space-around;
-}
-.glace section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    margin-left: 20px;
-    transition: .7s ease;
-
-}
-.glace section h1{
-    padding-top: 20px;
-}
-.glace section img{
-    width: 130px;
-}
-.glace section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-}
-
-.appetizers{
-    height: 400px;
-}
-.appetizers .n1{
-    display: flex;
-    justify-content:space-around;
-    margin-bottom: 25px;
-    margin-top: 25px;
-
-}
-.appetizers section h1{
-    padding-top: 20px;
-}
-.appetizers .n1 section{
-    width: 300px;
-    background-color: white;
-    transition: .7s ease;
-
-}
-.appetizers .n1  section img{
-    width: 130px;
-}
-.appetizers .n1  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 80px;
-}
-
-.appetizers .n2{
-    display: flex;
-    justify-content:space-around;
-}
-.appetizers .n2 section{
-    width: 300px;
-    background-color: white;
-    transition: .7s ease;
-
-}
-.appetizers .n2  section img{
-    width: 130px;
-}
-.appetizers .n2  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 80px;
-}
-.group{
-    display: flex;
-    height: 60px;
-    padding-top: -50px;
-}
-/* end partie 3 food */
-
-
-    /*  partie7 footer */
-    .footer{
-        background-color: #141414;
-        text-align: center;
-        height: 190px;
-    }
-    .footer img{
-        width: 200px;
-        margin-right: 15px;
-    }
-    .re{
-        height: 2px;
-        width: 20px;
-        background-color: white;
-        transform: rotate(90deg);
-        margin-top: 10px;
-    }
-    .footer section{
-        display: flex;
-        justify-content:center;
-        margin: 0 auto;        
-        width: 100px;
-    }
-    .footer .fab{
-        color: white;
-    }
-/*  end partie7 footer */
-}
-/* 9 */
-@media  screen and (min-width:1801px)and (max-width:2000px){
-    *{
-        margin: 0;
-        padding: 0;
-    }
-  
-    /* NAV */
-    .nav{
-        background-color:#141414 ;
-        position: fixed;
-        z-index: 100;        
-        height:100px;
-        display: flex;
-        justify-content: space-around;
-        text-align: center;
-        width: 100%;
-    }
-    .nav img{
-        width: 180px;
-        position: absolute;
-        top: 0;
-        left: -40px;
-    }
-    .button{
-        height: 30px;
-        position: absolute;
-        right: 10px;
-        top: 30px;
-        display: none;
-    }
-    .btn{
-        height: 6px;
-        width: 25px;   
-        background-color: #e28739;
-        margin-bottom: 7px;
-    }
-    .lien{
-        width: 100%;
-        display: flex;
-    }
-    .list{
-        list-style: none;
-        display: flex;
-        position: absolute;
-        right: 360px;
-        top: 40px;
-    }
-    .list li a {
-        text-decoration: none;
-        color: #e28739;
-        margin-left: 50px;
-    }
-    .list li a{
-        text-decoration: none;
-        margin-left: 30px;
-        position: relative;
-        color: white;
-    }
-    .list li a:after{
-        content: "";
-        position:absolute;
-        background-color: #e28739;
-        height: 3px;
-        width:0;
-        left: 0;
-        bottom: -10px;
-        transition: 0.2s;
-    }
-    .list li a:hover:after{
-        width:100%;
-    }
-  
-    /* end NAV */
-
- /* partie 1 */
-
- .partie1 img{
-    width: 100%;
-    margin-top: 100px;
-
-}
-/* end partie 1 */
-
-/* partie 2 */
-.discription{
-    padding-top:30px ;    
-    height: 130px;    
-    color: white;
-    background-color: #141414;
-    margin-top: -4px;
-}
-.discription h1{
-    margin-bottom: 10px;
-    color: #e28739;
-    text-align: center;
-}
-.discription p{
-    text-align: center;
-    width: 800px;
-    margin: 0 auto;        
-}
-/* end partie 2 */
-
-/*  partie 3 food */ 
-.food{
-    text-align: center;
-    background-color:#f6f6f6;
-}
-.nos{
-    font-size:25px ;
-    padding-top: 20px;
-}
-.gratine section h1{
-    padding-top: 20px;
-}
-.gratine {
-    display: flex;
-    justify-content:space-around;
-}
-.gratine section:hover,.speciaux section:hover,.clasique section:hover,.burger section:hover,.appetizers .gg:hover,.glace section:hover{
-  transform: scale(1.1);
-}
-.gratine section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    height: 240px;
-    transition: .7s ease;
-
-}
-.gratine section img{
-    width: 130px;
-    margin: 5px;
-}
-.gratine section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-}
-.speciaux {
-    display: flex;
-    justify-content:space-around;
-}
-.speciaux section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;    
-    transition: .7s ease;
-
-}
-.speciaux section h1{
-    padding-top: 20px;
-}
-.speciaux section img{
-    width: 130px;
-}
-.speciaux section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    margin-bottom: 20px;
-
-}
-.clasique .p1{
-    display: flex;
-    justify-content:space-around;
-}
-.clasique .p1 section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-
-}
-.clasique .p1  section img{
-    width: 130px;
-}
-.clasique .p1  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 55px;
-}
-.clasique section h1{
-    padding-top: 20px;
-}
-.clasique .p2{
-    display: flex;
-    justify-content:space-around;
-}
-.clasique .p2 section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-
-}
-.clasique .p2  section img{
-    width: 130px;
-}
-.clasique .p2  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 55px;
-}
-.clasique .p3{
-    display: flex;
-    justify-content:space-evenly;
-}
-.clasique .p3 section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-
-}
-.clasique .p3  section img{
-    width: 130px;
-}
-.clasique .p3  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 55px;
-}
-
-.burger div {
-    display: flex;
-    justify-content:space-around;
-}
-.burger section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-
-}
-.burger section h1{
-    padding-top: 20px;
-}
-.burger section img{
-    width: 130px;
-}
-.burger section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    margin-bottom: 15px;
-
-}
-
-.glace{
-    height: 250px;
-}
-.glace div {
-    display: flex;
-    justify-content:space-around;
-}
-.glace section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    margin-left: 20px;
-    transition: .7s ease;
-
-}
-.glace section h1{
-    padding-top: 20px;
-}
-.glace section img{
-    width: 130px;
-}
-.glace section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-}
-
-.appetizers{
-    height: 380px;
-}
-.appetizers .n1{
-    display: flex;
-    justify-content:space-around;
-    margin-bottom: 20px;
-    margin-top: 20px;
-
-}
-.appetizers section h1{
-    padding-top: 20px;
-}
-.appetizers .n1 section{
-    width: 300px;
-    background-color: white;
-    transition: .7s ease;
-
-}
-.appetizers .n1  section img{
-    width: 130px;
-}
-.appetizers .n1  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 80px;
-}
-
-.appetizers .n2{
-    display: flex;
-    justify-content:space-around;
-}
-.appetizers .n2 section{
-    width: 300px;
-    background-color: white;
-    transition: .7s ease;
-
-}
-.appetizers .n2  section img{
-    width: 130px;
-}
-.appetizers .n2  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 80px;
-}
-.group{
-    display: flex;
-    height: 60px;
-    padding-top: -50px;
-}
-/* end partie 3 food */
-
-
-    /*  partie7 footer */
-    .footer{
-        background-color: #141414;
-        text-align: center;
-        height: 190px;
-    }
-    .footer img{
-        width: 200px;
-        margin-right: 15px;
-    }
-    .re{
-        height: 2px;
-        width: 20px;
-        background-color: white;
-        transform: rotate(90deg);
-        margin-top: 10px;
-    }
-    .footer section{
-        display: flex;
-        justify-content:center;
-        margin: 0 auto;        
-        width: 100px;
-    }
-    .footer .fab{
-        color: white;
-    }
-/*  end partie7 footer */
-}
-/* 10 */
-@media  screen and (min-width:2001px){
-    *{
-        margin: 0;
-        padding: 0;
-    }
-  
-    /* NAV */
-    .nav{
-        background-color:#141414 ;
-        position: fixed;
-        z-index: 100;        
-        height:100px;
-        display: flex;
-        justify-content: space-around;
-        text-align: center;
-        width: 100%;
-    }
-    .nav img{
-        width: 180px;
-        position: absolute;
-        top: 0;
-        left: -40px;
-    }
-    .button{
-        height: 30px;
-        position: absolute;
-        right: 10px;
-        top: 30px;
-        display: none;
-    }
-    .btn{
-        height: 6px;
-        width: 25px;   
-        background-color: #e28739;
-        margin-bottom: 7px;
-    }
-    .lien{
-        width: 100%;
-        display: flex;
-    }
-    .list{
-        list-style: none;
-        display: flex;
-        position: absolute;
-        right: 360px;
-        top: 40px;
-    }
-    .list li a {
-        text-decoration: none;
-        color: #e28739;
-        margin-left: 50px;
-    }
-    .list li a{
-        text-decoration: none;
-        margin-left: 30px;
-        position: relative;
-        color: white;
-    }
-    .list li a:after{
-        content: "";
-        position:absolute;
-        background-color: #e28739;
-        height: 3px;
-        width:0;
-        left: 0;
-        bottom: -10px;
-        transition: 0.2s;
-    }
-    .list li a:hover:after{
-        width:100%;
-    }
-  
-    /* end NAV */
-
- /* partie 1 */
-
- .partie1 img{
-    width: 100%;
-    margin-top: 100px;
-
-}
-/* end partie 1 */
-
-/* partie 2 */
-.discription{
-    padding-top:30px ;    
-    height: 130px;    
-    color: white;
-    background-color: #141414;
-    margin-top: -4px;
-}
-.discription h1{
-    margin-bottom: 10px;
-    color: #e28739;
-    text-align: center;
-}
-.discription p{
-    text-align: center;
-    width: 800px;
-    margin: 0 auto;        
-}
-/* end partie 2 */
-
-/*  partie 3 food */ 
-.food{
-    text-align: center;
-    background-color:#f6f6f6;
-}
-.nos{
-    font-size:25px ;
-    padding-top: 20px;
-}
-.gratine section h1{
-    padding-top: 20px;
-}
-.gratine {
-    display: flex;
-    justify-content:space-around;
-}
-.gratine section:hover,.speciaux section:hover,.clasique section:hover,.burger section:hover,.appetizers .gg:hover,.glace section:hover{
-transform: scale(1.1);
-}
-.gratine section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    height: 240px;
-    transition: .7s ease;
-
-}
-.gratine section img{
-    width: 130px;
-    margin: 5px;
-}
-.gratine section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-}
-.speciaux {
-    display: flex;
-    justify-content:space-around;
-}
-.speciaux section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    height: 240px;
-    transition: .7s ease;
-
-}
-.speciaux section h1{
-    padding-top: 20px;
-}
-.speciaux section img{
-    width: 130px;
-}
-.speciaux section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-}
-.clasique .p1{
-    display: flex;
-    justify-content:space-around;
-}
-.clasique .p1 section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-
-}
-.clasique .p1  section img{
-    width: 130px;
-}
-.clasique .p1  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 80px;
-}
-.clasique section h1{
-    padding-top: 20px;
-}
-.clasique .p2{
-    display: flex;
-    justify-content:space-around;
-}
-.clasique .p2 section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-
-}
-.clasique .p2  section img{
-    width: 130px;
-}
-.clasique .p2  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 80px;
-}
-.clasique .p3{
-    display: flex;
-    justify-content:space-evenly;
-}
-.clasique .p3 section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-
-}
-.clasique .p3  section img{
-    width: 130px;
-}
-.clasique .p3  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 80px;
-}
-
-.burger div {
-    display: flex;
-    justify-content:space-around;
-}
-.burger section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    transition: .7s ease;
-
-}
-.burger section h1{
-    padding-top: 20px;
-}
-.burger section img{
-    width: 130px;
-}
-.burger section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    margin-bottom: 15px;
-
-}
-
-.glace{
-    height: 250px;
-}
-.glace div {
-    display: flex;
-    justify-content:space-around;
-}
-.glace section{
-    width: 300px;
-    background-color: white;
-    margin-top: 30px;
-    margin-left: 20px;
-    transition: .7s ease;
-
-}
-.glace section h1{
-    padding-top: 20px;
-}
-.glace section img{
-    width: 130px;
-}
-.glace section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-}
-
-.appetizers{
-    height: 400px;
-}
-.appetizers .n1{
-    display: flex;
-    justify-content:space-around;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.appetizers section h1{
-    padding-top: 20px;
-}
-.appetizers .n1 section{
-    width: 300px;
-    background-color: white;
-    transition: .7s ease;
-
-}
-.appetizers .n1  section img{
-    width: 130px;
-}
-.appetizers .n1  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 80px;
-}
-
-.appetizers .n2{
-    display: flex;
-    justify-content:space-around;
-}
-.appetizers .n2 section{
-    width: 300px;
-    background-color: white;
-    transition: .7s ease;
-}
-.appetizers .n2  section img{
-    width: 130px;
-}
-.appetizers .n2  section p{
-    width: 200px;
-    margin: 0 auto;
-    font-size: 13px;
-    height: 80px;
-}
-.group{
-    display: flex;
-    height: 60px;
-    padding-top: -50px;
-}
-/* end partie 3 food */
-
-
-    /*  partie7 footer */
-    .footer{
-        background-color: #141414;
-        text-align: center;
-        height: 190px;
-    }
-    .footer img{
-        width: 200px;
-        margin-right: 15px;
-    }
-    .re{
-        height: 2px;
-        width: 20px;
-        background-color: white;
-        transform: rotate(90deg);
-        margin-top: 10px;
-    }
-    .footer section{
-        display: flex;
-        justify-content:center;
-        margin: 0 auto;        
-        width: 100px;
-    }
-    .footer .fab{
-        color: white;
-    }
-/*  end partie7 footer */
+    /*  end partie7 footer */
 }
