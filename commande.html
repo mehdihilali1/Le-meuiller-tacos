@@ -44,7 +44,14 @@
      </div>
         
      <!-- END nav -->
-
+     <div class="mobile" id="mobile">
+        <ul class="listm">
+            <li><a href="accueil.html">ACCUEIL</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="commande.html">COMMANDER</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
      <!--  partie 1 -->
          <div class="partie1">
              <img src="commendeimg .jpg" >
@@ -101,23 +108,21 @@
 <!--  END partie7  -->
    
        <!-- JAVA SCRIPT  -->
+
        <script>
-           
-       </script>
-<script>
-var show=0;
-function disp(){
-var lien=document.getElementById('lien');
-if(show==0){
-   lien.style.display="block";
-   show=1;
-}
-else if(show==1){
-   lien.style.display="none";
-   show=0;
-}
-}
-</script>
+        var show = 0;
+
+        function disp() {
+            var mobile = document.getElementById('mobile');
+            if (show == 0) {
+                mobile.style.height = "150px";
+                show = 1;
+            } else if (show == 1) {
+                mobile.style.height = "0px";
+                show = 0;
+            }
+        }
+    </script>
 <script>
     test=document.getElementById('test');
     test.style.display="none";
