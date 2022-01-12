@@ -1913,50 +1913,46 @@
     /* end partie 1 */
 
     /* partie 2 plat */
-    .intro {
-        background-color: #141414;
-        color: white;
-        height: 380px;
-        display: flex;
-    }
-
-    .intro section {
-        width: 450px;
-        margin-top: 110px;
-        margin-left: 20px;
-    }
-
-    .intro img {
-        width: 520px;
-        height: 380px;
-    }
-
+        .intro {
+            background-color:#141414 ;
+            color: white;
+            height: 400px;
+            display: flex;
+        }
+        .intro section{
+            width: 430px;
+            margin-top:130px;
+            margin-left: 20px;
+        }
+        .intro img{
+            width: 500px;
+            height: 360px;
+            margin-top: 20px;
+        }
+        
     /* end partie 2 plat */
-
-    /* partie3 sauce */
-    .sauce {
+    
+    /* partie3 sauce */ 
+    .sauce{
         display: flex;
-        height: 490px;
-    }
-
-    .sauce img {
-        width: 600px;
-        height: 420px;
-        margin-top: 0px;
-    }
-
-    .sauce section {
+        height: 400px;
+     }
+     .sauce img{
+         width: 600px;
+     }
+     .sauce section{
+        height: 400px;
+        width: 590px;
         margin-top: 20px;
         margin-left: 50px;
-        height: 450px;
-        width: 890px;
-    }
-
-    .notre {
-        color: #e28739;
-    }
-
-    /* and partie3 sauce */
+      }
+     .notre{
+         color: #e28739;
+     }
+     .sauce p{
+         width: 480px;
+     }
+/* and partie3 sauce */ 
 
     /*  partie4 vidio */
     iframe {
