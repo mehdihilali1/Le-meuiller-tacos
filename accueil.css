@@ -1935,12 +1935,14 @@
     /* partie3 sauce */ 
     .sauce{
         display: flex;
-        height: 430px;
+        height: 400px;
         box-sizing: border-box;
      }
      .sauce img{
-        width: 590px;
-    }
+         overflow: hidden;
+         height: 350px;
+         margin-top: 20px;
+     }
      .sauce section{
         margin-top: 20px;
         margin-left: 50px;
@@ -1948,12 +1950,12 @@
      .notre{
          color: #e28739;
      }
-     .Reg{
-         width: 430px;
-     }
+    .Reg{
+        width: 480px;
+    }
   
  
-/* and partie3 sauce */
+/* and partie3 sauce */ 
 
     /*  partie4 vidio */
     iframe {
