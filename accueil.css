@@ -1935,24 +1935,25 @@
     /* partie3 sauce */ 
     .sauce{
         display: flex;
-        height: 400px;
+        height: 430px;
+        box-sizing: border-box;
      }
      .sauce img{
-         width: 600px;
-     }
-     .sauce section{
-        height: 400px;
         width: 590px;
+    }
+     .sauce section{
         margin-top: 20px;
         margin-left: 50px;
       }
      .notre{
          color: #e28739;
      }
-     .sauce p{
-         width: 480px;
+     .Reg{
+         width: 430px;
      }
-/* and partie3 sauce */ 
+  
+ 
+/* and partie3 sauce */
 
     /*  partie4 vidio */
     iframe {
